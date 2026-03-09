@@ -1,0 +1,2007 @@
+# Payal Caterers & Fastfood Menu
+
+## Cold Appetizers
+- Item: Pineapple Juice
+  Gujarati: પાઈનેપલ જયુશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Mosambi Juice
+  Gujarati: પાઈનેપલ મોસંબી જયુશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Ganga Jamuna Juice
+  Gujarati: ગંગા જમુના જયુશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Watermelon Juice
+  Gujarati: તરબુચ જયુશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fanta with Ice Cream
+  Gujarati: ફેન્ટા વીથ આઈસ્ક્રીમ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Hariyali Juice
+  Gujarati: ગ્રીન હરીયાલી જયુશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fruit Punch Juice
+  Gujarati: ફૂટ પંચ જયુશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Apple Juice
+  Gujarati: સફરજન જયુશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Thandai
+  Gujarati: ઠંડાઈ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Jaljeera
+  Gujarati: જલઝીરા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Banana Shake
+  Gujarati: બનાના શેઈક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chikoo Shake
+  Gujarati: ચીકુ શેઈક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fruit Cocktail Juice
+  Gujarati: ફુટ કોકટેલ જયુશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Hot Appetizers
+- Item: Tomato Soup
+  Gujarati: ટોમેટો સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tomato with Corn Soup
+  Gujarati: ટોમેટો વીથ ર્કોન સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sweet Corn Soup
+  Gujarati: સ્વીટ ર્કોન સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Manchurian Soup
+  Gujarati: વેજી. મન્ચુરીયન સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Minestrone Soup
+  Gujarati: મીનીસ્ટ્રોન સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Manchow Soup
+  Gujarati: મનચાઉ સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Hot & Sour Soup
+  Gujarati: હોટ એન્ડ શોર સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Noodles Soup
+  Gujarati: વેજી. નુડલ્સ સુપ-નુડલ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Palak Soup
+  Gujarati: પાલક સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Royal Soup
+  Gujarati: રોયલ સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Asian Soup
+  Gujarati: ગ્રીન એશીયન સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Malabari Soup
+  Gujarati: મલબારી સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Winter Soup
+  Gujarati: વેજી. વિન્ટર સુપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Special Chaat
+- Item: Baby Pizza
+  Gujarati: બેબી પીઝા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Masala Ring
+  Gujarati: મસાલા રીંગ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Papdi Chaat
+  Gujarati: પાપડી ચાટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fruit Chaat
+  Gujarati: ફુટ ચાટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Aloo Tikki
+  Gujarati: આલુ ટીકકી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paneer Cheela (Muglila)
+  Gujarati: પનીર ચીલા (મગલીલા)
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Roasted Paneer
+  Gujarati: રોસ્ટેડ પનીર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chole Samosa Chaat
+  Gujarati: છોલે સમોસા ચાટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Aloo Chole Chaat
+  Gujarati: આલુ છોલે ચાટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Welcome Biting
+- Item: Chidiya Samosa
+  Gujarati: ચીડીયા સમોસા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paneer Pakora
+  Gujarati: પનીર પકોડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Harabhara Kabab
+  Gujarati: હરાભરા કબાબ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fried Mini Idli
+  Gujarati: ફાઈ મીની ઈડલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stick Cutlet
+  Gujarati: સ્ટીક કટલેશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stick Coconut Laddu
+  Gujarati: સ્ટીક કોકોનટ લાડુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mini Dalwada
+  Gujarati: મીની દાલવડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mawa Laddu
+  Gujarati: માવાના લાડુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Fry
+  Gujarati: ડ્રાય ફુટ ફાઈ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Khara Pista
+  Gujarati: ખારા પીસ્તા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mini Kachori
+  Gujarati: મીની કચોરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Cocktail Chaat
+- Item: Lachha Kachori
+  Gujarati: લચ્છા કચોરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kasturi Chaat
+  Gujarati: કસ્તુરી ચાટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rameshwar Chaat
+  Gujarati: રામેશ્વર ચાટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pani Puri
+  Gujarati: પાશી પુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sev Puri
+  Gujarati: સેવ પુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Ragda Pattice
+  Gujarati: રગડા પેટીશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Ring Khaman Chaat
+  Gujarati: રીંગ ખમણ ચાટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dahi Bhalla
+  Gujarati: દહિં ભલ્લા
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Cold Sweets
+- Item: Kesar Basundi
+  Gujarati: કેશર બાસુંદી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Ras Madhuri
+  Gujarati: કેશર રસમાધુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sitafal Basundi
+  Gujarati: સીતાફળ બાસુંદી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Lachha Rabdi
+  Gujarati: લચ્છા રબડી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Angoor Rabdi
+  Gujarati: અંગુર રબડી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Dudhpak
+  Gujarati: કેશર દુધપાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cream Fruit Salad
+  Gujarati: ક્રિમફુટ સલાડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rasgulla
+  Gujarati: રસ ગુલ્લા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rajbhog
+  Gujarati: રાજભોગ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Chilli
+  Gujarati: પાઈનેપલ ચીલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mango Pie
+  Gujarati: મેંગો પી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mango Pulp/Juice
+  Gujarati: કેરીનો રસ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Safed Shrikhand
+  Gujarati: સફેદ શીખંડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mango Shrikhand
+  Gujarati: મેંગો શીખંડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Shrikhand
+  Gujarati: પાઈનેપલ શીખંડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vanilla Shrikhand
+  Gujarati: વેનીલા શીખંડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Hot Sweets
+- Item: Kesar Jalebi
+  Gujarati: કેશર જલેબી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Imarti
+  Gujarati: કેશર ઈમરતી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Imarti with Rabdi
+  Gujarati: ઈમરતી વીથ રબડી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Moong Dal Shiro
+  Gujarati: મગની દાળ શીરો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Hot Pista Kala Jamun
+  Gujarati: ગરમ પીસ્તા કાલા જામ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Gajar Halwa
+  Gujarati: ડ્રાઈફુટ ગાજર હલવો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dudhi Halwa
+  Gujarati: દુધીનો હલવો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Halwa
+  Gujarati: પાઈનેપલ હલવો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Anjeer Halwa
+  Gujarati: અંજીર હલવો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Coconut Halwa
+  Gujarati: લીલા નાળીયેલનો હલવો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Panchratna
+  Gujarati: પંચરત્ન
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Hot Jamun
+  Gujarati: ગરમ જાંબુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Thabdi Lachko
+  Gujarati: થાબડીનો લચકો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Adadiya Lachko
+  Gujarati: અડદીયાનો લચકો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mohanthal Lachko
+  Gujarati: મોહનથાળનો લચકો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Apple Pineapple Jalebi
+  Gujarati: એપલ પાઈનેપલ જલેબી
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Dry Fruit Lachko
+- Item: Dry Fruit Dudhi Halwa
+  Gujarati: ડ્રાયફ્રુટ દુધી હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Gajar Halwa
+  Gujarati: ડ્રાયફ્રુટ ગાજર હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Khajur Halwa
+  Gujarati: ડ્રાયફ્રુટ ખજુર હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Panchratna Halwa
+  Gujarati: ડ્રાયફ્રુટ પંચરત્ન હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Green Coconut Halwa
+  Gujarati: ડ્રાયફ્રુટ લીલા નાળીયર હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Pineapple Chilli Halwa
+  Gujarati: ડ્રાયફ્રુટ પાઈનેપલ ચીલી હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Anjeer Halwa
+  Gujarati: ડ્રાયફ્રુટ અંજીર હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Rajbhog Halwa
+  Gujarati: ડ્રાયફ્રુટ રાજભોગ હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Kesar Halwa
+  Gujarati: ડ્રાયફ્રુટ કેશર હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Thabdi Halwa
+  Gujarati: ડ્રાયફ્રુટ થાબડી હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Butterscotch Halwa
+  Gujarati: ડ્રાયફ્રુટ બટરસ્કોચ હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Adadiya Halwa
+  Gujarati: ડ્રાયફ્રુટ અડદીયા હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Anjeer Akhrot Halwa
+  Gujarati: ડ્રાયફ્રુટ અંજીર અખરોટ હલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Ice Cream
+- Item: Vanilla
+  Gujarati: વેનીલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Strawberry
+  Gujarati: સ્ટ્રોબેરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mix Fruit Jelly
+  Gujarati: મીકસકુટ જેલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paan Masala
+  Gujarati: પાન મસાલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Anjeer Kaju
+  Gujarati: અંજીર કાજુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruits
+  Gujarati: સુકા મેવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Butterscotch
+  Gujarati: બટર સ્કોચ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kaju Draksh
+  Gujarati: કાજુ દ્રાક્ષ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sundae Monday
+  Gujarati: સન્ડે મન્ડે
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chocolate Chips
+  Gujarati: ચોકલેટ ચીપ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rose Petals
+  Gujarati: રોઝ પેટલ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rajbhog
+  Gujarati: રાજભોગ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Pista Badam
+  Gujarati: ગ્રીન પિસ્તા બદામ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Alfred Karnavali
+  Gujarati: આલ્ફ્રેડ કરનાવલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit King
+  Gujarati: ડ્રાયફ્રુટ કીંગ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rajasthani
+  Gujarati: રાજસ્થાની
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sitafal (Seasonal)
+  Gujarati: સીતાફળ (સીઝનલ)
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mango (Seasonal)
+  Gujarati: મેંગો (સીઝનલ)
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cashew Nut
+  Gujarati: કેસ્યુનટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mawa Badam
+  Gujarati: માવા બદામ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cookies & Cream
+  Gujarati: કુકીઝ એન્ડ ક્રીમ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: American Dry Fruit
+  Gujarati: અમેરીકન ડ્રાયફ્રુટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Bonanza
+  Gujarati: ડ્રાયફુટ બોનાન્ઝા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chikoo
+  Gujarati: ચિકુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Roasted Almond
+  Gujarati: રોસ્ટેડ આલમંડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Pista
+  Gujarati: કેશર પિસ્તા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Brownie Bites
+  Gujarati: બ્રાઉની બાઈટ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tender Coconut
+  Gujarati: ટેન્ડર કોકોનટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Mawa Badam
+  Gujarati: કેશર માવા બદામ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Ice Candy
+- Item: Chocobar
+  Gujarati: ચોકોબાર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mangodolly
+  Gujarati: મેંગોડોલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Raspberry Dolly
+  Gujarati: રાસબરી ડોલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mawa Malai
+  Gujarati: માવા મલાઈ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Gulkand
+  Gujarati: ગુલકંદ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pista Malai
+  Gujarati: પિસ્તા મલાઈ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Frostick
+  Gujarati: ફ્રોસ્ટીક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Black Jamun
+  Gujarati: બ્લેક જામુન
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Nutty Bar
+  Gujarati: નટીબાર
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Farsan (Savories)
+- Item: Jharsara
+  Gujarati: ઝરસારા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Spring Roll
+  Gujarati: સ્પ્રીંગ રોલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: American Roll
+  Gujarati: અમેરીકન રોલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Parish Cutlet
+  Gujarati: પેરીશ કટલેશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sev Roll
+  Gujarati: સેવ રોલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Bread Roll
+  Gujarati: બ્રેડ રોલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Corn
+  Gujarati: વેજી. ર્કોન
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Gold Coins
+  Gujarati: ગોલ્ડ કોઈન્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Bhakarwadi
+  Gujarati: ભાખરવડી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fried Patra
+  Gujarati: તળેલા પાતરા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chutney Idli
+  Gujarati: ચટની ઈડલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Spl. Basket Chatpuri
+  Gujarati: સ્પે. બાસ્કેટ ચાટપુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Spl. Dahiwada
+  Gujarati: સ્પ્રે. દહિંવડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Supreme Dahiwada
+  Gujarati: સુપ્રીમ દહિંવડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Bateta Wada
+  Gujarati: બટેટા વડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Patties Wada
+  Gujarati: પેટીસ વડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kela Wada
+  Gujarati: કેળા વડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sabudana Wada
+  Gujarati: સાબુદાણા વડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Moong Dal Wada
+  Gujarati: મગની દાળના વડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Live Farsan
+- Item: Punjabi Chaat
+  Gujarati: પંજાબી ચાટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Ghughra
+  Gujarati: વેજી. ઘુઘરા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Tuver Vatana Ghughra
+  Gujarati: લીલી તુવેર વટાણાના ઘુઘરા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Samosa
+  Gujarati: સમોસા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Punjabi Samosa
+  Gujarati: પંજાબી સમોસા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Patti Samosa
+  Gujarati: પટી સમોસા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kachori
+  Gujarati: કચોરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Khasta Kachori
+  Gujarati: ખાસ્તા કચોરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paneer Kachori
+  Gujarati: પનીર કચોરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Miss Bhajiya
+  Gujarati: મીસ ભજીયા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Neer Pakora
+  Gujarati: નીર પકોડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Boiled Farsan
+- Item: Khaman Dhokla
+  Gujarati: ખમણ ઢોકળા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vatidal Khaman
+  Gujarati: વાટીદાળના ખમણ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Dhokla
+  Gujarati: ગ્રીન ઢોકળા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Khatta Dhokla
+  Gujarati: ખાટા ઢોકળા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tirangi Idli
+  Gujarati: ત્રીરંગી ઈડલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Steam Dhokla
+  Gujarati: સ્ટીમ ઢોકળા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Steam Idli
+  Gujarati: સ્ટીમ ઈડલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Hot Uttapam
+  Gujarati: ગરમ ઉતપમ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Moong Cheela
+  Gujarati: મગ ચીલ્લા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chole Samosa
+  Gujarati: છોલ્લે સમોસા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Aloo Tikki
+  Gujarati: આલુ ટીકકી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Capsicum Dhokla
+  Gujarati: કેપ્સીકમ ઢોકળા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Handvo
+  Gujarati: વેજી. હાંડવો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Khandvi
+  Gujarati: ખાંડવી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Amiri Sev Khamani
+  Gujarati: અમીરી સેવ દમણી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Ras Patra
+  Gujarati: રસ પાતરા
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Dal & Kadhi
+- Item: Dal Fry
+  Gujarati: દાલ ફાય
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rajma Urad Dal
+  Gujarati: રાજમા અડદ દાળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Osaman
+  Gujarati: ઓસામણ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tuver Dal
+  Gujarati: તુવેરદાળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Moong Dal
+  Gujarati: મગની દાળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chana Dal
+  Gujarati: ચણાની દાળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sambhar
+  Gujarati: સમ્બર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dal Dhokli
+  Gujarati: દાળ ઢોકળી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dabka Dal Dhokli
+  Gujarati: ડબ્કા દાળ ઢોકળી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Kadhi
+  Gujarati: વેજી. કઢી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Punjabi Kadhi
+  Gujarati: પંજાબી કઢી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dal Makhani
+  Gujarati: દાળ મખ્ખની
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Panchmukhi Dal
+  Gujarati: પંચમુખી દાળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Moong Chuti Dal
+  Gujarati: મગની છુટી દાળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Moong Lachko Dal
+  Gujarati: મગનો લચકો દાળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Rice
+- Item: Plain Rice
+  Gujarati: સાદા ભાત
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Peas Pulao
+  Gujarati: પીઝ પુલાવ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Palak Masti Rice
+  Gujarati: પાલક મસ્તી રાઈસ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Pulao
+  Gujarati: વેજી. પુલાવ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tirangi Pulao
+  Gujarati: ત્રીરંગી પુલાવ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Jeera Rice
+  Gujarati: જીરા રાઈસ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kashmiri Pulao
+  Gujarati: કાશ્મીરી પુલાવ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Peas Pulao
+  Gujarati: ગ્રીન પીઝ પુલાવ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Pulao
+  Gujarati: ડ્રાયફુટ પુલાવ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Khichdi
+  Gujarati: ખીચડી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vagharel Khichdi
+  Gujarati: વઘારેલ ખીચડી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fried Rice
+  Gujarati: ફાઈડ રાઈસ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tawa Biryani
+  Gujarati: તવા બીરયાની
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Schezwan Rice
+  Gujarati: સેઝવાન રાઈસ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## South Indian
+- Item: Masala Dosa
+  Gujarati: મસાલા ઢોસા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rava Dosa
+  Gujarati: રવા ઢોસા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paper Dosa
+  Gujarati: પેપર ઢોસા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Idli Sambhar
+  Gujarati: ઈડલી સંભાર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vada Sambhar
+  Gujarati: વડા સંભાર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Upma
+  Gujarati: ઉપમા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Uttapam
+  Gujarati: ઉતપમ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Medu Vada
+  Gujarati: મેંદુવડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pav Bhaji
+  Gujarati: પાઉભાજી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Onion Uttapam
+  Gujarati: ઓનિયન ઉતપમ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tomato Uttapam
+  Gujarati: ટોમેટો ઉતપમ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Chinese
+- Item: Veg. Hakka Noodles
+  Gujarati: વેજી. હકકા નુડલ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cheela Paneer Fried
+  Gujarati: ચીલા પનીર ફાઈડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Fried Rice
+  Gujarati: વેજી. ફાઈડ રાઈસ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Manchurian Gravy
+  Gujarati: વેજી. મન્ચુરીયન ગ્રેવી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Chowmein
+  Gujarati: વેજી. ચાઉમીન
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Singapore Noodles
+  Gujarati: સીંગાપુરી નુડલ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: American Chopsuey
+  Gujarati: અમેરીકન ચોપ્સી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Manchurian (Dry)
+  Gujarati: વેજી. મન્યુરીયન
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Chinese Tawa
+  Gujarati: વેજી. ચાઈનીઝ તવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chinese Bhel
+  Gujarati: ચાઈનીઝ ભેળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chinese Samosa
+  Gujarati: ચાઈનીઝ સમોસા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Manchurian Fry
+  Gujarati: વેજી. મન્ચુરીયન ફાઈ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Baked Dishes
+- Item: Veg. Cheese Bake
+  Gujarati: વેજી. ચીઝ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Macaroni Pineapple Bake
+  Gujarati: મેકરોની પાઈનેપલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Noodles Baked Dish
+  Gujarati: નુડલ્સ બેક ડીસ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Baked Dish
+  Gujarati: પાઈનેપલ બેક ડીસ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Rayata
+- Item: Ripe Banana Raita
+  Gujarati: પાકા કેળાનું રાયતુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cucumber Raita
+  Gujarati: કાકડી રાયતુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Guava Raita
+  Gujarati: જામફળ રાયતુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chikoo Raita
+  Gujarati: ચીકુનું રાયતુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Raita
+  Gujarati: પાઈનેપલ રાયતુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Carrot Raita
+  Gujarati: ગાજરનું રાયતુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mogri Raita
+  Gujarati: મોગરી રાયતુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pomegranate Raita
+  Gujarati: દાડમ રાયતુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Papad & Farfar
+- Item: Fried Papad
+  Gujarati: ફાય પાપડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Roasted Papad
+  Gujarati: રોસ્ટેડ પાપડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Roasted Bhungda Papad
+  Gujarati: રોસ્ટેડ ભુંગડા પાપડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mini Disco Farfar
+  Gujarati: મીની ડીસ્કો ફરફર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fimes
+  Gujarati: ફાઈમ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tomato Chips
+  Gujarati: ટોમેટો ચીપ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Shankhla
+  Gujarati: શંખલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fried Guvar
+  Gujarati: તળેલ ગુવાર
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Dessert (Drinks/Light)
+- Item: Chaas / Buttermilk
+  Gujarati: છાશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Salty Lassi
+  Gujarati: ખારી લચ્છી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sweet Lassi
+  Gujarati: મીઠી લચ્છી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dahi / Curd
+  Gujarati: દહિં
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fruit Dish
+  Gujarati: ફુટ ડીશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fruit Counter on Ice
+  Gujarati: બરફ ઉપર ફ્રુટ કાઉન્ટર
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Chutney
+- Item: Red Chutney
+  Gujarati: લાલ ચટણી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Chutney
+  Gujarati: લીલી ચટણી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Garlic Chutney
+  Gujarati: લસણની ચટણી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Coriander Chilli Chutney
+  Gujarati: કોથમીર મરચાની ચટણી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mint Chutney
+  Gujarati: ફુદીનાની ચટણી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tomato Ketchup
+  Gujarati: ટોમેટો કેચઅપ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Salad & Sambhara
+- Item: Payal Spl. Counter
+  Gujarati: પાયલ સ્પે. કાઉન્ટર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Lodiya Mircha
+  Gujarati: લોડીયા મરચા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Salad Counter on Ice
+  Gujarati: બરફ ઉપર ગ્રીન સલાડ કાઉન્ટર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mix Pickle Achar
+  Gujarati: મિકસ પીકલ આચાર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Salad
+  Gujarati: ગ્રીન સલાડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kachumber Salad
+  Gujarati: કચુમ્બર સલાડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vinegar Onions
+  Gujarati: વિનેગરવાળા કાંદા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sprouted Beans Salad
+  Gujarati: ફણગાવેલ કઠોળનું સલાડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tomato Poha Stuffed
+  Gujarati: ટમેટા પૌવા ભરેલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Raita Carrot-Chilli-Raw Mango
+  Gujarati: રાયતા ગાજર-મરચા-કાચીકેરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Aam Achar / Mango Pickle
+  Gujarati: આમ આચ���ર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Grated Carrot Salad
+  Gujarati: ખમણેલ ગાજર સલાડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cabbage Tomato Onion Kachumber
+  Gujarati: કોબી ટમેટાનું ડુંગળી કચુમ્બર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pako Sambharo
+  Gujarati: પાકો સંભારો
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Bengali Sweets
+- Item: Gulab Jamun
+  Gujarati: ગુલાબ જાંબુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rasmalai
+  Gujarati: રસમલાઈ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cham Cham
+  Gujarati: ચમચમ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Rasgulla
+  Gujarati: કેશર રસ ગુલ્લા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chandrabal
+  Gujarati: ચંદ્રાબલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kaju Cutlet
+  Gujarati: કાજુ કટલેશ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Sandwich
+  Gujarati: પાઈનેપલ સેન્ડવિચ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pina Fantasy
+  Gujarati: પાઈના ફેન્ટસી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Malai Cham Cham
+  Gujarati: મલાઈ ચમચમ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Butterscotch Bati
+  Gujarati: બટરસ્કોચ બાટી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Sangam
+  Gujarati: પાઈનેપલ સંગમ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Shrikhand
+- Item: Safed Shrikhand
+  Gujarati: સફેદ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fruit Shrikhand
+  Gujarati: ફ્રુટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Jamnut Jelly Shrikhand
+  Gujarati: જેમનટ જેલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Shrikhand
+  Gujarati: પાઈનેપલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Shrikhand
+  Gujarati: કેશર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Butterscotch Dry Fruit Shrikhand
+  Gujarati: બટર સ્કોચ ડ્રાયફ્રુટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rajasthani Dry Fruit Shrikhand
+  Gujarati: રાજસ્થાની ડ્રાયફ્રુટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Anjeer Kaju Shrikhand
+  Gujarati: અંજીર કાજુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mango Shrikhand
+  Gujarati: મેંગો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vanilla Dry Fruit Shrikhand
+  Gujarati: વેનીલા ડ્રાયફ્રુટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chocolate Chips Shrikhand
+  Gujarati: ચોકલેટ ચીપ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: American Dry Fruit Shrikhand
+  Gujarati: અમેરીકન ડ્રાયફ્રુટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Dry Fruit Overload Shrikhand
+  Gujarati: કેશર ડ્રાયફ્રુટ ઓવરલોડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Dry Fruit Liquid
+- Item: Basundi
+  Gujarati: બાસુંદી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Ras Madhuri
+  Gujarati: રસ માધુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Butterscotch Basundi
+  Gujarati: બટર સ્કોચ બાસુંદી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mawa Milk
+  Gujarati: માવા મીલ્ક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Dry Fruit Basundi
+  Gujarati: કેશર ડ્રાયફ્રુટ બાસુંદી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kiwi Liquid
+  Gujarati: કીવી લીકવીડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Dry Fruit Madhuri
+  Gujarati: કેશર ડ્રાયફ્રુટ માધુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Roseberry
+  Gujarati: રોઝબેરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kalkati Plaza
+  Gujarati: કલકતી પ્લાઝા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Spl. Payal Liquid
+  Gujarati: સ્પે.પાયલ લીકવીડ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Penda
+- Item: Danadar Penda
+  Gujarati: દાણાદાર પેંડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mawa Penda
+  Gujarati: માવાના પેંડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chocolate Penda
+  Gujarati: ચોકલેટ પેંડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Malaipuri Penda
+  Gujarati: મલાઈપુરી પેંડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Thabdi Penda
+  Gujarati: થાબડી પેંડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Malaipuri Penda
+  Gujarati: કેશર મલાઈપુરી પેંડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Danadar Penda
+  Gujarati: કેશર દાણાદાર પેંડા
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Sweets
+- Item: Motichoor Laddu
+  Gujarati: મોતીચુર લાડુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kesar Dry Fruit Laddu
+  Gujarati: કેશર ડ્રાયફ્રુટ લાડુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Spl. Barfi
+  Gujarati: સ્પે. બરફી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mohanthal
+  Gujarati: મોહનથાળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Anjeer Pak
+  Gujarati: અંજીરપાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Gulab Cake
+  Gujarati: ગુલાબ કેક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Khajur Pak
+  Gujarati: ખજુરપાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Anjeer Kasturi
+  Gujarati: અંજીર કસ્તુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Chips Barfi
+  Gujarati: પાઈનાચીપ્સ બરફી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Bridge Laddu
+  Gujarati: બ્રીજ લાડુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Coconut Laddu
+  Gujarati: કોકોનટ લાડુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Strawberry Laddu
+  Gujarati: સ્ટ્રોબેરી લાડુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kalakand
+  Gujarati: કલાકંદ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chandni Cake
+  Gujarati: ચાંદની કેક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Malai Cake
+  Gujarati: મલાઈ કેક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Marshal Cake
+  Gujarati: માર્શલ કેક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rose Cake
+  Gujarati: રોઝ કેક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Strawberry Roll
+  Gujarati: સ્ટ્રોબેરી રોલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Pineapple Roll
+  Gujarati: પાઈનેપલ રોલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Gulabkali Roll
+  Gujarati: ગુલાબકલી રોલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Namda Laddu
+  Gujarati: નામદા લાડુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Thabdi
+  Gujarati: થાબડી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Rainbow
+  Gujarati: ડ્રાયફ્રુટ રેન્બો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Akhrot Honey
+  Gujarati: અખરોટ હની
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kalakand Barfi
+  Gujarati: કલાકંદ બરફી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rajbhog Barfi
+  Gujarati: રાજભોગ બરફી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Green Apple
+  Gujarati: ગ્રીન એપ્પલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Kaju Special
+- Item: Kaju Katri
+  Gujarati: કાજુકત્રી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kaju Honey
+  Gujarati: કાજુ હની
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kaju Bhujiya
+  Gujarati: કાજુ ભુજીયા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kaju Anjeer Roll
+  Gujarati: કાજુ અંજીર રોલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Akhrot Plaza
+  Gujarati: અખરોટ પ્લાઝા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dry Fruit Kaju Exotica
+  Gujarati: ડ્રાયફ્રુટ કાજુ એકઝોટીકા
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Matho
+- Item: Pineapple Matho
+  Gujarati: પાઈનેપલ મઠ્ઠો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mango Matho
+  Gujarati: મેંગો મઠ્ઠો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vanilla Dry Fruit Matho
+  Gujarati: વેનીલા ડ્રાયફ્રુટ મઠ્ઠો
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Kathiyawadi Vegetable
+- Item: Anmol Spl. Undhiyu
+  Gujarati: અનમોલ સ્પ્રે. ઉધીયુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Surti Undhiyu
+  Gujarati: સુરતી ઉધીયુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Makai Capsicum Tomato
+  Gujarati: મકાઈ કેપ્સીકમ ટમેટા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Makai Tomato
+  Gujarati: મકાઈ ટમેટા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Turiya Vatana Green Grapes
+  Gujarati: તુરીયા વટાણા લીલી દ્રાક્ષ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stuffed Brinjal Potato
+  Gujarati: ભરેલા રીંગણા બટેટા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stuffed Potato Onion
+  Gujarati: ભરેલા બટેટા ડુંગરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Brinjal Gravy
+  Gujarati: રીંગણાનું રસાવાળુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sev Tomato
+  Gujarati: સેવ ટમેટા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Suki Bhaji
+  Gujarati: સુકી ભાજી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Potato Chips with Dry Fruit
+  Gujarati: પોટેટો ચીપ્સ વીથ ડ્રાયફુટ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Banana Chips
+  Gujarati: કેળાની ચીપ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Potato Tomato Sabzi
+  Gujarati: બટેટા ટમેટાનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stuffed Brinjal Tuver
+  Gujarati: ભરેલા રીંગણા તુવેર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stuffed Tindora
+  Gujarati: ભરેલા ટીંડોરા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Angoor Bateta
+  Gujarati: અંગુર બટેટા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kaju Karela
+  Gujarati: કાજુ કારેલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Turiya Patra
+  Gujarati: તુરીયા પાતરા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Turiya Vatana
+  Gujarati: તુરીયા વટાણા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paneer Bateta
+  Gujarati: પનીર બટેટા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Suva Turiya
+  Gujarati: સુવા તુરીયા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vadi Sabzi
+  Gujarati: વડી શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Karela Potato Chips
+  Gujarati: કારેલા પોટેટો ચીપ્સ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kantola
+  Gujarati: કંટોલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vatana Sabzi
+  Gujarati: વટાણાનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vadi Bateta Sabzi
+  Gujarati: વડી બટેટાનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cauliflower Potato
+  Gujarati: ફલાવર બટેટા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cauliflower Vatana
+  Gujarati: ફલાવર વટાણા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Fansi Dhokli Sabzi
+  Gujarati: ફણસી ઢોકળીનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Brinjal Olo
+  Gujarati: રીંગણાનો ઓળો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Angoor Vatana
+  Gujarati: અંગુર વટાણા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Ripe Banana Sabzi
+  Gujarati: પાકા કેળાનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dhokli Sabzi
+  Gujarati: ઢોકળીનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Corn Vatana Jinjra Muthiya
+  Gujarati: કોર્ન વટાણા જીંજરા મુંઠીયા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Ripe Tomato Sabzi
+  Gujarati: પાકા ટમેટનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Karela Khalwa
+  Gujarati: કારેલાના ખલવા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Angoor Vatana Kaju
+  Gujarati: અંગુર વટાણા કાજુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Raw Banana Sabzi
+  Gujarati: કાચા કેળાનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tomato Vatana
+  Gujarati: ટમેટા વટાણા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Ravaiya Papdi Tuver
+  Gujarati: રવૈયા પાપડી તુવેર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vatana Khandvi
+  Gujarati: વટાણા ખાંડવી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dudhi Bateta Vatana
+  Gujarati: દુધી બટેટા વટાણા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cabbage Vatana
+  Gujarati: કોબી વટાણા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dudhi Bateta Sabzi
+  Gujarati: દુધી બટેટાનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stuffed Potato Vatana
+  Gujarati: ભરેલા બટાટા વઢાણા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stuffed Brinjal Vatana
+  Gujarati: ભરેલ રીંગણા વટાણા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Lilva Dana Muthiya
+  Gujarati: લીલવા દાણા મુઠીયા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cauliflower Valor Mix Kathor
+  Gujarati: ફલાવર વાલોર મિકસ કઠોર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stuffed Bhindi
+  Gujarati: ભરેલ ભીંડો
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Mix Vegetable
+  Gujarati: મિકસ વેજીટેબલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dudhi Rasawali
+  Gujarati: દુધી રસાવાળી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dudhi Chana Dal
+  Gujarati: દુધી ચણાની દાળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Dudhi Tomato Vatana
+  Gujarati: દુધી ટમેટા વટાણા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Banana Parwal Sabzi
+  Gujarati: કેળા પરવળનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stuffed Parwal
+  Gujarati: પરવળ ભરેલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Moong Methi Sabzi
+  Gujarati: મગ મેથીનું શાક
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Punjabi Vegetable
+- Item: Payal Spl. Dum Aloo
+  Gujarati: પાયલ સ્પે. દમ આલુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kashmiri Dum Aloo
+  Gujarati: કાશ્મીરી દમ આલુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Kolhapuri
+  Gujarati: વેજી. કોલ્હાપુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Navratan Kurma
+  Gujarati: નવરત્ન કુરમા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paneer Tikka Masala
+  Gujarati: પનીર ટીકકા મસાલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Tawa Mehfil
+  Gujarati: તવા મહેફીલ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paneer Bhurji
+  Gujarati: પનીર ભુર્જી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Hungama
+  Gujarati: વેજી. હંગામા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kaju Paneer
+  Gujarati: કાજુ પનીર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Makhanwala
+  Gujarati: વેજી. મખ્ખનવાલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paneer Kofta
+  Gujarati: પનીર કોફતા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Jaipuri
+  Gujarati: વેજી. જયપુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Cheese Kofta
+  Gujarati: ચીજ કોફતા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Corn Capsicum Palak Paneer
+  Gujarati: કોર્ન કેપ્સીકમ પાલક પનીર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Nargis Kofta
+  Gujarati: નરગીઝ કોફતા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Shahi Paneer
+  Gujarati: શાહી પનીર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Malai Kofta
+  Gujarati: મલાઈ કોફતા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Palak Paneer
+  Gujarati: પાલક પનીર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Kofta
+  Gujarati: વેજી. કોફતા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chole Palak Corn
+  Gujarati: છોલે પાલર કોર્ન
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Matar Paneer
+  Gujarati: મટર પનીર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paneer Takatak
+  Gujarati: પનીર ટકાટક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Khoya Kaju
+  Gujarati: ખોયા કાજુ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Hariyali
+  Gujarati: વેજી. હરીયાલી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Kadai
+  Gujarati: વેજી. કડાઈ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Aloo Matar Paneer
+  Gujarati: આલુ મટર પનીર
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Puri & Paratha
+- Item: Safed Puri
+  Gujarati: સફેદ પુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Masala Puri
+  Gujarati: મસાલા પુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Palak Puri
+  Gujarati: પાલક પુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Beet Puri
+  Gujarati: બીટ પુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Patala Puri
+  Gujarati: પટાલા પુરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paratha
+  Gujarati: પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Padwala Paratha
+  Gujarati: પડવાળા પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stuffed Paratha
+  Gujarati: સ્ટક પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Aloo Paratha
+  Gujarati: આલુ પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Vegetable Paratha
+  Gujarati: વેજીટેબલ પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Gobi Paratha
+  Gujarati: ગોબીના પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Ful Gobi Paratha
+  Gujarati: ફુલગોબીના પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Sadi Roti
+  Gujarati: સાદી રોટા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Jeera Butter Paratha
+  Gujarati: જીરા બટર પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Masala Paratha
+  Gujarati: મસાલા પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Garlic Paratha
+  Gujarati: ગાર્લીક પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Lachha Paratha
+  Gujarati: લચ્છા પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Resham Paratha
+  Gujarati: રેશમ પરોઠા
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Kathol Vegetable
+- Item: Punjabi Rajma
+  Gujarati: પંજાબી રાજમા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Chana Masala
+  Gujarati: ચના મસાલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Moong/Matth
+  Gujarati: મગ/મઠ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Val Nana
+  Gujarati: વાલ નાના
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Val Mota
+  Gujarati: વાલ મોટા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Palak Matar
+  Gujarati: પાલક મટર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Palak Tomato
+  Gujarati: પાલક ટમાટર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Aloo Palak
+  Gujarati: આલુ પાલક
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Veg. Five Star
+  Gujarati: વેજી. ફાઈવસ્ટાર
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Paneer Cheela
+  Gujarati: પનીર ચીલ્લા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Khatta Urad
+  Gujarati: ખાટા અડદ
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Panch Kathol
+  Gujarati: પંચ કઠોળ
+  Description (English): N/A
+  Description (Gujarati): N/A
+
+## Tandoor
+- Item: Pudina Naan
+  Gujarati: ફુદીના નાન
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Garlic Naan
+  Gujarati: ગાર્લીક નાન
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Jeera Pudina Naan
+  Gujarati: જીરા ફુદીના નાન
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Rumali Roti
+  Gujarati: રૂમાલી રોટી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Punjabi Roti
+  Gujarati: પંજાબી રોટી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Swami Roti
+  Gujarati: સ્વામી રોટી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Bajra Rotla
+  Gujarati: બાજરાના રોટલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Juvar Rotla
+  Gujarati: જુવારના રોટલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Methi Thepla
+  Gujarati: મેથીના થેપલા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Biscuit Bhakhri
+  Gujarati: બિસ્કીટ ભાખરી
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Butter Naan
+  Gujarati: બટર નાન
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Kulcha
+  Gujarati: ફુલચા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Stuffed Kulcha
+  Gujarati: સ્ટફ ફુલચા
+  Description (English): N/A
+  Description (Gujarati): N/A
+- Item: Baby Naan
+  Gujarati: બેબી નાન
+  Description (English): N/A
+  Description (Gujarati): N/A
