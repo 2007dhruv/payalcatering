@@ -40,11 +40,14 @@ const greatVibes = Great_Vibes({
   variable: "--font-great-vibes",
 })
 
+import { ChevronDown, ChevronUp } from "lucide-react"
+
 export default function HomePage() {
   const { t } = useLanguage()
   const [featuredEvents, setFeaturedEvents] = useState([])
   const [isVisible, setIsVisible] = useState(false)
   const [currentTestimonial, setCurrentTestimonial] = useState(0)
+  const [isSeoExpanded, setIsSeoExpanded] = useState(false)
 
   useEffect(() => {
     setIsVisible(true)
@@ -539,53 +542,67 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SEO Rich Text Section - visually hidden, accessible to search engines */}
+      {/* SEO Content Section */}
       <section
         aria-label="About Payal Catering Services"
-        className="sr-only"
+        className="container mx-auto px-4 max-w-5xl py-12 text-gray-500 text-sm font-light border-t border-[#27272a]"
       >
-        <h2>Best Catering Services in Rajkot - Payal Catering</h2>
-        <p>
-          Payal Catering is the best catering service in Rajkot, Gujarat. We are a leading catering
-          company providing authentic Gujarati cuisine and professional catering solutions for all types
-          of functions and celebrations in Rajkot and across Saurashtra. Whether you are looking for
-          Rajkot catering for a wedding, a Rajkot function caterer for a corporate event, or Saurashtra
-          catering services for any special occasion, Payal Catering is your first choice.
-        </p>
-        <h3>Payal Catering Rajkot - Your Trusted Caterer</h3>
-        <p>
-          Payal Catering, founded by Mahesh Savaliya, has been the most trusted catering name in Rajkot
-          since 2011. With 15+ years of experience in Rajkot catering, we have served over 125,000
-          happy guests and catered 2,000+ weddings across Saurashtra. Our 98% repeat client rate makes
-          us Rajkot&apos;s number one catering company. Search "Payal catering", "Payal Catering Rajkot",
-          or "best catering in Rajkot" and you will find us at the top.
-        </p>
-        <h3>Catering Services We Offer in Rajkot</h3>
-        <ul>
-          <li>Wedding Catering Rajkot - Best wedding caterers in Rajkot and Saurashtra</li>
-          <li>Rajkot Function Catering - All types of functions and ceremonies</li>
-          <li>Corporate Event Catering Rajkot and Saurashtra</li>
-          <li>Engagement Catering Rajkot</li>
-          <li>Birthday Party Catering Rajkot</li>
-          <li>Housewarming (Griha Pravesh) Catering Rajkot</li>
-          <li>Outdoor Catering Rajkot</li>
-          <li>Buffet Catering Rajkot</li>
-          <li>Gujarati Thali Catering Rajkot</li>
-        </ul>
-        <h3>Saurashtra Catering Services</h3>
-        <p>
-          As the top Saurashtra catering services provider, Payal Catering brings the rich traditions
-          of Sourashtra catering services to every event. Our Surashtra catering expertise covers all
-          of Gujarat including Rajkot, Jamnagar, Junagadh, Bhavnagar, and surrounding districts.
-          Payal caterers bring authentic Gujarati taste to your doorstep.
-        </p>
-        <h3>Contact Payal Catering Now</h3>
-        <p>
-          To book Rajkot catering services, contact Payal Catering at +91 97147 99377 or WhatsApp
-          +91 93136 77629. Our office is at Purusharth Society, Haridhva Road, opp. Balaji Temple,
-          Rajkot - 360002. Email: info@payalcatering.com. Get a free catering quote for your Rajkot
-          function or Saurashtra event today!
-        </p>
+        <div className="flex items-center justify-between cursor-pointer group" onClick={() => setIsSeoExpanded(!isSeoExpanded)}>
+          <h2 className="text-xl font-serif font-medium text-gray-400 group-hover:text-[#d97706] transition-colors">
+            Payal Catering - Best Catering Services in Rajkot
+          </h2>
+          <Button variant="ghost" size="sm" className="text-gray-500 group-hover:text-[#d97706]">
+            {isSeoExpanded ? (
+              <span className="flex items-center">Read Less <ChevronUp className="ml-2 h-4 w-4" /></span>
+            ) : (
+              <span className="flex items-center">Read More <ChevronDown className="ml-2 h-4 w-4" /></span>
+            )}
+          </Button>
+        </div>
+
+        <div className={`transition-all duration-500 ease-in-out overflow-hidden ${isSeoExpanded ? "max-h-[2000px] opacity-100 mt-8" : "max-h-0 opacity-0"}`}>
+          <p className="mb-6 leading-relaxed">
+            Payal Catering is the best catering service in Rajkot, Gujarat. We are a leading catering
+            company providing authentic Gujarati cuisine and professional catering solutions for all types
+            of functions and celebrations in Rajkot and across Saurashtra. Whether you are looking for
+            Rajkot catering for a wedding, a Rajkot function caterer for a corporate event, or Saurashtra
+            catering services for any special occasion, Payal Catering is your first choice.
+          </p>
+          <h3 className="text-lg font-serif font-medium text-gray-300 mb-3 mt-8">Payal Catering Rajkot - Your Trusted Caterer</h3>
+          <p className="mb-6 leading-relaxed">
+            Payal Catering, founded by Mahesh Savaliya, has been the most trusted catering name in Rajkot
+            since 2011. With 15+ years of experience in Rajkot catering, we have served over 125,000
+            happy guests and catered 2,000+ weddings across Saurashtra. Our 98% repeat client rate makes
+            us Rajkot&apos;s number one catering company. Search "Payal catering", "Payal Catering Rajkot",
+            or "best catering in Rajkot" and you will find us at the top.
+          </p>
+          <h3 className="text-lg font-serif font-medium text-gray-300 mb-3 mt-8">Catering Services We Offer in Rajkot</h3>
+          <ul className="list-disc pl-5 mb-6 space-y-2">
+            <li>Wedding Catering Rajkot - Best wedding caterers in Rajkot and Saurashtra</li>
+            <li>Rajkot Function Catering - All types of functions and ceremonies</li>
+            <li>Corporate Event Catering Rajkot and Saurashtra</li>
+            <li>Engagement Catering Rajkot</li>
+            <li>Birthday Party Catering Rajkot</li>
+            <li>Housewarming (Griha Pravesh) Catering Rajkot</li>
+            <li>Outdoor Catering Rajkot</li>
+            <li>Buffet Catering Rajkot</li>
+            <li>Gujarati Thali Catering Rajkot</li>
+          </ul>
+          <h3 className="text-lg font-serif font-medium text-gray-300 mb-3 mt-8">Saurashtra Catering Services</h3>
+          <p className="mb-6 leading-relaxed">
+            As the top Saurashtra catering services provider, Payal Catering brings the rich traditions
+            of Sourashtra catering services to every event. Our Surashtra catering expertise covers all
+            of Gujarat including Rajkot, Jamnagar, Junagadh, Bhavnagar, and surrounding districts.
+            Payal caterers bring authentic Gujarati taste to your doorstep.
+          </p>
+          <h3 className="text-lg font-serif font-medium text-gray-300 mb-3 mt-8">Contact Payal Catering Now</h3>
+          <p className="mb-2 leading-relaxed">
+            To book Rajkot catering services, contact Payal Catering at +91 97147 99377 or WhatsApp
+            +91 93136 77629. Our office is at Purusharth Society, Haridhva Road, opp. Balaji Temple,
+            Rajkot - 360002. Email: info@payalcatering.com. Get a free catering quote for your Rajkot
+            function or Saurashtra event today!
+          </p>
+        </div>
       </section>
 
       <Footer />
