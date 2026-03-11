@@ -9,7 +9,7 @@ import { Plus, Edit, Trash2, ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter, DialogDescription } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Checkbox } from "@/components/ui/checkbox"
@@ -39,6 +39,52 @@ export default function AdminMenuItemsPage() {
     sort_order: 0,
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
+  
+  const compressImage = (file: File): Promise<File> => {
+    return new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = (event) => {
+        const img = new window.HTMLImageElement();
+        img.src = event.target?.result as string;
+        img.onload = () => {
+          const canvas = document.createElement('canvas');
+          let width = img.width;
+          let height = img.height;
+          const maxSize = 1200;
+
+          if (width > height) {
+            if (width > maxSize) {
+              height *= maxSize / width;
+              width = maxSize;
+            }
+          } else {
+            if (height > maxSize) {
+              width *= maxSize / height;
+              height = maxSize;
+            }
+          }
+
+          canvas.width = width;
+          canvas.height = height;
+          const ctx = canvas.getContext('2d');
+          ctx?.drawImage(img, 0, 0, width, height);
+          
+          canvas.toBlob((blob) => {
+            if (blob) {
+              const compressedFile = new File([blob], file.name, {
+                type: 'image/jpeg',
+                lastModified: Date.now(),
+              });
+              resolve(compressedFile);
+            } else {
+              resolve(file);
+            }
+          }, 'image/jpeg', 0.8);
+        };
+      };
+    });
+  };
 
   useEffect(() => {
     fetchData()
@@ -236,6 +282,9 @@ export default function AdminMenuItemsPage() {
         <DialogContent className="sm:max-w-[600px] bg-[#18181b] border-[#27272a] text-white">
           <DialogHeader>
             <DialogTitle className="text-xl font-serif">{currentMenuItem ? "Edit Menu Item" : "Add New Menu Item"}</DialogTitle>
+            <DialogDescription className="sr-only">
+              Fill in the details for the menu item including name, description, and image.
+            </DialogDescription>
           </DialogHeader>
           <form onSubmit={handleSubmit} className="grid gap-4 py-4">
             <div className="grid grid-cols-4 items-center gap-4">
@@ -339,11 +388,12 @@ export default function AdminMenuItemsPage() {
                     accept="image/*"
                     className="hidden"
                     onChange={async (e) => {
-                      const file = e.target.files?.[0]
-                      if (!file) return
+                      const rawFile = e.target.files?.[0]
+                      if (!rawFile) return
 
                       setIsSubmitting(true)
                       try {
+                        const file = await compressImage(rawFile)
                         const formData = new FormData()
                         formData.append("files", file)
                         formData.append("names", formState.name_en || file.name)
