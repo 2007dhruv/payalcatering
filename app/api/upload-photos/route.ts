@@ -13,8 +13,9 @@ export async function POST(request: NextRequest) {
     const categories = formData.getAll("categories") as string[]
     const descriptions = formData.getAll("descriptions") as string[]
 
-    // Auto-migrate column size for live server (bypasses cPanel manual fix)
+    // Auto-migrate column sizes for live server (bypasses cPanel manual fix)
     await db.execute("ALTER TABLE photos MODIFY file_url LONGTEXT").catch(e => console.error("Migration skipped:", e))
+    await db.execute("ALTER TABLE menu_items MODIFY image_url LONGTEXT").catch(e => console.error("Migration skipped:", e))
 
     const uploadResults = []
     let lastError = null;
