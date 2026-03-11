@@ -43,46 +43,59 @@ export default function AdminMenuItemsPage() {
   const compressImage = (file: File): Promise<File> => {
     return new Promise((resolve) => {
       const reader = new FileReader();
-      reader.readAsDataURL(file);
       reader.onload = (event) => {
-        const img = new window.HTMLImageElement();
-        img.src = event.target?.result as string;
+        const img = document.createElement('img');
         img.onload = () => {
-          const canvas = document.createElement('canvas');
-          let width = img.width;
-          let height = img.height;
-          const maxSize = 1200;
+          try {
+            const canvas = document.createElement('canvas');
+            let width = img.width;
+            let height = img.height;
+            const maxSize = 1200;
 
-          if (width > height) {
-            if (width > maxSize) {
-              height *= maxSize / width;
-              width = maxSize;
-            }
-          } else {
-            if (height > maxSize) {
-              width *= maxSize / height;
-              height = maxSize;
-            }
-          }
-
-          canvas.width = width;
-          canvas.height = height;
-          const ctx = canvas.getContext('2d');
-          ctx?.drawImage(img, 0, 0, width, height);
-          
-          canvas.toBlob((blob) => {
-            if (blob) {
-              const compressedFile = new File([blob], file.name, {
-                type: 'image/jpeg',
-                lastModified: Date.now(),
-              });
-              resolve(compressedFile);
+            if (width > height) {
+              if (width > maxSize) {
+                height *= maxSize / width;
+                width = maxSize;
+              }
             } else {
-              resolve(file);
+              if (height > maxSize) {
+                width *= maxSize / height;
+                height = maxSize;
+              }
             }
-          }, 'image/jpeg', 0.8);
+
+            canvas.width = width;
+            canvas.height = height;
+            const ctx = canvas.getContext('2d');
+            ctx?.drawImage(img, 0, 0, width, height);
+
+            canvas.toBlob((blob) => {
+              if (blob) {
+                const compressedFile = new File([blob], file.name, {
+                  type: 'image/jpeg',
+                  lastModified: Date.now(),
+                });
+                resolve(compressedFile);
+              } else {
+                resolve(file);
+              }
+            }, 'image/jpeg', 0.82);
+          } catch (e) {
+            console.error("Compression error:", e);
+            resolve(file);
+          }
         };
+        img.onerror = () => {
+          console.error("Image load error");
+          resolve(file);
+        };
+        img.src = event.target?.result as string;
       };
+      reader.onerror = () => {
+        console.error("File reader error");
+        resolve(file);
+      };
+      reader.readAsDataURL(file);
     });
   };
 
@@ -412,9 +425,9 @@ export default function AdminMenuItemsPage() {
                         } else {
                           alert("Upload failed: " + (result.message || "Unknown error"))
                         }
-                      } catch (error) {
+                      } catch (error: any) {
                         console.error("Upload error:", error)
-                        alert("Error uploading image")
+                        alert("Error uploading image: " + (error.message || "Unknown error"))
                       } finally {
                         setIsSubmitting(false)
                       }
