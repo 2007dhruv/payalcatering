@@ -13,14 +13,6 @@ export async function POST(request: NextRequest) {
 
     const uploadResults = []
 
-    // Ensure upload directory exists
-    const uploadDir = path.join(process.cwd(), 'public', 'uploads')
-    try {
-      await mkdir(uploadDir, { recursive: true })
-    } catch (e) {
-      console.error("Error creating upload directory:", e)
-    }
-
     for (let i = 0; i < files.length; i++) {
       const file = files[i]
       const name = names[i] || file.name
@@ -36,13 +28,11 @@ export async function POST(request: NextRequest) {
       const extension = file.name.split(".").pop()
       const filename = `${category}-${timestamp}-${name.replace(/[^a-zA-Z0-9]/g, "-")}.${extension}`
 
-      const filePath = path.join(uploadDir, filename)
-      const fileUrl = `/uploads/${filename}`
-
-      // Upload locally
+      // Convert to Base64 String for Database Storage
       const bytes = await file.arrayBuffer()
-      const buffer = Buffer.from(bytes) as any
-      await writeFile(filePath, buffer)
+      const buffer = Buffer.from(bytes)
+      const base64String = buffer.toString('base64')
+      const fileUrl = `data:${file.type};base64,${base64String}`
 
       // Save to database
       const { data, error } = await savePhotoAction({
