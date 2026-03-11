@@ -1,564 +1,409 @@
-🧊 Cold Appetizers (કોલ્ડ એપેટાઇઝર)
-Gujarati Name	English Name	Gujarati Description	English Description
-પાઈનએપલ જ્યૂસ	Pineapple Juice	તાજા પાઈનએપલમાંથી બનાવેલો મીઠો રસ.	Sweet juice made from fresh pineapples.
-પાઈનએપલ સંતરા જ્યૂસ	Pineapple Orange Juice	પાઈનએપલ અને સંતરાનો તાજો અને ખાટ્ટો-મીઠો રસ.	A refreshing sweet and sour juice blend of pineapple and orange.
-ગંગા જમુના જ્યૂસ	Ganga Jamuna Juice	સંતરા અને મોસંબીનો અદભુત મિક્સ રસ.	A wonderful mix of orange and sweet lime juice.
-તરબૂચ જ્યૂસ	Watermelon Juice	ગરમી માટે ઉત્તમ, તાજા તરબૂચનો રસ.	Refreshing fresh watermelon juice, perfect for summers.
-ફ્રેશ લેમન આઈસ્ક્રીમ	Fresh Lemon Ice Cream	લીંબુના સ્વાદવાળી તાજી આઈસ્ક્રીમ.	Fresh ice cream flavored with zesty lemon.
-મીની દરિયાઈ જ્યૂસ	Mini Mixed Fruit Juice	વિવિધ તાજા ફળોનો સ્વાદિષ્ટ રસ.	Delicious juice made from a variety of fresh mixed fruits.
-ફ્રુટ પંચ જ્યૂસ	Fruit Punch Juice	અનેક ફળોના મિશ્રણથી તૈયાર થયેલ પંચ જ્યૂસ.	A mixed fruit punch juice blending multiple flavors.
-રસબેરી જ્યૂસ	Raspberry Juice	રસબેરીમાંથી બનાવેલો ખાટ્ટો-મીઠો અને તાજો રસ.	Sweet and tart fresh juice made from raspberries.
-કોકો	Cocoa Drink	ચોકલેટ અને દૂધથી બનાવેલું ઠંડુ પીણું.	A cold, chocolatey milk-based cocoa drink.
-જલજીરા	Jaljeera	પાચન માટે ઉત્તમ, મસાલાવાળું ઠંડું પીણું.	A spiced, tangy cold drink excellent for digestion.
-બનાના શેક	Banana Shake	તાજા કેળા અને દૂધથી બનાવેલ સ્વાદિષ્ટ શેક.	A delicious shake made with fresh bananas and milk.
-ચીકુ શેક	Chikoo Shake	મીઠા ચીકુ અને દૂધથી બનેલો ક્રીમી શેક.	A creamy and sweet shake made with fresh sapodilla (chikoo).
-ફ્રુટ કોકટેલ જ્યૂસ	Fruit Cocktail Juice	તાજા ફળોના ટુકડાઓ સાથેનો ખાસ જ્યૂસ.	A special juice mixed with chunks of fresh fruits.
-🔥 Hot Appetizers (હોટ એપેટાઇઝર)
-Gujarati Name	English Name	Gujarati Description	English Description
-ટોમેટો સૂપ	Tomato Soup	તાજા ટામેટાંમાંથી બનાવેલ ગરમ અને સ્વાદિષ્ટ સૂપ.	Hot and delicious soup made from fresh tomatoes.
-ટોમેટો ધાણા કૉર્ન સૂપ	Tomato Coriander Corn Soup	ટામેટાં, કોથમીર અને મકાઈનો સ્વાદિષ્ટ ગરમ સૂપ.	A flavorful hot soup of tomatoes, coriander, and corn.
-સ્વીટ કૉર્ન સૂપ	Sweet Corn Soup	મીઠી મકાઈના દાણામાંથી બનેલો સ્વાદિષ્ટ સૂપ.	A classic sweet and savory soup made with sweet corn.
-વેજ મન્ચાઉ સૂપ	Veg Manchow Soup	તીખો અને કડક નૂડલ્સ સાથેનો ચાઈનીઝ સૂપ.	Spicy Chinese-style soup served with crispy noodles.
-મિની દાળ સૂપ	Mini Dal Soup	પૌષ્ટિક દાળમાંથી બનાવેલો પાતળો અને ગરમ સૂપ.	Thin and hot nutritious soup made from lentils.
-મશરૂમ સૂપ	Mushroom Soup	તાજા મશરૂમમાંથી બનેલો ક્રીમી અને સ્વાદિષ્ટ સૂપ.	Creamy and delicious soup made from fresh mushrooms.
-હોટ એન્ડ સોર સૂપ	Hot & Sour Soup	તીખો અને ખાટ્ટો ચાઈનીઝ વેજીટેબલ સૂપ.	Spicy and tangy Chinese vegetable soup.
-વેજ નૂડલ્સ સૂપ	Veg Noodles Soup	શાકભાજી અને નૂડલ્સથી ભરેલો પૌષ્ટિક સૂપ.	Nutritious soup loaded with vegetables and noodles.
-પાલક સૂપ	Spinach Soup	પાલકમાંથી બનાવેલો સ્વાસ્થ્યવર્ધક અને સ્વાદિષ્ટ સૂપ.	Healthy and tasty soup made from fresh spinach.
-લીલવા સૂપ	Lilva Soup	તાજા લીલવાના દાણાનો દેશી સ્વાદવાળો સૂપ.	Traditional soup made from fresh pigeon peas (lilva).
-મિની એશિયન સૂપ	Mini Asian Soup	એશિયન મસાલા અને શાકભાજીથી બનેલો હળવો સૂપ.	A light soup made with Asian spices and vegetables.
-મલગટાની સૂપ	Mulligatawny Soup	દાળ અને સફરજન મિશ્રણનો પ્રખ્યાત મસાલેદાર સૂપ.	A famous spicy soup blend of lentils and apples.
-વેજ ક્લિયર સૂપ	Veg Clear Soup	તાજા શાકભાજી વાળા હળવો અને પૌષ્ટિક ક્લિયર સૂપ.	Light and healthy clear soup with fresh vegetables.
-🥗 Special Chaat (સ્પેશિયલ ચાટ)
-Gujarati Name	English Name	Gujarati Description	English Description
-દિલ્હી ચાટ	Delhi Chaat	દિલ્હીની પ્રખ્યાત અને ચટાકેદાર ચાટ.	Famous and tangy chaat style from Delhi.
-વલપની ચાટ	Valpani Chaat	મીઠી-તીખી ચટણીઓવાળી સ્વાદિષ્ટ ચાટ.	Delicious chaat with a mix of sweet and spicy chutneys.
-પાલક ચાટ	Palak Chaat	કુરકુરી પાલકના પાન અને દહીં-ચટણીનું અદભુત મિશ્રણ.	A fantastic mix of crispy spinach leaves, curd, and chutneys.
-આલુ ચાટ	Aloo Chaat	બાફેલા અને મસાલેદાર બટાકાની ચટાકેદાર ચાટ.	Tangy chaat made with boiled, spiced potatoes.
-જોધપુરી ચાટ	Jodhpuri Chaat	જોધપુરના ખાસ મસાલાઓથી બનેલી ટ્રેડિશનલ ચાટ.	Traditional chaat made with special Jodhpuri spices.
-બોમ્બે ચાટ	Bombay Chaat	મુંબઈની પ્રખ્યાત અને ચટાકેદાર મસાલેદાર ચાટ.	Mumbai's popular and spicy street-style chaat.
-બનારસી ચાટ	Banarasi Chaat	બનારસના દેશી સ્વાદવાળી ખાસ ચાટ.	Special chaat with the authentic taste of Banaras.
-મટર પોટલી	Matar Potli	વટાણા ભરેલી કુરકુરી પોટલી અને ચટણીની ચાટ.	Crispy potli stuffed with peas, served as a chaat.
-કોર્નર ચાટ	Corner Chaat	ચટાકેદાર અને મસાલેદાર કોર્નર સ્પેશિયલ ચાટ.	Tangy and spicy special corner chaat.
-દહીવાળા ફુગ્ગા	Dahi Puri Balls	દહીં અને મીઠી ચટણીથી ભરેલી પુરીઓ.	Crispy puris filled with sweet yogurt and chutneys.
-બેલી પુરી	Bhel Puri	મમરા, સેવ અને તીખી-મીઠી ચટણીનું મિશ્રણ.	A mix of puffed rice, sev, and sweet-spicy chutneys.
-મસાલા રિંગ	Masala Ring	મસાલેદાર અને ક્રિસ્પી રિંગ્સની ચાટ.	Chaat made of spicy and crispy rings.
-પાણી પુરી ચાટ	Pani Puri Chaat	તીખા અને મીઠા પાણી સાથેની પ્રખ્યાત પાણી પુરી.	Famous pani puri served with spicy and sweet flavored water.
-ફળ ચાટ	Fruit Chaat	તાજા ફળો અને ચાટ મસાલાનું હેલ્ધી મિશ્રણ.	Healthy combination of fresh fruits and chaat masala.
-આલુ ટિક્કી	Aloo Tikki	બટાકાની કુરકુરી ટિક્કી દહીં અને ચટણી સાથે.	Crispy potato patties served with yogurt and chutneys.
-પનીર ચિલ્લા	Paneer Chilla	પનીરથી ભરેલા ચણાના લોટના ગરમ ચિલ્લા.	Warm gram flour pancakes stuffed with paneer.
-રોટેટો પોટેટો	Rotato Potato	બટાકામાંથી બનેલી ટ્વીસ્ટેડ અને ક્રિસ્પી ચાટ.	Twisted and crispy potato snack chaat.
-છોલે સમોસા ચાટ	Chole Samosa Chaat	ગરમ છોલે અને કુરકુરા સમોસાનું અદભુત મિશ્રણ.	A wonderful mix of hot chole (chickpeas) and crispy samosas.
-આલુ છોલે ચાટ	Aloo Chole Chaat	બટાકા અને છોલેનું ચટાકેદાર મિશ્રણ.	Tangy and flavorful combination of potatoes and chole.
-કોકટેલ ચાટ	Cocktail Chaat	વિવિધ ચાટના ફ્લેવર્સનું એક ખાસ મિશ્રણ.	A special mix of various chaat flavors in one dish.
-વટાણા કચોરી	Vatana Kachori	લીલા વટાણા ભરેલી કુરકુરી કચોરી.	Crispy kachori stuffed with green peas.
-કચોરી ચાટ	Kachori Chaat	કચોરી ઉપર દહીં અને ચટણી નાખીને બનાવેલ ચાટ.	Chaat made with kachori topped with yogurt and chutneys.
-રાજપુરી ચાટ	Rajpuri Chaat	મોટી પુરીમાં દહીં, સેવ અને ચટણી ભરેલી ચાટ.	Large puri loaded with yogurt, sev, and sweet-spicy chutneys.
-પાણી પુરી	Pani Puri	ફુદીનાના સ્પાઈસી પાણી સાથેની ક્રિસ્પી પુરી.	Crispy puris served with spicy mint water.
-સેવ પુરી	Sev Puri	બાફેલા બટાકા, ચટણી અને બેસન સેવથી ભરેલી પુરી.	Puris topped with boiled potatoes, chutneys, and besan sev.
-રઘડા પેટીસ	Ragda Pattice	ગરમા ગરમ રઘડા સાથે ક્રિસ્પી બટાકાની પેટીસ.	Crispy potato patties served with hot pea curry (ragda).
-રીંગ ભજીયા ચાટ	Ring Bhajiya Chaat	ડુંગળીના રિંગ ભજીયામાંથી બનેલી ચટાકેદાર ચાટ.	Tangy chaat made from crispy onion ring fritters.
-દહી ભલ્લા	Dahi Bhalla	નરમ ભલ્લા દહીં અને મીઠી ચટણીમાં ડૂબેલા.	Soft bhallas (lentil balls) soaked in yogurt and sweet chutney.
-❄️ Cold Sweets (ઠંડી મીઠાઈ)
-Gujarati Name	English Name	Gujarati Description	English Description
-કેશર બાસુંદી	Kesar Basundi	કેસર અને ડ્રાયફ્રુટવાળી ઘટ્ટ અને મીઠી દૂધની વાનગી.	Thick, sweetened milk dessert flavored with saffron and nuts.
-કેશર રસમલાઈ	Kesar Rasmalai	કેસરવાળા દૂધમાં ડૂબેલા નરમ પનીરના રસગુલ્લા.	Soft cottage cheese dumplings soaked in saffron-flavored milk.
-સીતાફળ બાસુંદી	Sitafal Basundi	સીતાફળના ગરથી ભરપૂર સ્વાદિષ્ટ બાસુંદી.	Delicious basundi rich in custard apple (sitafal) pulp.
-વસુન્દી રબડી	Basundi Rabdi	દૂધને ઉકાળીને બનાવેલી રબડીદાર અને સ્વાદિષ્ટ મીઠાઈ.	A luscious and delicious dessert made by thickening milk.
-કેશર રાજભોગ	Kesar Rajbhog	કેસર અને ડ્રાયફ્રુટ્સથી ભરેલા મોટા રસગુલ્લા.	Large rasgullas stuffed with dry fruits and flavored with saffron.
-અંજીર રબડી	Anjeer Rabdi	અંજીરના ટુકડાઓ સાથેની મીઠી અને ઘટ્ટ રબડી.	Sweet and thick rabdi texturized with fig (anjeer) pieces.
-કેશર દૂધપાક	Kesar Doodhpak	કેસર, ચોખા અને દૂધમાંથી બનેલું પરંપરાગત ગુજરાતી ડેઝર્ટ.	Traditional Gujarati dessert made of milk, rice, and saffron.
-ફ્રૂટ સલાડ	Fruit Salad	કસ્ટર્ડવાળા દૂધમાં તાજા ફળોનું મિશ્રણ.	A mix of fresh chopped fruits in sweetened custard milk.
-રસ ગુલ્લા	Rasgulla	ચાસણીમાં ડૂબેલા સફેદ અને નરમ પનીર બોલ.	Soft and spongy cottage cheese balls soaked in sugar syrup.
-રાજભોગ	Rajbhog	ડ્રાયફ્રુટ્સ ભરેલા અને ચાસણીમાં ડૂબેલા પીળા રસગુલ્લા.	Yellow rasgullas with a stuffed dry fruit center in sugar syrup.
-પાઈનએપલ શીરો	Pineapple Sheera	પાઈનએપલના ટુકડાવાળો અને ઘીથી ભરપૂર ગળ્યો શીરો.	Sweet semolina dessert enriched with ghee and pineapple pieces.
-મેંગો પી	Mango Drink	મીઠી કેરીમાંથી બનેલો સ્વાદિષ્ટ અને તાજો રસ.	A delicious and refreshing drink made from sweet mangoes.
-કેરીનો રસ	Mango Juice	પાકી કેરીમાંથી કાઢેલો શુદ્ધ અને મીઠો રસ.	Pure and sweet juice extracted from ripe mangoes.
-સીતાફળ શ્રીખંડ	Sitafal Shrikhand	સીતાફળના સ્વાદવાળો મસકેલો અને મીઠો દહીંનો શ્રીખંડ.	Strained sweetened yogurt dessert flavored with custard apple.
-મેંગો શ્રીખંડ	Mango Shrikhand	કેરીના સ્વાદ અને કલર વાળો સ્વાદિષ્ટ શ્રીખંડ.	Delicious shrikhand infused with the flavor of ripe mangoes.
-પાઈનએપલ શ્રીખંડ	Pineapple Shrikhand	પાઈનએપલના તાજા સ્વાદવાળો મધુર શ્રીખંડ.	A sweet shrikhand featuring the fresh taste of pineapple.
-વેનીલા શ્રીખંડ	Vanilla Shrikhand	વેનીલા ફ્લેવરવાળો ક્રીમી અને મુલાયમ શ્રીખંડ.	Creamy and smooth shrikhand delicately flavored with vanilla.
-🔥 Hot Sweets (ગરમ મીઠાઈ)
-Gujarati Name	English Name	Gujarati Description	English Description
-કેશર જલેબી	Kesar Jalebi	કેસરના ફ્લેવરવાળી અત્યંત કુરકુરી અને ગરમ જલેબી.	Extra crispy and hot jalebi bursting with saffron flavor.
-કેશર ઇમરતી	Kesar Imarti	અડદની દાળમાંથી બનેલી, કેસરવાળી રસીલી અને મીઠી ઇમરતી.	Juicy and sweet lentil-based imarti favored with saffron.
-ઇમરતી વિથ રબડી	Imarti with Rabdi	ગરમ ઇમરતી સાથે ઠંડી અને મીઠી રબડીનું કોમ્બિનેશન.	Combination of hot imarti served with cold, sweet rabdi.
-ગાજર નો હલવો	Gajar Halwa	દૂધ, ઘી અને છીણેલા ગાજરમાંથી બનેલો ગરમ હલવો.	Hot dessert made from grated carrots, milk, and ghee.
-ગરમ પીસ્તા હલવો	Hot Pista Halwa	પિસ્તા અને ડ્રાયફ્રુટ્સથી ભરપૂર મુલાયમ અને ગરમ હલવો.	Smooth and hot halwa rich in pistachios and dry fruits.
-ડ્રાયફ્રૂટ ગાજર હલવો	Dry Fruit Gajar Halwa	ગાજરના હલવામાં પુષ્કળ ડ્રાયફ્રુટ્સનો ઉમેરો.	Classic carrot halwa heavily garnished with mixed dry fruits.
-દુધીનો હલવો	Dudhi Halwa	તાજી દૂધી, દૂધ અને માવામાંથી બનાવેલો સ્વાદિષ્ટ હલવો.	Delicious halwa prepared from freshly grated bottle gourd (dudhi).
-પાઈનએપલ હલવો	Pineapple Halwa	પાઈનએપલના ટુકડા વાળી મીઠી અને ગરમ વાનગી.	A warm, sweet dessert prepared with pieces of pineapple.
-અંજીર હલવો	Anjeer Halwa	અંજીર અને મેવામાંથી બનેલો સ્વાદિષ્ટ અને પૌષ્ટિક હલવો.	A nutritious and delicious warm halwa made from figs (anjeer).
-લીલા નાળિયેરનો હલવો	Green Coconut Halwa	કાચા નાળિયેરના છીણમાંથી તૈયાર કરેલો અદભુત હલવો.	A fabulous halwa made from grated tender green coconut.
-પાલક હલવો	Palak Halwa	પાલક અને માવામાંથી બનાવેલો યુનિક્ક અને ગળ્યો હલવો.	A unique sweet halwa crafted from spinach and mawa.
-ગરમ જાંબુ	Hot Gulab Jamun	માવામાંથી બનેલા ચાસણીમાં ડૂબેલા ગરમા-ગરમ ગુલાબ જાંબુ.	Steaming hot mawa balls soaked in sweet sugar syrup.
-ખાજાનો લાડુ	Khaja Ladoo	પડવાળા ખાજામાંથી બનાવેલા ગોળ અને મીઠા લાડુ.	Round, sweet ladoos made from layered khaja pastry.
-રાજસ્થાની લાડુ	Rajasthani Ladoo	રાજસ્થાનના પરંપરાગત સ્વાદવાળા ચુરમાના લાડુ.	Traditional Rajasthani style churma ladoo with authentic flavor.
-મોહનલાલના લાડુ	Mohanthal Ladoo	બેસન અને ઘીમાંથી બનેલા દાણાદાર અને સ્વાદિષ્ટ લાડુ.	Grainy and delicious ladoos made of roasted gram flour and ghee.
-એપલ પાઈનએપલ જલેબી	Apple Pineapple Jalebi	સફરજન અને પાઈનએપલના સ્વાદવાળી વિશિષ્ટ જલેબી.	A distinctive jalebi featuring apple and pineapple flavors.
-🍬 Fry Fruit Halwa (ફ્રાયફૂટ હલવો)
-Gujarati Name	English Name	Gujarati Description	English Description
-ફ્રાયફૂટ દુધી હલવો	Dry Fruit Dudhi Halwa	તળેલા ડ્રાયફ્રુટ્સ સાથેનો ગરમા-ગરમ દૂધીનો હલવો.	Hot bottle gourd halwa topped with fried dry fruits.
-ફ્રાયફૂટ ગાજર હલવો	Dry Fruit Gajar Halwa	પ્રીમિયમ ડ્રાયફ્રુટ્સથી શણગારેલો ગાજરનો દેશી હલવો.	Traditional rustic carrot halwa garnished with premium dry fruits.
-ફ્રાયફૂટ અંજીર હલવો	Dry Fruit Anjeer Halwa	ફ્રાય કરેલા કાજુ-બદામ અને અંજીરનું બેસ્ટ કોમ્બિનેશન હલવો.	The best combination halwa of figs with fried cashew and almonds.
-ફ્રાયફૂટ પાઈનેપલ હલવો	Dry Fruit Pineapple Halwa	પાઈનેપલના હલવા પર તળેલા ડ્રાયફ્રુટ્સનું ટોપિંગ.	Pineapple halwa generously topped with fried mixed dry fruits.
-ફ્રાયફૂટ લીલા નાળિયેર હલવો	Dry Fruit Coconut Halwa	લીલા નાળિયેરના હલવામાં મિક્સ ડ્રાયફ્રુટ્સનો ક્રન્ચ.	Tender green coconut halwa with the crunch of mixed dry fruits.
-ફ્રાયફૂટ પાઈનએપલ શીરો હલવો	Dry Fruit Pineapple Sheera	ઘીમાં શેકેલો રવો, પાઈનએપલ અને ડ્રાયફ્રુટ્સનો હલવો.	Ghee-roasted semolina sweet with pineapple and dry fruits.
-ફ્રાયફૂટ ગાજર હલવો	Dry Fruit Carrot Halwa	તળેલા ક્રન્ચી ડ્રાયફ્રુટ્સ સાથેનો ગાજરનો ગરમ હલવો.	Warm carrot halwa enriched with fried crunchy dry fruits.
-ફ્રાયફૂટ રાજભોગ હલવો	Dry Fruit Rajbhog Halwa	રાજભોગના ફ્લેવરવાળો અને ડ્રાયફ્રુટ્સથી ભરપૂર હલવો.	Rich halwa packed with dry fruits and Rajbhog flavor.
-ફ્રાયફૂટ કેસર હલવો	Dry Fruit Kesar Halwa	કેસરની સુગંધ અને ફ્રાય ડ્રાયફ્રુટ્સનો ઉત્કૃષ્ટ હલવો.	An exquisite halwa combining saffron aroma and fried dry fruits.
-ફ્રાયફૂટ બદામ હલવો	Dry Fruit Badam Halwa	બદામની પેસ્ટ અને અખૂટ ડ્રાયફ્રુટ્સમાંથી બનેલો હલવો.	A rich halwa made from almond paste and abundant dry fruits.
-ફ્રાયફૂટ બટરસ્કોચ હલવો	Dry Fruit Butterscotch Halwa	બટરસ્કોચની મીઠાશ અને ડ્રાયફ્રુટ્સના કકડાવાળો હલવો.	Sweet halwa featuring butterscotch strings and dry fruit bites.
-ફ્રાયફૂટ આઈસક્રીમ હલવો	Dry Fruit Ice Cream Halwa	હલવા અને આઈસક્રીમનું ડ્રાયફ્રુટ્સવાળું નોખું ફ્યુઝન.	A unique fusion of halwa and ice cream topped with dry fruits.
-ફ્રાયફૂટ અંજીર એપ્રીકોટ હલવો	Dry Fruit Anjeer Apricot Halwa	અંજીર અને જરદાળુનો મિક્સ ડ્રાયફ્રુટવાળો નવો હલવો.	A novel mixed halwa made from figs and apricots with dry fruits.
-🍧 Ice Candy (આઈસ કેન્ડી)
-Gujarati Name	English Name	Gujarati Description	English Description
-ચોકોબાર	Chocobar	ચોકલેટના પડવાળી વેનીલા આઈસ કેન્ડી.	Vanilla ice candy coated with a layer of chocolate.
-મોંગોલો	Mongolo	કેરીના સ્વાદવાળી ઘટ્ટ અને ક્રીમી આઈસ કેન્ડી.	Thick and creamy ice candy flavored with sweet mango.
-રસબેરી કેન્ડી	Raspberry Candy	બાળકોની પ્રિય એવી રસબેરી ફ્લેવરની બરફની કેન્ડી.	Children's favorite raspberry-flavored ice lolly.
-માળા મલાઈ	Mala Malai	શુદ્ધ દૂધ અને મલાઈમાંથી બનેલી ટ્રેડિશનલ કેન્ડી.	Traditional ice candy made from pure milk and cream (malai).
-કુલફી	Kulfi	માવા અને ડ્રાયફ્રુટ્સથી તૈયાર થયેલી પરંપરાગત કુલફી.	Traditional slow-set kulfi prepared with mawa and dry fruits.
-પિસ્તા મલાઈ	Pista Malai	પિસ્તાના ભૂક્કાથી શણગારેલી મલાઈ કુલફી કેન્ડી.	Malai kulfi candy generously garnished with crushed pistachios.
-કોટેડ	Coated Candy	વિવિધ ફ્લેવર્સના પડવાળી ખાસ કેન્ડી.	Special ice candy coated in various delicious flavors.
-બેલ્જિયમ ચોકો	Belgian Choco	બેલ્જિયમ ડાર્ક ચોકલેટથી કવર કરેલી પ્રીમિયમ કેન્ડી.	Premium ice candy fully covered with Belgian dark chocolate.
-નવીનતા	Navinata Candy	અનોખા અને નવા ફ્લેવર્સથી બનેલી ડેઝર્ટ કેન્ડી.	A dessert candy made with unique and innovative flavors.
-🍨 Ice Cream Menu (આઈસ્ક્રીમ)
-Gujarati Name	English Name	Gujarati Description	English Description
-વેનીલા	Vanilla	શુદ્ધ વેનીલા એસેન્સવાળી સ્વાદિષ્ટ અને સાદી આઈસ્ક્રીમ.	Simple and delicious ice cream made with pure vanilla extract.
-સ્ટ્રોબેરી	Strawberry	તાજી સ્ટ્રોબેરીના રંગ અને સ્વાદવાળી ક્રીમી આઈસ્ક્રીમ.	Creamy ice cream featuring the color and flavor of fresh strawberries.
-મિક્સફ્રૂટ જેલી	Mixed Fruit Jelly	મિક્સ ફ્રુટ અને મીઠી જેલીના ટુકડાવાળી આઈસ્ક્રીમ.	Ice cream studded with mixed fruits and pieces of sweet jelly.
-પાન મસાલા	Pan Masala Ice Cream	મીઠા પાન અને ગુલકંદની સુગંધવાળી ખાસ આઈસ્ક્રીમ.	Special ice cream with the aroma of sweet paan and gulkand.
-અંજીર કાજુ	Anjeer Kaju Ice Cream	અંજીરની મીઠાશ અને કાજુના ટુકડા વાળી આઈસ્ક્રીમ.	Ice cream blending the sweetness of fig and cashew pieces.
-સુકો આલુ	Dry Aloo Ice Cream	નવા પ્રકારની અને અનોખા સ્વાદવાળી આઈસ્ક્રીમ.	A novel and distinctively flavored creation of ice cream.
-બ્લેક કરંટ	Black Currant	કાળી દ્રાક્ષના ઝીણા ટુકડાવાળી ખાટ્ટી-મીઠી આઈસ્ક્રીમ.	Sweet and tangly ice cream with fine pieces of black currant.
-કાજુ દ્રાક્ષ	Kaju Draksh Ice Cream	સૂકી દ્રાક્ષ અને કાજુના મિશ્રણવાળી વેનીલા આઈસ્ક્રીમ.	Vanilla ice cream mixed with raisins and cashew nuts.
-સન્ડે મેક્સ	Sundae Mix	વિવિધ ડ્રાયફ્રુટ્સ અને ચાસણીથી સજાવેલો સન્ડે.	A fully decked up sundae loaded with varied dry fruits and syrups.
-ચોકલેટ ચિપ્સ	Chocolate Chips	ચોકલેટ આઈસ્ક્રીમની અંદર ડાર્ક ચોકલેટના ક્રન્ચી ચિપ્સ.	Chocolate ice cream filled with crunchy dark chocolate chips.
-રોઝ પેટલ્સ	Rose Petals	ગુલાબની પાંખડીઓ અને ગુલાબજળના સ્વાદવાળી આઈસ્ક્રીમ.	Ice cream delicately flavored with rose water and rose petals.
-રાજભોગ	Rajbhog Ice Cream	ડ્રાયફ્રુટ્સ અને કેસર-માવાથી ભરપૂર શાહી આઈસ્ક્રીમ.	A royal ice cream abundantly packed with dry fruits, saffron, and mawa.
-ગ્રીન પિસ્તા બદામ	Green Pista Badam	પિસ્તા અને બદામવાળી હળવા લીલા રંગની ક્રીમી આઈસ્ક્રીમ.	Light green creamy ice cream studded with pistachios and almonds.
-આઈસ ક્રીમ કતરીફાલ	Ice Cream Kesar Katori Falooda	કેસરની સુગંધ સાથે કટોરીમાં પીરસાતો ફાલૂદા આઈસ્ક્રીમ.	Saffron scented falooda ice cream served in an edible cup.
-ફ્રૂટ કોણ	Fruit Cone Ice Cream	ફ્રુટના ટુકડાઓથી સભર ક્રિસ્પી કોનવાળી આઈસ્ક્રીમ.	A crispy cone filled with ice cream and fresh fruit pieces.
-રાજસ્થાની	Rajasthani Ice Cream	રાજસ્થાની રાજાશાહી સ્વાદવાળી સ્પેશિયલ આઈસ્ક્રીમ.	Special ice cream delivering an authentic Rajasthani royal flavor.
-સીતાફળ (સીજનલ)	Sitafal (Seasonal)	માત્ર સીઝનમાં મળતી અને તાજા સીતાફળમાંથી બનેલી.	Made purely from seasonal fresh custard apples.
-મેંગો (સીજનલ)	Mango (Seasonal)	ઉનાળાની ખાસ તાજી પાકી કેરીમાંથી બનાવેલી આઈસ્ક્રીમ.	Ice cream crafted from fresh seasonal ripe summer mangoes.
-કેસ્યુનટ	Cashew Nut Ice Cream	ક્રિસ્પી રોસ્ટેડ કાજુના દાણાવાળી સ્વાદિષ્ટ આઈસ્ક્રીમ.	Delicious ice cream packed with crispy roasted cashews.
-માવા બદામ	Mawa Badam Ice Cream	માવાની મીઠાશ અને બદામના ટુકડાઓવાળી દેશી આઈસ્ક્રીમ.	Traditional ice cream combining sweet mawa and almond chunks.
-કૂકીંગ એન્ડ ક્રીમ	Cookies and Cream	વેનીલા ક્રીમમાં ઓરિયો કૂકીઝના ઝીણા ભૂક્કાનું મિશ્રણ.	Vanilla cream mixed nicely with crushed chocolate cookies.
-અમેરિકન ડ્રાયફ્રૂટ	American Dry Fruit	અમેરિકન ડ્રાયફ્રુટ્સ અને ક્રીમનું રોયલ કોમ્બિનેશન.	A royal combination of varied American dry fruits and velvety cream.
-ફ્રાયફૂટ નોનાગડા	Dry Fruit Nougat	કેરેમલ નોગાટ અને ફ્રાય ડ્રાયફ્રુટ્સવાળી ક્રંચી આઈસ્ક્રીમ.	Crunchy ice cream loaded with caramel nougat and fried dry fruits.
-ફિગ	Fig Ice Cream	માત્ર અંજીરમાંથી બનાવેલી નેચરલ સ્વાદવાળી આઈસ્ક્રીમ.	Naturally flavored ice cream crafted purely from fresh figs.
-રોસ્ટેડ આલમંડ	Roasted Almond	શેકેલી બદામના ટુકડાઓવાળી મધુર અને કડક આઈસ્ક્રીમ.	A sweet ice cream offering the delightful crunch of roasted almonds.
-કેસર પિસ્તા	Kesar Pista	કેસરનો રંગ અને પિસ્તાનો સ્વાદવાળી લોકપ્રિય આઈસ્ક્રીમ.	Popular ice cream featuring saffron color and pistachio chunks.
-બેલ્જિયમ ચોકલેટ	Belgian Chocolate	ડાર્ક અને રિચ બેલ્જિયમ ચોકલેટથી બનેલી પ્રીમિયમ આઈસ્ક્રીમ.	Premium ice cream made from dark, rich Belgian chocolate.
-ટેન્ડર કોકોનટ	Tender Coconut	તાજા નાળિયેરની મલાઈમાંથી બનેલી પ્રાકૃતિક આઈસ્ક્રીમ.	A natural ice cream crafted from fresh tender coconut meat.
-કેસર માવા બદામ	Kesar Mawa Badam	કેસર, બદામ અને માવાનું પરફેક્ટ ભારતીય મિશ્રણ.	A perfect Indian combination of saffron, almonds, and mawa.
-🥟 Farshan (ફરસાણ)
-Gujarati Name	English Name	Gujarati Description	English Description
-રશિયન રોલ	Russian Roll	ચીઝ અને શાકભાજીથી ભરેલો ક્રિસ્પી રશિયન રોલ.	Crispy Russian roll filled with cheese and mixed vegetables.
-અમેરિકન રોલ	American Roll	અમેરિકન મકાઈ અને મસાલાવાળો ચટાકેદાર રોલ.	Tangy roll stuffed with American sweet corn and spices.
-મેક્સિકન કટલેટ	Mexican Cutlet	મેક્સિકન બીન્સ અને તીખા મસાલાવાળી સ્વાદિષ્ટ કટલેટ.	Delicious cutlet flavored with Mexican beans and spicy herbs.
-ચોપ રોલ	Chop Roll	પનીર અને શાકભાજીના પૂરણવાળો કડક ચોપ રોલ.	Crispy chop roll with a warm paneer and veg filling.
-વેજ રોલ	Veg Roll	ચટાકેદાર શાકભાજીથી ભરેલો ડીપ ફ્રાય રોલ.	Deep fried roll generously stuffed with tangy vegetables.
-વેજ. કોણ	Veg Cone	કુરકુરા કોનમાં ભરેલું મસાલેદાર શાકભાજીનું પૂરણ.	Crispy edible cone filled with highly spiced vegetable mix.
-ગોલ્ડ કોઈન્સ	Gold Coins	બ્રેડ પર તલ અને મસાલા લગાવીને તળેલા ક્રિસ્પી સિક્કા.	Crispy fried bread coins topped with sesame seeds and spices.
-ભાજરવડી	Bhakarwadi	ખાટ્ટા-મીઠા અને તીખા મસાલા વાળી પ્રખ્યાત કુરકુરી વડી.	Famous crispy snack roll filled with a sweet, tangy, and spicy mix.
-લીલવા પટારા	Lilva Patra	તાજા લીલવા અને અળવીના પાનમાંથી બનાવેલા પતરા.	Flavorful patra rolls made of fresh pigeon peas and colocasia leaves.
-ચટણી કટલેટ	Chutney Cutlet	તીખી અને લીલી ચટણીના મિશ્રણ વાળી સ્વાદિષ્ટ કટલેટ.	Delicious savory cutlet inherently flavored with spicy green chutney.
-સ્પ. બાઈકુંગ ચાટપુરી	Special Baking Chatpuri	ઓવનમાં શેકેલી સ્પેશિયલ અને હેલ્ધી ચાટપુરી.	Special and healthy chaatpuri baked fresh in the oven.
-Gujarati Name	English Name	Gujarati Description	English Description
-પંજાબી ચાટ	Punjabi Chaat	પંજાબી સ્ટાઈલના મસાલાઓ અને ચટણી વાળી ખાસ ચાટ.	Special chaat made with authentic Punjabi spices and chutneys.
-વેજ. ધુબારા	Veg Dhubara	તાજા શાકભાજી અને દેશી મસાલાથી બનાવેલી રાજસ્થાની વાનગી.	Traditional snack made with fresh vegetables and rustic spices.
-લીલી તુવર વટાણાના ધુબારા	Green Tuvar Vatana Dhubara	લીલી તુવેર અને વટાણામાંથી બનેલા ચટાકેદાર ધુબારા.	Spicy dhubara snack made of green pigeon peas and green peas.
-સમોસા	Samosa	બટાકા અને વટાણાના મસાલાવાળું કુરકુરી સમોસું.	Classic crispy samosa stuffed with a spiced potato and pea filling.
-પંજાબી સમોસા	Punjabi Samosa	તીખા અને ચટાકેદાર પંજાબી મસાલા ભરેલા મોટા સમોસા.	Large samosas filled with spicy and tangy Punjabi style potatoes.
-પટ્ટી સમોસા	Patti Samosa	પાતળા અને ક્રિસ્પી પડવાળા ખાસ વેજીટેબલ પટ્ટી સમોસા.	Special vegetable samosas with an extra thin and crispy outer layer.
-કચોરી	Kachori	તીખા અને ગળ્યા મસાલા ભરેલી કુરકુરી કચોરી.	Crispy deep-fried pastry generously stuffed with a spicy sweet filling.
-ખમણ કચોરી	Khaman Kachori	ખમણ અને મસાલા ના પૂરણ વાળી અનોખી કચોરી.	Unique kachori filled with a mixture of crumbled khaman and spices.
-પનીર કચોરી	Paneer Kachori	સ્વાદિષ્ટ પનીર અને ડ્રાયફ્રુટ્સથી ભરેલી રિચ કચોરી.	Rich and crispy kachori stuffed with flavorful paneer and dry fruits.
-મીની ભજીયા	Mini Bhajiya	ચણાના લોટ અને મસાલા વાળા નાના અને કડક ભજીયા.	Small, crunchy, and bite-sized gram flour fritters.
-મીર પકોડા	Mir Pakoda	શાકભાજી અને ખાસ મસાલામાંથી બનેલા ગરમા-ગરમ પકોડા.	Piping hot pakodas (fritters) made from vegetables and special spices.
-🔥 Live Farshan (લાઈવ ફરસાણ)
-Gujarati Name	English Name	Gujarati Description	English Description
-સ્ટીમ ઢોકળા	Steamed Dhokla	ચણાના લોટમાંથી બનાવેલા ગરમ, પોચા અને જાળીદાર ઢોકળા.	Hot, soft, and spongy dhokla steamed from gram flour batter.
-સ્ટીમ ઇડલી	Steamed Idli	ચોખા અને અડદની દાળની ગરમા-ગરમ અને નરમ ઇડલી.	Piping hot, fluffy, and soft idlis made from rice and lentil batter.
-ગરમ ઉપમા	Hot Upma	રવો અને શાકભાજીમાંથી બનાવેલો હળવો અને ગરમ ઉપમા.	Light and hot upma prepared from semolina and fresh vegetables.
-મગ દાળિયા	Moong Dal Dalia	મગની દાળ અને ઘઉંના ફાડાનો પૌષ્ટિક ગરમ નાસ્તો.	Nutritious and hot breakfast snack made of moong dal and broken wheat.
-છોલે સમોસા	Chole Samosa	ગરમ છોલે સાથે લાઇવ પીરસાતા ક્રિસ્પી સમોસા.	Crispy samosas served live with piping hot spicy chickpea curry.
-આલુ ટિક્કી	Aloo Tikki	તવા પર શેકેલી ગરમ અને ચટાકેદાર બટાકાની ટિક્કી.	Hot and tangy potato patties griddle-cooked live on a tawa.
-🥟 Vada (વડા)
-Gujarati Name	English Name	Gujarati Description	English Description
-સ્પ. દહીંવડા	Special Dahi Vada	નરમ વડા ઉપર મીઠું દહીં અને ચટણી નાખીને બનાવેલ ચાટ.	Soft lentil dumplings drowned in sweet yogurt and chutneys.
-સુપ્રીમ દહીંવડા	Supreme Dahi Vada	ડ્રાયફ્રુટ્સ અને ખાસ મસાલાવાળા પ્રીમિયમ દહીંવડા.	Premium dahi vada lavishly garnished with dry fruits and special spices.
-બટેટા વડા	Batata Vada (Potato Vada)	બટાકાના મસાલાવાળા ગોળ અને કુરકુરા ગરમા-ગરમ વડા.	Hot, round, and crispy fritters made with a spiced potato filling.
-પેટીસ વડા	Patties Vada	મીઠા અને તીખા પૂરણવાળા ક્રિસ્પી પેટીસ વડા.	Crispy pastry-like fritters filled with a sweet and spicy stuffing.
-દાળ વડા	Dal Vada	મગની અને ચણાની દાળમાંથી બનાવેલા કડક વડા.	Crunchy fritters made from a coarsely ground lentil batter.
-પાલકવડા	Palak Vada	પાલકના પાન અને દાળના ખીરામાંથી બનેલા પૌષ્ટિક વડા.	Nutritious lentil fritters generously mixed with fresh spinach leaves.
-મગની દાળના વડા	Moong Dal Vada	મગની દાળના એકદમ કુરકુરા અને સ્વાદિષ્ટ વડા.	Extra crispy and delicious fritters made solely from moong dal batter.
-Boiled Snacks (બાફેલા ફરસાણ)
-Gujarati Name	English Name	Gujarati Description	English Description
-ખમણ ઢોકળા	Khaman Dhokla	ચણાના લોટના અત્યંત પોચા અને ખટમીઠા ઢોકળા.	Extremely soft, sweet, and tangy dhokla made from gram flour.
-વાટીદાળના ખમણ	Vatidal Khaman	ચણાની દાળ પલાળીને બનાવેલા પરંપરાગત અને તીખા ખમણ.	Traditional spicy khaman fundamentally made from soaked split chickpeas.
-મીની ઢોકળા	Mini Dhokla	નાના આકારના પોચા અને મસાલેદાર સ્ટીમ ઢોકળા.	Bite-sized, soft, and spicy steamed dhokla squares.
-ખાટા ઢોકળા	Khata Dhokla	ચોખા અને અડદની દાળના આથાવાળા સફેદ ખાટા ઢોકળા.	White sour dhokla made from fermented rice and lentil batter.
-ઇડલી	Idli	દક્ષિણ ભારતની પ્રખ્યાત અને સ્વાસ્થ્યવર્ધક બાફેલી ઇડલી.	Famous and healthy steamed South Indian idli.
-મેક્સિકન ઇડલી	Mexican Idli	મેક્સિકન મસાલા અને શાકભાજી વાળી ફ્યુઝન ઇડલી.	A fusion idli delicately spiced with Mexican seasonings and veggies.
-કેપ્સિકમ ઢોકળા	Capsicum Dhokla	કેપ્સિકમ મરચાના સ્વાદ અને સુગંધવાળા ખાસ ઢોકળા.	Special dhokla carrying the unique flavor and aroma of capsicum.
-વેજ. હાંડવો	Veg Handvo	દૂધી અને શાકભાજી નાખીને બનાવેલો પરંપરાગત બેક કરેલો હાંડવો.	Traditional baked savory cake rich in bottle gourd and mixed vegetables.
-ખાંડવી	Khandvi	ચણાના લોટના અત્યંત પાતળા અને મુલાયમ રોલ.	Extremely thin, soft, and melt-in-mouth rolls of seasoned gram flour.
-અમેરિકન સેવ ખમણી	American Sev Khamani	અમેરિકન મકાઈ અને સેવ સાથેની સ્વાદિષ્ટ સુરતી ખમણી.	Delicious Surti crushed khaman garnished with American corn and sev.
-રસ પાતરા	Ras Patra	અળવીના પાનના પતરા ગળ્યા અને ખાટા રસમાં ડૂબેલા.	Colocasia leaf rolls perfectly soaked in a sweet and tangy juice.
-🍚 Rice (રાઈસ)
-Gujarati Name	English Name	Gujarati Description	English Description
-સાદા ભાત	Plain Rice	સાદા અને ખીલેલા ગરમા-ગરમ ચોખાના ભાત.	Perfectly cooked, fluffy, and hot plain white rice.
-પીળા પુલાવ	Yellow Pulav	હળદર અને સામાન્ય મસાલા નાખીને બનાવેલો પીળો પુલાવ.	Mildly spiced yellow pulav pleasantly colored and cooked with turmeric.
-પાલક મટર રાઈસ	Palak Matar Rice	પાલકની પ્યુરી અને લીલા વટાણાવાળો પૌષ્ટિક રાઈસ.	Nutritionally rich rice cooked with spinach puree and green peas.
-વેજ. પુલાવ	Veg Pulav	વિવિધ તાજા શાકભાજી અને મસાલાઓથી ભરપૂર સ્વાદિષ્ટ પુલાવ.	Delicious pulav packed with assorted fresh vegetables and mild spices.
-અમેરિકન પુલાવ	American Pulav	મીઠી મકાઈ અને શાકભાજી નાખીને બનાવેલો સ્પેશિયલ પુલાવ.	Special pulav delightfully prepared with sweet corn and vegetables.
-જીરા રાઈસ	Jeera Rice	જીરાનો વઘાર કરેલા અને ઘીની સુગંધવાળા ભાત.	Aromatic rice tempered heavily with cumin seeds and pure ghee.
-કાશ્મીરી પુલાવ	Kashmiri Pulav	તાજા ફળો અને ડ્રાયફ્રુટ્સ વાળી મીઠી અને શાહી વાનગી.	A sweet and royal rice dish loaded with fresh fruits and dry fats.
-મીની બટર પુલાવ	Mini Butter Pulav	બટરમાં સાંતળેલા શાકભાજી વાળો નાનો અને ક્રીમી પુલાવ.	Small-portioned creamy pulav with vegetables sautéed richly in butter.
-ફ્રાયફૂટ પુલાવ	Dry Fruit Pulav	શેકેલા ડ્રાયફ્રુટ્સથી ભરપૂર અને અત્યંત પૌષ્ટિક પુલાવ.	Extremely nutritious pulav generously packed with roasted dry fruits.
-ખીચડી	Khichdi	ચોખા અને દાળમાંથી બાફેલો સાદો અને હળવો ખોરાક.	Simple, light, and healthy comfort food boiled from rice and lentils.
-વાઘારેલી ખીચડી	Vaghareli Khichdi	ડુંગળી, લસણ અને મસાલાનો વઘાર કરેલી ચટાકેદાર ખીચડી.	Tangy khichdi perfectly tempered with spices, onion, and garlic.
-હાંડી રાઈસ	Handi Rice	માટીની હાંડીમાં ધીમા તાપે પકાવેલો સુગંધિત સ્વાદિષ્ટ રાઈસ.	Aromatic rice slow-cooked traditionally in an earthen pot (handi).
-તવા બિરયાની	Tawa Biryani	લોખંડના તવા પર ગરમા-ગરમ બનાવેલી મસાલેદાર વેજ બિરયાની.	Spicy vegetable biryani freshly prepared hot on a flat iron skillet.
-જૈનપાલ રાઈસ	Jain Pulav Rice	ડુંગળી અને લસણ વિનાનો જૈન શૈલીનો શુદ્ધ પુલાવ.	Pure Jain style pulav cooked strictly without onion and garlic.
-🍲 Dal & Kadhi (દાળ તથા કઢી)
-Gujarati Name	English Name	Gujarati Description	English Description
-તુવેર દાળ	Tuvar Dal	ઘરગથ્થુ મસાલાથી બનાવેલી ગુજરાતી ખાટી-મીઠી તુવેરની દાળ.	Traditional Gujarati sweet and sour yellow pigeon pea dal.
-મગની દાળ	Moong Dal	હળવી અને પચવામાં સરળ એવી પૌષ્ટિક મગની દાળ.	Light, highly nutritious, and easily digestible moong dal.
-રાજવાડી દાળ	Rajwadi Dal	રાજસ્થાની મસાલાઓ અને લસણના વઘારવાળી ઘાટ્ટી દાળ.	Thick dal flavored richly with traditional Rajasthani spices and garlic.
-તડકા દાળ	Tadka Dal	જીરું, મરચા અને હિંગનો તડકો લગાવેલી ચટાકેદાર દાળ.	Tangy lentil soup tempered abundantly with cumin, chilies, and asafoetida.
-દાળ ફ્રાય	Dal Fry	ડુંગળી, ટામેટા અને મસાલામાં ફ્રાય કરેલી ઘટ્ટ અને સ્વાદિષ્ટ દાળ.	Thick, delicious lentils fried finely with onions, tomatoes, and spices.
-રાજમા અડદ દાળ	Rajma Urad Dal	રાજમા અને અડદની દાળનું મસાલેદાર અને પંજાબી મિશ્રણ.	Spicy and robust Punjabi style mix of kidney beans and black gram.
-ઓસમાણ	Osaman	દાળને ઉકાળીને બનાવેલો અત્યંત પાતળો અને પાચક રસો/સૂપ.	Extremely thin, highly digestive soup made mostly from boiled lentil water.
-દાળ ઢોકળી	Dal Dhokli	ઘઉંની ઢોકળી અને ખાટી-મીઠી દાળની પરંપરાગત ગુજરાતી વાનગી.	Traditional Gujarati dish sequentially boiling wheat dumplings in sweet sour dal.
-કઢી	Kadhi	છાસ અને ચણાના લોટમાંથી બનાવેલી સામાન્ય ગુજરાતી કઢી.	Basic Gujarati soup made smoothly from buttermilk and gram flour.
-વેજ. કઢી	Veg Kadhi	અનેક શાકભાજીઓનો ઉમેરો કરીને બનાવેલી પૌષ્ટિક કઢી.	Nutritious yogurt-based soup carefully enriched by adding mixed vegetables.
-પંજાબી કઢી	Punjabi Kadhi	ગરમ પકોડા સાથે પીરસાતી પંજાબી સ્ટાઇલની ઘાટ્ટી કઢી.	Thick Punjabi style yogurt gravy traditionally served hot with pakodas.
-દાળ મખની	Dal Makhani	અડદ અને રાજમાની, માખણ અને મલાઈથી ભરપૂર ક્રીમી પંજાબી દાળ.	Creamy Punjabi dal rich in butter, cream, black gram, and kidney beans.
-પંચરંગી દાળ	Panchrangi Dal	પાંચ પ્રકારની અલગ અલગ દાળને ભેગી કરીને બનાવેલી સ્વાદિષ્ટ વાનગી.	Delicious comfort food made thoughtfully by mixing five types of lentils.
-🥞 South Indian (સાઉથ ઈન્ડિયન)
-Gujarati Name	English Name	Gujarati Description	English Description
-મસાલા ડોસા	Masala Dosa	બટાકાના તીખા મસાલા વાળા મોટા અને ક્રિસ્પી સાઉથ ઈન્ડિયન ઢોસા.	Large, crispy South Indian crepe generously filled with spicy mashed potatoes.
-રવા ડોસા	Rava Dosa	રવા (સોજી) માંથી બનાવેલા એકદમ પતળા અને કુરકુરા ઢોસા.	Paper-thin and extremely crispy dosa uniquely made from semolina batter.
-પેપર ડોસા	Paper Dosa	કાગળ જેવા અત્યંત પાતળા અને સાદા ક્રિસ્પી ઢોસા.	Extra-large, paper-thin, and perfectly plain crispy dosa.
-ઈડલી સાંભાર	Idli Sambar	બાફેલી નરમ ઈડલી અને શાકભાજીવાળા ગરમ અને ખાટા સાંભાર.	Steamed soft idlis served harmoniously with hot, tangy vegetable sambar.
-વડા સાંભાર	Vada Sambar	અડદની દાળના તળેલા કુરકુરા વડા, ગરમ દક્ષિણ ભારતીય સાંભાર સાથે.	Crispy fried lentil donuts served elegantly with piping hot sambar.
-ઉપમા	Upma	રવો, કાજુ અને મસાલામાંથી બનેલો સાઉથ ઈન્ડિયન પ્રખ્યાત નાસ્તો.	Famous South Indian savory breakfast porridge made from semolina.
-ઉતપમ	Uttapam	ચોખા અને અડદના લોટનું થોડું જાડું અને પોચું પાનકેક.	Thick, soft, and spongy South Indian pancake made from dosa batter.
-મેદુ વડા	Medu Vada	વચ્ચે કાણાંવાળા બહારથી કડક અને અંદરથી પોચા ઉડદ દાળના વડા.	Traditional donut-shaped savory lentil fritter, crispy outside, soft inside.
-પાઈનએપલ Uttapam	Pineapple Uttapam	પાઈનએપલના ટુકડા ભભરાવીને બનાવેલ ખાટ્ટો-મીઠો અને અનોખો ઉતપમ.	A unique sweet-tangy uttapam wonderfully topped with fresh pineapple chunks.
-ઓનિયન ઉતપમ	Onion Uttapam	ઝીણી સમારેલી ડુંગળી અને લીલા મરચાથી ભરપૂર સ્વાદિષ્ટ ઉતપમ.	Delicious soft uttapam generously topped with finely chopped onions and chilies.
-ટોમેટો ઉતપમ	Tomato Uttapam	તાજા ટામેટાંના કટકાથી શણગારેલો નરમ અને ચટાકેદાર ઉતપમ.	Soft and tangy pancake beautifully garnished with fresh tomato slices.
-🍜 Chinese (ચાઇનીઝ)
-Gujarati Name	English Name	Gujarati Description	English Description
-વેજ. હક્કા નૂડલ્સ	Veg Hakka Noodles	શાકભાજી અને ચાઇનીઝ સોસ સાથે સાંતળેલા મસાલેદાર નૂડલ્સ.	Spicy noodles continuously tossed with vegetables and authentic Chinese sauces.
-વેજ. ફ્રાઈડ રાઈસ	Veg Fried Rice	જીણા સમારેલા શાકભાજી અને સોયા સોસ સાથે ફ્રાય કરેલા ભાંયત.	Stir-fried rice wonderfully mixed with finely chopped veggies and soy sauce.
-અમેરિકન ચોપસી	American Chopsuey	કડક નૂડલ્સ પર મીઠો અને ખાટ્ટો વેજીટેબલ સોસ ધરાવતી વાનગી.	Crispy noodles satisfyingly topped with a sweet and sour vegetable sauce.
-વેજ. મન્ચુરિયન	Veg Manchurian	શાકભાજીના બોલ્સને લસણ અને સોયા સોસમાં તળેલા.	Deep-fried vegetable balls coated flavorfully in garlic and soy sauce.
-ચિલી પનીર ડ્રાય	Chilli Paneer Dry	કેપ્સિકમ, ડુંગળી અને સૂકા સોસ સાથે તળેલા પનીરના કટકા.	Paneer chunks stir-fried dry with capsicum, onions, and spicy sauces.
-વેજ. મન્ચુરિયન ગ્રેવી	Veg Manchurian Gravy	મન્ચુરિયન બોલ્સને તીખા અને ઘાટ્ટા ગ્રેવી સોસમાં પકાવેલા.	Manchurian vegetable balls cooked perfectly in a thick, spicy gravy.
-વેજ. ચાઈનીઝ Mix	Veg Chinese Mix	વિવિધ ચાઇનીઝ શાકભાજી અને વાનગીઓનું મિશ્રણ.	An assorted mix comprehensively featuring various Chinese vegetable dishes.
-સિંગાપુરી નૂડલ્સ	Singapore Noodles	તીખા મસાલા અને કેપ્સિકમવાળા ખાસ અને તીખા સિંગાપુરી નૂડલ્સ.	Special and highly spicy Singaporean-style noodles cooked with vibrant capsicum.
-વેજ. ચાઈનીઝ ભેલ	Veg Chinese Bhel	ફ્રાઈડ નૂડલ્સ, શાકભાજી અને ચાઇનીઝ સોસ મિક્સ કરેલી ચટાકેદાર ભેલ.	Tangy bhel uniquely combining fried noodles, veggies, and Chinese sauces.
-ચાઈનીઝ સમોસા	Chinese Samosa	નૂડલ્સ અને ચાઇનીઝ શાકભાજીના પૂરણવાળું કુરકુરી સમોસું.	Crispy triangular samosa notably stuffed with noodles and Chinese vegetables.
-સ્પ્રિંગ રોલ	Spring Roll	પાતળા પડમાં શાકભાજી ભરીને ડીપ ફ્રાય કરેલા ચાઈનીઝ રોલ.	Deep-fried Chinese rolls neatly filled with a julienned vegetable mixture.
-વેજ. મન્ચુરિયન રાઈસ	Veg Manchurian Rice	ફ્રાઈડ રાઈસ અને મન્ચુરિયનના બોલ્સનું એકસાથે તીખું કોમ્બિનેશન.	A spicy combo distinctly coupling fried rice with hearty manchurian balls.
-🌮 Mexican (મેક્સિકન)
-Gujarati Name	English Name	Gujarati Description	English Description
-વેજ. ટાકો	Veg Taco	મકાઈના કડક શેલમાં રાજ્મા, ચીઝ અને શાકભાજીનું પૂરણ.	Crispy corn shells stuffed robustly with kidney beans, cheese, and veggies.
-મેક્સિકન પાઈનએપલ	Mexican Pineapple	મેક્સિકન મસાલાઓ અને પાઈનએપલનું ખાટ્ટી-મીઠી વાનગી.	A sweet and tangy dish freshly marrying pineapple with Mexican spices.
-નૂડલ્સ વેજ ડિસ	Noodles Veg Dish	મેક્સિકન સોસ અને ચીઝ સાથે નૂડલ્સ અને શાકભાજીનું મિશ્રણ.	A hybrid dish beautifully mixing noodles, vegetables, Mexican sauce, and cheese.
-પાઈનએપલ વેજ ડિસ	Pineapple Veg Dish	પાઈનએપલ અને શાકભાજીમાંથી બનાવેલી અનોખી મેક્સિકન ડીશ.	A delightfully unique Mexican dish prepared with pineapples and varied veggies.
-🥣 Raita (રાયતા)
-Gujarati Name	English Name	Gujarati Description	English Description
-પાપડી કાકડી રાયતું	Papdi Cucumber Raita	કુરકુરી પાપડી ચુરો અને કાકડીના મિશ્રણવાળું ખાટું-મીઠું રાયતું.	Sweet-sour raita delightfully topped with crushed crispy papdi and cucumber.
-કાકડી રાયતું	Cucumber Raita	છીણેલી કાકડી અને જીરાના પાવડરવાળું ઠંડું અને તંદુરસ્ત રાયતું.	Cooling and healthy raita made simply with grated cucumber and cumin.
-અનાનસ રાયતું	Pineapple Raita	પાઈનએપલના કટકાથી ભરેલું ગળ્યું અને સ્વાદિષ્ટ દહીંનું રાયતું.	Sweet and luscious yogurt raita fully loaded with fresh pineapple chunks.
-ટીંડું રાયતું	Tinda Raita	બાફેલા ટીંડા અને મસાલા નાખીને બનાવેલું અનોખું રાયતું.	A fairly unique raita expertly made with boiled apple gourds (tinda).
-પાઈનએપલ રાયતું	Pineapple Raita	તાજા પાઈનએપલનો રસદાર અને મધુર સ્વાદ ધરાવતું રાયતું.	Raita exuding the juicy and sweet flavor of absolutely fresh pineapples.
-ગાજરનું રાયતું	Carrot Raita	છીણેલા ગાજર અને મરચાવાળું સિમ્પલ અને પૌષ્ટિક રાયતું.	Simple, highly nutritious raita consisting of grated carrots and mild spices.
-મોગર રાયતું	Mogar Raita	પલાળેલી મોગર (મગ દાળ) માંથી બનેલું મારવાડી ખાસ રાયતું.	Special Marwadi style raita uniquely prepared with soaked split moong beans.
-દાડમ રાયતું	Pomegranate Raita	તાજા અને લાલ દાડમના દાણાવાળું મીઠું અને આકર્ષક રાયતું.	Sweet, visually appealing raita generously speckled with fresh pomegranate arils.
-🫓 Papad & Farsan (પાપડ તથા ફરસાણ)
-Gujarati Name	English Name	Gujarati Description	English Description
-ફ્રાય પાપડ	Fried Papad	ગરમ તેલમાં ડીપ ફ્રાય કરેલા કુરકુરા અડદના પાપડ.	Crispy urad dal papad deep effectively fried in hot oil.
-રોસ્ટેડ પાપડ	Roasted Papad	સીધા તાપ પર શેકેલા તેલ વગરના હળવા અને સ્વાસ્થ્યવર્ધક પાપડ.	Oil-free, light, and healthy papad roasted directly over an open flame.
-સ્પ. મસાલા પાપડ	Special Masala Papad	ફ્રાય કે શેકેલા પાપડ પર ડુંગળી, ટામેટા અને મસાલાનું ટોપિંગ.	Papad lavishly topped with chopped onions, tomatoes, and tangy chaat masala.
-મીની કોકો ફરસર	Mini Coco Farsan	નાળિયેરના સ્વાદવાળું એક વિશેષ અને નાનું ક્રિસ્પી ફરસાણ.	A uniquely distinct small crispy snack infused with a rich coconut flavor.
-ફાઈસસ Mix	Farsan Mix	અનેક નાના-મોટા કુરકુરા ફરસાણોનું સ્વાદિષ્ટ અને તીખું મિશ્રણ.	A satisfyingly delicious and spicy mix of various varied crispy snacks.
-ટોમેટો ચિપ્સ	Tomato Chips	ટામેટાના ખાટ્ટા અને તીખા સ્વાદવાળી સુંદર પોટેટો ચિપ્સ.	Vibrantly flavored potato chips carrying the tangy taste of tomatoes.
-ચણાલ	Chana Mix	શેકેલા કે તળેલા ચણામાંથી બનાવેલો તીખો અને મસાલેદાર નાસ્તો.	Spicy and deeply seasoned snack mix fundamentally made from roasted chickpeas.
-તલેલ ગુવાર	Fried Guvar	ગુવારની શીંગોને ડીપ ફ્રાય કરીને મસાલો લગાવી બનાવેલી ચિપ્સ.	Cluster bean pods deep fried and well seasoned into a crispy snack.
-🍽 Extras (એક્સ્ટ્રા)
-Gujarati Name	English Name	Gujarati Description	English Description
-છાસ	Buttermilk	જીરું અને મીઠું નાખેલી તાજી અને પાચક છાસ.	Fresh and digestive buttermilk nicely flavored with salt and cumin.
-ખારી લસ્સી	Salted Lassi	મીઠું અને મસાલાઓ વડે વલોવેલી ઘટ્ટ દહીંની લસ્સી.	Thick, savory yogurt smoothly churned with salt and simple spices.
-મીઠી લસ્સી	Sweet Lassi	ખાંડ અને ક્રીમથી ભરેલી અત્યંત ગળ્યો અને ઘટ્ટ લસ્સી.	Thick, rich, and heavily sweetened creamy yogurt lassi.
-દહીં	Curd	શુદ્ધ દૂધમાંથી જમાવેલું સાદું અને તાજું દહીં.	Plain, thick, and freshly set wholesome curd from pure milk.
-ફૂટ ડિશ	Fruit Dish	વિવિધ તાજા ફળોના ટુકડાઓથી સજાવેલી સુંદર ડીશ.	An elegantly arranged platter containing assorted fresh fruit slices.
-બર્સ ઉપર ફૂટ કાઉન્ટર	Ice Fruit Counter	બરફ પર શણગારેલા તાજા ફળોનું આકર્ષક કાઉન્ટર.	An attractive, live counter beautifully displaying fresh fruits over ice.
-🥗 Chutney / Salad / Sambharo (ચટણી / સલાડ તથા સંભારાં)
-Gujarati Name	English Name	Gujarati Description	English Description
-લાલ ચટણી	Red Chutney	લાલ મરચાં અને લસણની અત્યંત તીખી ચટણી.	Highly spicy and fiery chutney intensely made from red chilies and garlic.
-લીલી ચટણી	Green Chutney	કોથમીર, મરચાં અને ફુદીનામાંથી પીસેલી સ્વાદિષ્ટ ચટણી.	A delicious green chutney vibrantly blended from coriander, green chilies, and mint.
-લસણની ચટણી	Garlic Chutney	તાજા લસણ અને મસાલાથી ભરેલી ચટાકેદાર ચટણી.	Tangy and heavily robust chutney primarily dominated by fresh garlic.
-કોથમીર મરચાની ચટણી	Coriander Chilli Chutney	લીલા મરચાં અને કોથમીરની તીખી અને જૈન ચટણી.	Spicy, simple chutney cleanly made from fresh coriander and green chilies.
-ફૂદીના ની ચટણી	Mint Chutney	ફુદીનાના પાન અને લીંબુમાંથી બનાવેલી પાચક ચટણી.	Digestive and incredibly fresh chutney featuring fragrant mint leaves and lemon.
-ટોમેટો કેચઅપ	Tomato Ketchup	બાળકોની પ્રિય એવી ટામેટાની મીઠી અને ખાટી ચટણી.	A universally loved sweet and tangy tomato-based condiment.
-પાપલ સે. કાઉન્ટર	Papal Salad Counter	વિવિધ પ્રકારના કાચા શાકભાજીઓનું લાઈવ સલાડ કાઉન્ટર.	A dedicated live counter fully displaying assorted fresh vegetable salads.
-બર્સ ઉપર ચીન સલાડ કાઉન્ટર	Ice Chinese Salad Counter	બરફ પર સજાવેલું ચાઈનીઝ સ્ટાઈલનું વિશિષ્ટ સલાડ કાઉન્ટર.	A distinct Chinese-style salad bar attractively presented over crushed ice.
-મીની સલાડ	Mini Salad	ડુંગળી, ટામેટા અને કાકડીનું મિશ્રિત નાનું સલાડ.	A small, mixed vegetable side salad comprising onions, tomatoes, and cucumbers.
-કુકુમ્બર સલાડ	Cucumber Salad	લીંબુ અને મીઠાથી શણગારેલું માત્ર કાકડીનું સલાડ.	A simple, refreshing salad consisting purely of sliced cucumbers with lemon.
-પાઇનેપલ કાંદા	Pineapple Onion Salad	પાઈનએપલ અને ડુંગળીનું ખાટ્ટા-મીઠાં સ્વાદવાળું અનોખું સલાડ.	A surprisingly sweet and tangy salad uniquely combining pineapples and onions.
-ફણગાવેલા કઠોળનું સલાડ	Sprouted Beans Salad	ફણગાવેલા મગ, ચણા અને મસાલાનું અત્યંત પૌષ્ટિક સલાડ.	A highly energetic and nutritious salad abundantly filled with sprouted beans.
-દોલા પોપા ચરેલા	Dola Popa Pickle	કાચી કેરી અને ખાસ મસાલાઓનું અથાણું.	A profoundly flavorful traditional pickle uniquely using raw mangoes and spices.
-તોડીયા મરચા	Green Chilli Pickle	તીખા લીલા મરચા અને રાઈના કુરિયાનું બનાવેલું અથાણું.	A fiery preserving pickle primarily made of green chilies and mustard seeds.
-મિક્સ પિકલ આચાર	Mixed Pickle	કેરી, લીંબુ અને શાકભાજીનું ચટાકેદાર મિક્સ અથાણું.	A tangy, mixed preserving pickle richly containing mangoes, lemons, and veggies.
-રાયતા આચાર	Raita Pickle	રાયતા મસાલાથી બનેલું સ્વાદિષ્ટ અને ખાટું અથાણું.	A delicious, pleasantly sour pickle intensely flavored with raita spices.
-ખાટા આચાર	Sour Pickle	દેશી પરંપરાગત ઢબે બનાવેલું વધુ ખાટું અથાણું.	Properly traditional style deeply sour and acidic vegetable pickle.
-કોલી બેન્ડનું ફૂગણી કુકુમ્બર	Cabbage Cucumber Salad	કોબીજ અને કાકડીનું મસાલેદાર દેશી શૈલીનું સલાડ.	A hearty, rustic style salad beautifully mixing cabbage and crunchy cucumbers.
-પાડી સંભારાં	Mixed Sambharo	પપૈયા, કોબીજ અને મરચાનો ગરમ અને હળવો વઘારેલો સંભારો.	A mildly tempered, subtly warm side dish of papaya, cabbage, and chillies.
-🍬 Bengali Sweets (બંગાળી મીઠાઈ)
-Gujarati Name	English Name	Gujarati Description	English Description
-ગુલાબ જાંબુ	Gulab Jamun	માવામાંથી બનેલા અને મીઠી ચાસણીમાં ડૂબેલા લાલ જાંબુ.	Deep-fried mawa balls luxuriously soaked in a sweet sugar syrup.
-રસ ગુલ્લા	Rasgulla	ફાટેલા દૂધના પનીરમાંથી બનેલી અત્યંત પોચી અને ગળકી મીઠાઈ.	Incredibly soft cottage cheese balls famously soaked in light sugar syrup.
-રસમલાઈ	Rasmalai	કેસર અને એલચીવાળા દૂધમાં ડૂબેલા ફ્લેટ રસગુલ્લા.	Soft, flattened cottage cheese discs decadently soaked in sweetened cardamom milk.
-ચમચમ	Cham Cham	ચાસણીમાં રંગબેરંગી અને નારિયેળની છીણથી શણગારેલી મીઠાઈ.	Colorful, syrup-soaked sweet delightfully garnished with desiccated coconut.
-કેસર રસ ગુલ્લા	Kesar Rasgulla	કેસરના સ્વાદવાળા પીળા અને અતિ મુલાયમ રસગુલ્લા.	Extremely soft and squishy yellow rasgullas prominently flavored with saffron.
-ચંદ્રકલ	Chandrakala	ચંદ્ર આકારની, માવો ભરેલી અને ચાસણીવાળી ક્રિસ્પી મીઠાઈ.	Moon-shaped, crispy deep-fried pastry generously stuffed with sweet mawa.
-કાજૂ કલેશ	Kaju Kalash	કાજુની પેસ્ટમાંથી તૈયાર કરેલી કળશ આકારની શાહી મીઠાઈ.	A regal, pot-shaped grand sweet meticulously crafted from rich cashew paste.
-પાઈનએપલ રોસોગુલ્લા	Pineapple Rosogulla	પાઈનએપલ ફ્લેવરવાળા ખાસ પ્રકારના મીઠા રસગુલ્લા.	A special, uniquely flavored variant of sweet rasgullas with pineapple.
-પાનની જેલી	Paan Jelly	અસલ મીઠા પાનનો સ્વાદ ધરાવતી પારદર્શક મીઠી જેલી.	A translucent, wonderfully sweet jelly accurately possessing the taste of sweet paan.
-મલાઈ ચમચમ	Malai Cham Cham	વચ્ચે મલાઈ અને માવો ભરેલી સ્વાદિષ્ટ ચમચમ મીઠાઈ.	A delicious cham cham variety heavily stuffed with rich cream and mawa.
-બટર સ્કોચ બાટી	Butterscotch Bati	બટરસ્કોચના સ્વાદવાળી અને ચાસણીમાં ડૂબેલી મીઠાઈ બાટી.	A syrup-soaked sweet bati completely drenched in butterscotch flavor.
-પાઈનએપલ સંગમ	Pineapple Sangam	પાઈનએપલ અને માવાના મિશ્રણથી બનેલી અનોખી મીઠાઈ.	An absolutely unique sweet elegantly blending mawa and ripe pineapple.
-🌰 DryFruit Liquid ડ્રાયફ્રૂટ લિકવિડ
-Gujarati Name	English Name	Gujarati Description	English Description
-બાસુંદી	Basundi	દૂધને લાંબો સમય ઉકાળીને બનાવેલી ઘટ્ટ અને મીઠી વાનગી.	A thick, highly condensed sweetened milk dessert effectively boiled for hours.
-રસ માધુરી	Ras Madhuri	દૂધ અને માવાની પ્રવાહી અને ડ્રાયફ્રુટ્સથી ભરેલી વાનગી.	A rich, liquid-like dessert opulently filled with milk, mawa, and dry fruits.
-બટર સ્કોચ બાસુંદી	Butterscotch Basundi	બટરસ્કોચની ફ્લેવર સાથેની અતિ લોકપ્રિય અને મીઠી બાસુંદી.	A widely popular, sweet basundi powerfully carrying butterscotch flavor.
-માવા મીલ્ક	Mawa Milk	માવો અને મીઠી ચાસણી ઉમેરીને ઉકાળેલું ગરમ કે ઠંડું દૂધ.	Hot or cold milk heavily boiled with mawa and sweet syrup.
-કેસર ડ્રાયફ્રૂટ બાસુંદી	Kesar Dry Fruit Basundi	કેસરના રંગથી સજાવેલી અને વ્યાપક ડ્રાયફ્રુટ્સ વાળી બાસુંદી.	Saffron-tinted basundi elaborately garnished with a vast variety of dry fruits.
-કિવી મીઠાઈ	Kiwi Sweet	કિવીના ખાટા-મીઠા સ્વાદવાળી પ્રવાહી અથવા નરમ મીઠાઈ.	A soft or semi-liquid sweet exhibiting the tangy-sweet taste of fresh kiwi.
-કેસર ડ્રાયફ્રૂટ માધુરી	Kesar Dry Fruit Madhuri	રસ માધુરીમાં કેસર અને ભરપૂર ડ્રાયફ્રુટ્સનું અદભુત મિશ્રણ.	A fantastic blend thoroughly featuring saffron and mixed dry fruits in ras madhuri.
-રોઝબેરી	Roseberry	ગુલાબની પાંખડીઓ અને દૂધનું સ્વાદિષ્ટ ગુલાબી પીણું.	A delicate, pink-colored exquisite drink made gracefully from milk and rose petals.
-કલકત્તા વાઘા	Kolkata Vanga	દૂધ અને કલકત્તી પાનમાંથી બનેલું લિક્વિડ ડેઝર્ટ.	A highly refreshing liquid dessert intricately made with milk and Kolkata paan.
-સ્પે. પાયલ લિકવિડ	Special Payal Liquid	પાયલ કેટરિંગની ખાસ સિક્રેટ રેસિપીવાળી શાનદાર લિક્વિડ મીઠાઈ.	A magnificent, secret-recipe liquid sweet exclusively crafted by Payal Catering.
-🍬 Sweets (મીઠાઈ)
-Gujarati Name	English Name	Gujarati Description	English Description
-મોતીપુર લાડુ	Motichoor Ladoo	ચણાના લોટની ઝીણી બુંદીમાંથી બનાવેલા શુદ્ધ ઘીના લાડુ.	Pure ghee ladoos tightly formed from extremely fine gram flour boondi droplets.
-કેસર ફ્રાયફૂટ લાડુ	Kesar Dry Fruit Ladoo	કેસર અને ભરપૂર ડ્રાયફ્રુટ્સવાળા પ્રીમિયમ મીઠા લાડુ.	Premium sweet ladoos incredibly rich in dry fruits and distinctly scented with saffron.
-સ્પે. બરફી	Special Barfi	શુદ્ધ દૂધના માવામાંથી બનાવેલી ઉત્તમ સાદી બરફી.	An exceptionally fine, classic plain barfi made genuinely from pure milk mawa.
-મોહનલાલ	Mohanthal	ચણાના લોટ અને ઘીમાંથી બનેલી ટ્રેડિશનલ દાણાદાર મીઠાઈ.	Traditional, grainy textured Gujarati sweet patiently made from gram flour and ghee.
-અંજીરપાક	Anjeer Pak	અંજીર અને મેવાને પીસીને બનાવેલી સ્વાસ્થ્યવર્ધક મીઠાઈ.	A remarkably healthy sweet thickly made by mashing figs (anjeer) and nuts.
-ગુલાબ કેક	Gulab Cake	ગુલાબના સ્વાદ અને સુગંધવાળી માવાની સુંદર મીઠાઈ.	A visually beautiful mawa-based sweet vividly emitting rose flavor and fragrance.
-ખજૂરપાક	Khajur Pak	ખજૂર અને ડ્રાયફ્રુટ્સમાંથી ખાંડ વગર બનાવેલી પૌષ્ટિક મીઠાઈ.	Highly nutritious, sugar-free sweet fundamentally prepared from dates and assorted nuts.
-અંજર કતરી	Anjeer Katri	કાજુ કતરીની જેમ અંજીરની પેસ્ટમાંથી બનાવેલી પાતળી મીઠાઈ.	A thin, diamond-shaped delicate sweet smartly made from fig paste, resembling kaju katli.
-પાઈનએપલ બરફી	Pineapple Barfi	પાઈનએપલના કટકાથી શણગારેલી અને તેના સ્વાદવાળી બરફી.	A tasty milk barfi attractively adorned with and robustly tasting of pineapple chunks.
-બીજ બરફી	Beej Barfi	મગજતરી અને અન્ય બીજમાંથી બનેલી પૌષ્ટિક અને મીઠી બરફી.	A sweet, highly nutritious barfi cleverly crafted using melon seeds and other nuts.
-ચોકલેટ બરફી	Chocolate Barfi	બાળકોને ગમતી ચોકલેટના બે પડવાળી સ્વાદિષ્ટ બરફી.	A delicious, highly liked two-layered barfi prominently featuring a rich chocolate layer.
-સ્ટ્રોબેરી બરફી	Strawberry Barfi	ગુલાબી રંગની અને સ્ટ્રોબેરી ફ્લેવરવાળી આકર્ષક બરફી.	A visually appealing, brightly pink barfi infused strongly with strawberry flavor.
-કલકત્તા બરફી	Kolkata Barfi	કલકત્તાના પાન અને અન્ય મસાલાઓ વાળી રિચ બરફી.	A deeply rich barfi distinctly incorporating flavors and spices native to Kolkata.
-રાજભોગ બરફી	Rajbhog Barfi	કેસર અને અનેક જાતના ડ્રાયફ્રુટ્સથી સજાવેલી શાહી બરફી.	A truly royal barfi elegantly garnished with saffron strands and myriad dry fruits.
-ગ્રીન એપલ	Green Apple Sweet	લીલા સફરજન જેવા આકાર અને સ્વાદવાળી સુંદર વાનગી.	A beautiful, artistically crafted sweet genuinely mimicking the shape and taste of a green apple.
-ચાંદની કેક	Chandni Cake	ચાંદીના વરખથી શણગારેલી સફેદ રંગની માવાની બરફી.	A brilliantly white mawa barfi lavishly adorned with edible silver foil (vark).
-મલાઈ કેક	Malai Cake	શુદ્ધ દૂધની મલાઈથી બનાવેલી અત્યંત નરમ અને ક્રીમી મીઠાઈ.	An extremely soft and wonderfully creamy sweet inherently relying on pure milk cream.
-માહી કેક	Mahi Cake	ડ્રાયફ્રુટ્સ અને માવાના ભરણવાળી એક અદભુત મીઠાઈ.	A wonderful, dense sweet cake richly filled with a heavenly mix of dry fruits and mawa.
-રોઝ કેક	Rose Cake	ગુલાબજળના સ્વાદ અને પાંખડીઓની સજાવટવાળી માવાની મીઠાઈ.	A mawa sweet aesthetically decorated with rose petals and mildly flavored with rose water.
-સ્ટ્રોબેરી રોલ	Strawberry Roll	અંદરથી માવો અને બહારથી સ્ટ્રોબેરીના પડવાળો ગોળ રોલ.	A cylindrical sweet roll with an outer strawberry casing heavily concealing a mawa filling inside.
-પાઈનએપલ રોલ	Pineapple Roll	પાઈનએપલ અને માવાના મિશ્રણનો સ્વાદિષ્ટ અને ગોળાકાર રોલ.	A delicious, perfectly round roll thoroughly blending mawa with authentic pineapple flavors.
-ગુલાબવાડી રોલ	Gulabwadi Roll	ગુલાબ અને ડ્રાયફ્રુટ્સ ભરેલો અત્યંત સુગંધિત મીઠો રોલ.	A highly fragrant sweet roll lavishly packed with crushed roses and crunchy dry fruits.
-નારંગી લાડુ	Orange Ladoo	નારંગીના રંગ અને હળવા સ્વાદવાળા સ્વાદિષ્ટ મોતીચૂરના લાડુ.	Delicious, soft motichoor ladoos bearing a vibrant orange color and subtle citrus flavor.
-ખજુર રોલ	Khajur Roll	ખાંડના ઉપયોગ વગર ખજૂર અને કાજુ-બદામનો હેલ્ધી રોલ.	A robustly healthy, sugar-free cylindrical roll strictly made from natural dates, cashews, and almonds.
-અપ્રિકોટ હની	Apricot Honey	જરદાળુમાં મધ નાખીને બનાવેલી નવી અને પૌષ્ટિક મીઠાઈ.	A nourishing, vastly novel sweet expertly combining dried apricots and pure, golden honey.
-કલકત્તા બરફી	Kolkata Barfi	કલકત્તાના પાન અને અન્ય મસાલાઓ વાળી રિચ બરફી.	A deeply rich barfi distinctly incorporating flavors and spices native to Kolkata.
-રાજભોગ બરફી	Rajbhog Barfi	કેસર અને અનેક જાતના ડ્રાયફ્રુટ્સથી સજાવેલી શાહી બરફી.	A truly royal barfi elegantly garnished with saffron strands and myriad dry fruits.
-ગ્રીન એપલ	Green Apple Sweet	લીલા સફરજન જેવા આકાર અને સ્વાદવાળી સુંદર વાનગી.	A beautiful, artistically crafted sweet genuinely mimicking the shape and taste of a green apple.
-🍨 Shrikhand (શ્રીખંડ)
-Gujarati Name	English Name	Gujarati Description	English Description
-સેફ્રોન	Saffron Shrikhand	શુદ્ધ કેસર નાખીને બનાવેલો સોનેરી રંગનો મધુર શ્રીખંડ.	A luscious, golden-hued sweet shrikhand properly infused with pure saffron.
-ફ્રૂટ	Fruit Shrikhand	સફરજન, દ્રાક્ષ અને દાડમ જેવા તાજા ફળો વાળો શ્રીખંડ.	A sweet shrikhand comprehensively filled with fresh fruits like apples, grapes, and pomegranates.
-જેમ્સ જેલી	Gems Jelly Shrikhand	બાળકો માટે ખાસ ચોકલેટ જેમ્સ અને જેલીવાળો શ્રીખંડ.	A vastly popular children's shrikhand cleverly dotted with chocolate gems and fruit jelly.
-પાઈનએપલ	Pineapple Shrikhand	પાઈનએપલની ખાટા-મીઠી ફ્લેવરવાળો હળવો શ્રીખંડ.	A light, incredibly smooth shrikhand proudly featuring the sweet and sour notes of pineapple.
-કેસર	Kesar Shrikhand	કેસર ઘૂંટીને દહીંમાં મિક્સ કરેલો પરંપરાગત શ્રીખંડ.	A purely traditional shrikhand consistently blended with intricately ground saffron.
-બટર સ્કોચ ફ્રાયફૂટ	Butterscotch Dryfruit Shrikhand	કેરેમલ બટરસ્કોચ અને ક્રંચી ડ્રાયફ્રુટ્સવાળો યુનિક શ્રીખંડ.	A completely unique shrikhand seamlessly melding caramel butterscotch with crunchy dry fruits.
-રાજસ્થાની ફ્રાયફૂટ	Rajasthani Dryfruit Shrikhand	રાજસ્થાની રાજાશાહી સ્વાદ અને અખૂટ ડ્રાયફ્રુટ્સલથી સભર.	A heavily loaded shrikhand packed with countless dry fruits and bearing a royal Rajasthani taste.
-અંજર કાજુ	Anjeer Kaju Shrikhand	અંજીરની મીઠાશ અને કાજુની કડકાઈવાળો બહુ લોકપ્રિય શ્રીખંડ.	A hugely popular shrikhand excellently pairing the stark sweetness of figs with crunchy cashews.
-મેંગો	Mango Shrikhand	પાકી કેરીના પલ્પમાંથી બનાવેલો સીઝનલ અને લોકપ્રિય શ્રીખંડ.	A highly seasonal and loved shrikhand made authentically from ripe mango pulp.
-વેનીલા ફ્રાયફૂટ	Vanilla Dryfruit Shrikhand	વેનીલા આઈસક્રીમ જેવો સ્વાદ અને ડ્રાયફ્રુટ્સવાળો શ્રીખંડ.	A decadent shrikhand mimicking vanilla ice cream and heavily peppered with varied dry fruits.
-ચોકલેટ ચિપ્સ	Chocolate Chips Shrikhand	ચોકલેટ ફ્લેવરવાળા દહીંમાં ડાર્ક ચોકલેટના ચિપ્સ.	A novel chocolate-flavored slightly sour yogurt base liberally studded with dark chocolate chips.
-અમેરિકન ફ્રાયફૂટ	American Dryfruit Shrikhand	અમેરિકન ડ્રાયફ્રુટ્સ અને ખાસ અસેન્સવાળો મીઠો શ્રીખંડ.	A sweet, exquisite shrikhand notably flavored closely with american essences and premium nuts.
-કેસર ફ્રાયફૂટ ચોકલેટ	Kesar Dryfruit Chocolate Shrikhand	કેસર, ડ્રાયફ્રુટ્સ અને ચોકલેટનું આશ્ચર્યજનક મિશ્રણ ધરાવતો શ્રીખંડ.	A surprising but wonderfully balanced shrikhand marrying saffron, dry fruits, and chocolate.
-🍥 Peda (પેંડા)
-Gujarati Name	English Name	Gujarati Description	English Description
-ધારાવાર પેંડા	Dharwad Peda	કર્ણાટકના ધારવાડ શહેરના પ્રખ્યાત આછા બ્રાઉન રંગના પેંડા.	Famous, slightly granular, and light brown pedas originally from Dharwad in Karnataka.
-માવાના પેંડા	Mawa Peda	શુદ્ધ દૂધને લાંબો સમય ઉકાળીને બનાવેલા નરમ અને સાદા પેંડા.	Incredibly soft, plain pedas made tirelessly by boiling pure milk over a long period.
-ચોકલેટ પેંડા	Chocolate Peda	બાળકોને હંમેશા પસંદ આવતા ચોકલેટના સ્વાદવાળા ગોળ પેંડા.	Round, delightfully sweet pedas entirely flavored with cocoa to please children.
-મલાઈફુલ પેંડા	Malai Peda	દૂધની મલાઈથી ભરપૂર અને મોંમાં ઓગળી જાય તેવા મુલાયમ પેંડા.	Extremely smooth, melt-in-your-mouth pedas heavily enriched with pure milk cream.
-થાબડી પેંડા	Thabdi Peda	દૂધને ફાડીને દાણાદાર બનાવીને શેકેલા કાઠિયાવાડી મીઠા પેંડા.	Grainy, deeply roasted Kathiyawadi style sweet pedas essentially made by curdling and reducing milk.
-કેસર મલાઈફુલ પેંડા	Kesar Malai Peda	કેસર અને મલાઈના અદભુત મિશ્રણમાંથી તૈયાર કરેલા રોયલ પેંડા.	Royal, deeply rich pedas miraculously created from an exquisite blend of saffron and thick cream.
-કેસર ધારાવાર પેંડા	Kesar Dharwad Peda	ધારવાડ પેંડામાં કેસરની સુગંધ ઉમેરીને બનાવેલી નવી વેરાયટી.	A novel variety carefully adding a distinct saffron aroma to the classic Dharwad peda recipe.
-🧁 Mawa (માવો)
-Gujarati Name	English Name	Gujarati Description	English Description
-પાઈનએપલ માવો	Pineapple Mawa	પાઈનએપલના રસ અને ટુકડાવાળી માવાની મીઠી વાનગી.	A distinctively sweet mawa dish creatively containing the juice and chunks of raw pineapple.
-મેંગો માવો	Mango Mawa	કેરીના પલ્પને માવા સાથે શેકીને બનાવેલી સીઝનલ મીઠાઈ.	A seasonal summer sweet meticulously made by cooking thick mango pulp patiently with mawa.
-વેનીલા ફ્રાયફૂટ માવો	Vanilla Dry Fruit Mawa	વેનીલાના સુગંધિત સ્વાદ અને ડ્રાયફ્રુટ્સથી ભરેલો પોચો માવો.	A soft, highly fragrant mawa richly loaded with assorted dry fruits and vanilla essence.
-🌰 Kaju Special (કાજુ સ્પેશિયલ)
-Gujarati Name	English Name	Gujarati Description	English Description
-કાજુ કતરી	Kaju Katri	શુદ્ધ કાજુ અને ખાંડમાંથી બનાવેલી ચાંદીના વરખવાળી મીઠાઈ.	A premier classic Indian sweet expertly made purely from cashew paste, sugar, and silver foil.
-કાજુ હની	Kaju Honey	કાજુની મીઠાઈમાં મધનો નવો અને સ્વાસ્થ્યવર્ધક ટચ.	A healthy, relatively new touch perfectly applied to cashew sweets by incorporating pure honey.
-કાજુ ભૂજિયા	Kaju Bhujia	કાજુના લોટમાંથી બનાવેલી અને નમકીન જેવો આકાર ધરાવતી મીઠાઈ.	A sweet and satisfying delicacy surprisingly shaped identically to savory bhujia but made of cashew.
-કાજુ અંજર રોલ	Kaju Anjeer Roll	બહારથી કાજુ અને અંદરથી અંજીરના પૂરણવાળો સ્વાદિષ્ટ રોલ.	A delicious sweet roll featuring an outer cashew casing comprehensively enclosing an inner fig filling.
-અખરોટ પ્લાઝા	Akhrot Plaza	અખરોટ અને કાજુના મિશ્રણમાંથી બનાવેલી ચોરસ આકારની વાનગી.	A square-shaped grand delicacy efficiently combining coarsely chopped walnuts firmly with a cashew base.
-ફ્રાયફૂટ કાજુ એક્સોટિકા	Dry Fruit Kaju Exotica	તળેલા કાજુ અને અન્ય પ્રીમિયમ ડ્રાયફ્રુટ્સની શાહી અને મોંઘી મીઠાઈ.	A royal, significantly premium sweet copiously featuring fried cashews densely packed alongside exotic nuts.
-🫕 Kathiyawadi Vegetable (કાઠીયાવાડી વેજિટેબલ)
-Gujarati Name	English Name	Gujarati Description	English Description
-અનમોલ સ્પે. ઊંધિયું	Anmol Special Undhiyu	તાજા શાકભાજી અને મુઠીયામાંથી બનતું શિયાળાનું ખાસ ઊંધિયું.	A special winter delicacy richly made from mixed tropical vegetables and muthiya.
-સુરતી ઊંધિયું	Surti Undhiyu	લીલા મસાલા અને પાપડીથી ભરપૂર સ્વાદિષ્ટ સુરતી ઊંધિયું.	Delicious Surti style undhiyu traditionally filled with green spices and flat beans.
-મકાઈ કેપ્સિકમ બટેટા	Makai Capsicum Bateta	અમેરિકન મકાઈ, કેપ્સિકમ અને બટેટાનું મસાલેદાર શાક.	A spicy, comforting sabzi seamlessly blending sweet corn, capsicum, and potatoes.
-મકાઈ બટેટા	Makai Bateta	મકાઈના દાણા અને બટેટામાંથી બનાવેલું ટેસ્ટી ગ્રેવીવાળું શાક.	A tasty, mildly spiced dish essentially comprising sweet corn kernels and potatoes.
-તુરીયા વટાણા લીલી દ્રાક્ષ	Turia Vatana Green Grapes	તુરીયા, લીલા વટાણા અને લીલી દ્રાક્ષનો ખાટો-મીઠો સમન્વય.	A unique sweet and sour mix thoughtfully combining ridge gourd, peas, and green grapes.
-તુરીયા પાપરા	Turia Papra	તુરીયા અને પાપડીના દાણાનું દેશી સ્વાદવાળું કાઠિયાવાડી શાક.	A distinctly rustic Kathiyawadi curry naturally made with ridge gourd and flat beans.
-તુરીયા વટાણા	Turia Vatana	તુરીયા અને લીલા વટાણાનું હળવો મસાલો નાખેલું ગ્રેવી શાક.	A softly spiced, homestyle curry beautifully starring ridge gourd and fresh green peas.
-સુવા તુરીયા	Suva Turia	સુવાની ભાજી અને તુરીયામાંથી બનાવેલું પૌષ્ટિક અને સુગંધિત શાક.	A highly nutritious, fragrant dish carefully preparing ridge gourd with fresh dill leaves.
-વટાણાનું શાક	Vatana Shaak	માત્ર લીલા વટાણામાંથી બનાવેલું સાદું અને સ્વાદિષ્ટ શાક.	A pleasantly simple, deeply flavorful curry solely made from fresh green peas.
-ફ્લાવર વટાણા	Flower Vatana	ફુલેવર અને વટાણાનું રોજિંદા ભોજન માટે ઉત્તમ મસાલેદાર શાક.	A classic, spicy everyday curry reliably pairing cauliflower florets and green peas.
-અંજુર વટાણા	Anjeer Vatana	ખાટા અને મીઠા અંજીર સાથે વટાણાનું અનોખું મિશ્રણ.	A highly unique, rich vegetable comfortably matching fresh peas with sweet dried figs.
-કોર્ન વટાણા જંબો મુઠીયા	Corn Vatana Jumbo Muthiya	મકાઈ, વટાણા અને મોટા ચણાના લોટના મુઠીયાનું શાક.	A hearty curry notably featuring sweet corn, peas, and jumbo gram flour dumplings.
-અંજુર વટાણા કાજુ	Anjeer Vatana Kaju	અંજીર, વટાણા અને કાજુની ગ્રેવીવાળી એક રિચ અને શાહી વાનગી.	A thick, profoundly royal gravy dish luxuriously bringing together figs, peas, and cashews.
-બટેટા વટાણા	Bateta Vatana	બટાકા અને લીલા વટાણાનું હળવા રસાવાળું પ્રખ્યાત શાક.	An incredibly famous, light gravy curry simply but perfectly cooking potatoes and peas.
-વટાણા ખાંડવી	Vatana Khandvi	ખાંડવીના ટુકડા અને વટાણાનું દેશી વઘારવાળું શાક.	A beautifully tempered rustic dish creatively tossing soft khandvi rolls with peas.
-કોબી વટાણા	Kobi Vatana	ઝીણી સમારેલી કોબીજ અને વટાણાનું હળવું અને ક્રિસ્પી શાક.	A remarkably light, quickly stir-fried dish seamlessly matching finely chopped cabbage and peas.
-ભરેલા બટાટા વટાણા	Bharela Batata Vatana	મસાલો ભરેલા નાના બટાકા અને વટાણાની ચટાકેદાર વાનગી.	A tangy, satisfying specialty excellently combining spice-stuffed baby potatoes with fresh peas.
-ભરેલા રીંગણા વટાણા	Bharela Ringan Vatana	સીંગદાણા અને તલનો મસાલો ભરેલા રીંગણા અને વટાણા.	A wildly savory dish carefully cooking stuffed brinjals alongside green peas.
-લીલવા દાણા મુઠીયા	Lilva Dana Muthiya	તુવેરના લીલવા દાણા અને ઘઉંના મુઠીયાનું ખાસ સુરતી શાક.	A highly special Surti curry generously containing fresh pigeon peas and wheat dumplings.
-ફ્લાવર વાલોર મિક્સ કઠોળ	Flower Valor Mix Kathol	ફુલેવર, વાલોર પાપડી અને મિક્સ કઠોળનું પોષણયુક્ત શાક.	A densely nutritious, thoroughly mixed subzi featuring cauliflower, beans, and varied legumes.
-ભરેલા ટીંડોરા	Bharela Tindora	લીલા ટીંડોરામાં તીખો અને ગળ્યો મસાલો ભરીને બનાવેલું શાક.	Tender ivy gourds stuffed expertly with a tantalizing sweet and spicy peanut mix.
-મિક્સ વેજિટેબલ	Mix Vegetable	અનેક પ્રકારના તાજા શાકભાજીઓનો સમન્વય ધરાવતું શાક.	A versatile, universally loved dish efficiently combining a broad variety of mixed vegetables.
-ભરેલા રીંગણા બટેટા	Bharela Ringan Bateta	કાઠિયાવાડનું પ્રખ્યાત ભરેલા રીંગણા અને બટેટાનું મસાલેદાર શાક.	Kathiyawad's highly famous, spicy curry flawlessly pairing stuffed eggplants and potatoes.
-ભરેલા બટેટા ફુગરી	Bharela Bateta Fugri	બટાકાને ફુગ્ગાની જેમ મસાલાથી ભરીને બનાવેલી ચટાકેદાર વાનગી.	A wonderfully tangy preparation completely stuffing hollowed potatoes with an intense spice mix.
-રીંગણાનું રસાવાળું	Ringan Rasavalu	રીંગણાના ટુકડા અને પાતળા રસાવાળું અત્યંત સ્વાદિષ્ટ અને દેશી શાક.	A traditionally rustic, highly delicious eggplant curry swimming in a thin, watery gravy.
-બટેટા ટોમેટાનું શાક	Bateta Tomato Shaak	રોજિંદા ઘરગથ્થુ ભોજન જેવું બટાકા અને ટામેટાનું રસાવાળું શાક.	An everyday, comforting home-style curry quickly cooking potatoes with ripe tomatoes.
-ભરેલા રીંગણા તુવેર	Bharela Ringan Tuver	ભરેલા નાના રીંગણા અને લીલી તુવેરના દાણાનું કાઠિયાવાડી શાક.	A classic Kathiyawadi thick curry harmoniously blending stuffed brinjals with fresh tuvar beans.
-અંજુર બટેટા	Anjeer Bateta	અંજીરની મીઠાશ અને બટાકાના સ્વાદવાળું એક આધુનિક વેજિટેબલ.	A relatively modern, gently sweet vegetable successfully pairing soft potatoes with dried figs.
-પનીર બટેટા	Paneer Bateta	સોફ્ટ પનીરના ટુકડા અને બટાકાની ગ્રેવીવાળી ઉત્તમ વાનગી.	A genuinely excellent, thick gravy dish successfully featuring soft Indian cheese chunks and potatoes.
-વડી શાક	Vadi Shaak	મગની કે અડદની દાળની સૂકવણીની વડીઓમાંથી બનાવેલું શાક.	A traditional, hugely flavorful curry essentially made from sun-dried spiced lentil dumplings.
-વડી બટેટાનું શાક	Vadi Bateta Shaak	વડી અને બટાકાનું રસાવાળું, તીખું અને ખૂબ જ પ્રખ્યાત શાક.	An incredibly famous, spicy, and watery curry heavily making use of dried vadis and potatoes.
-ફરસી ટોકડીનું શાક	Farsi Tokdi Shaak	બેસનની કડક પૂરીઓ (ટોકડી) નોલોચો કરીને બનાવેલું શાક.	A vastly unique curry efficiently utilizing crushed, crispy, gram flour puris as its base.
-પાડા કેળાનું શાક	Raw Banana Shaak	કાચા કેળાના ટુકડાઓમાંથી જૈન રીતે બનાવેલું સ્વાદિષ્ટ શાક.	A deeply delicious, Jain-friendly curry fundamentally using diced raw, unripe bananas.
-પાડા ટોમેટાનું શાક	Raw Tomato Shaak	સામાન્ય છતાં સ્વાદિષ્ટ કાચા ટામેટા અને બટાકા વગરનું શાક.	A simple but sharply savory curry largely reliant on unripe tomatoes and mild spices.
-કાયા કેળાનું શાક	Kaya Banana Shaak	કાચા કેળાની ગ્રેવીવાળી અને મસાલેદાર અત્યંત સુંદર ડીશ.	An extremely beautiful, moderately spicy gravy dish meticulously prepared with raw green bananas.
-સેવયા પાપડી તુવેર	Sevya Papdi Tuver	પાપડી, તુવેર અને સેવમાંથી બનતું લગ્નની રસોઈનું શાક.	A staple wedding curry traditionally boiling flat beans and tuvar, garnished with sev.
-દૂધી બટેટા વટાણા	Dudhi Bateta Vatana	તાજી દૂધી, બટાકા અને લીલા વટાણાનું પૌષ્ટિક શાક.	A highly wholesome curry predictably combing freshly cut bottle gourd, potatoes, and peas.
-દૂધી બટેટાનું શાક	Dudhi Bateta Shaak	દૂધી અને બટાકાનું હળવો મસાલો નાખેલું રોજિંદુ શાક.	An everyday, lightly seasoned subzi plainly boiling bottle gourd and potatoes.
-દૂધી રસાવાળી	Dudhi Rasavali	માત્ર દૂધીના ઝીણા ટુકડાવાળું પાતળી ગ્રેવીનું ખૂબ જ હળવું શાક.	An extremely light, digestible curry consistently made of finely diced bottle gourd in thin gravy.
-દૂધી ચણાની દાળ	Dudhi Chana Dal	દૂધી અને ચણાની દાળનું મિશ્રણ ધરાવતું પ્રોટીનયુક્ત શાક.	A widely consumed, protein-rich dish thickly cooking bottle gourd chunks with split chickpeas.
-દૂધી ટોમેટા વટાણા	Dudhi Tomato Vatana	દૂધી, ટામેટા અને લીલા વટાણાનો ખાટ્ટો અને તીખો સમન્વય.	A sour and somewhat spicy amalgamation reliably featuring bottle gourd, tomatoes, and peas.
-કેળા પરવળનું શાક	Kela Parval Shaak	લીલા પરવળ અને કેળાનું ખાસ વઘારવાળું શાક.	A specially tempered, mild curry elegantly blending pointed gourd strictly with raw bananas.
-પરવળ ભરેલ	Stuffed Parval	મસાલો ભરેલા પરવળને ધીમા તાપે પકાવીને બનાવેલી વાનગી.	Pointed gourds diligently stuffed with spices and uniformly cooked over a remarkably slow fire.
-મગ મેથીનું શાક	Mag Methi Shaak	બાફેલા મગ અને તાજી મેથીની ભાજીનું પૌષ્ટિક મિશ્રણ.	A highly nutritious, slightly bitter mix confidently joining boiled moong beans and fresh fenugreek.
-સેવ ટોમેટા	Sev Tomato	ટામેટાની ખાટી-મીઠી ગ્રેવીમાં બેસનની જાડી સેવ નાખેલું કાઠિયાવાડી શાક.	A renowned Kathiyawadi curry vividly featuring thick besan sev heavily soaked in tomato gravy.
-સુકી ભાજી	Dry Vegetable	બાફેલા બટાકાને વઘારીને બનાવેલી સેન્ડવીચ કે ઢોંસા જેવી ભાજી.	A dry, lightly tempered mash essentially made from boiled potatoes, suited for dosas.
-પોટેટો ચીપ્સ વીધ ફ્રાયફૂટ	Potato Chips with Dryfruit	બટાકાની ફ્રાય કરેલી ચિપ્સમાં ડ્રાયફ્રુટ્સનો ઉમેરો કરેલું શાક.	A somewhat dry curry successfully introducing fried potato slices fully enriched with nuts.
-કેલાની ચીપ્સ	Banana Chips	કાચા કેળાની પાતળી અને કડક ચિપ્સનું મસાલેદાર સુકું શાક.	A dry, notably spicy vegetable meticulously comprising crispy, thinly sliced raw banana chips.
-ભરેલા ટીંડોરા	Stuffed Tindora	મસાલાથી ભરેલા નાના સાઇઝના ટીંડોરાની રસદાર વાનગી.	A juicy, richly flavored delicacy consistently cooking small ivy gourds lavishly stuffed with spices.
-કાજુ કારેલા	Kaju Karela	કારેલાની કડવાશને કાજુની મીઠાશથી બેલેન્સ કરતું અનોખું શાક.	A decidedly unique curry artfully balancing the bitterness of bitter gourd completely with sweet cashews.
-કારેલા પોટેટો ચીપ્સ	Karela Potato Chips	કારેલા અને બટાકાની ચિપ્સને ડીપ ફ્રાય કરી બનાવેલું સુકું શાક.	A brilliantly dry subzi carefully crafted by deep-frying bitter gourd and potato thinly.
-કંટોલા	Kantola Vegetable	ચોમાસામાં જ મળતા કંટોલા (કંકોડા) નું શક્તિવર્ધક શાક.	A highly energizing seasonal curry reliably utilizing freshly sourced monsoon spiny gourds.
-ફ્લાવર બટેટા	Flower Bateta	ફુલેવર અને બટાકાનું સૌથી લોકપ્રિય અને સ્વાદિષ્ટ શાક.	The most popular, universally acceptable tasty curry simply cooking cauliflower and potatoes.
-રીંગણાનો ઓલો	Ringan no Olo	શેકેલા રીંગણાનો ચૂરમાં કરીને લીલા મસાલામાં વઘારેલો ઓળો.	A deeply smoky Kathiyawadi delicacy traditionally made by mashing thoroughly fire-roasted eggplants.
-ટોકડીનું શાક	Tokdi Shaak	બેસનની પૂરીઓમાંથી વધેલા ભૂકાનું ગ્રેવીવાળું ચટાકેદાર શાક.	A highly tangy, gravy-based dish cleverly utilizing leftover pieces of crispy gram flour puris.
-કારેલાના ખલવા	Karela khalwa	કારેલાને લાંબો સમય પકાવીને તેની કડવાશ દૂર કરેલું તીખું શાક.	A spicy, long-cooked delicacy actively removing the severe bitterness traditionally associated with bitter gourd.
-🫕 Punjabi Vegetable (પંજાબી વેજિટેબલ)
-Gujarati Name	English Name	Gujarati Description	English Description
-પાયલ સ્પે.	Payal Special	પાયલ કેટરિંગની પોતાની ખાસ ગ્રેવીથી બનેલી પંજાબી વાનગી.	A signature Punjabi dish securely guarding Payal Catering's exclusively rich, secret gravy recipe.
-દમ આલુ	Dum Aloo	નાના બટાકાને તીખી લાલ ગ્રેવીમાં ધીમા તાપે પકાવેલું શાક.	A robust curry steadily slow-cooking whole baby potatoes strictly within a spicy red gravy.
-કાશ્મીરી દમ આલુ	Kashmiri Dum Aloo	સફરજન, પાઈનેપલ અને ડ્રાયફ્રુટ્સ વાળી મીઠી અને વાઈટ ગ્રેવીની વાનગી.	A largely sweet, mild dish graciously bathing baby potatoes deeply in a white fruit-and-nut gravy.
-તવા મેથીવટા	Tawa Methi Vada	મેથી અને વટાણાને તવા પર ડુંગળી અને ટામેટા સાથે સાંતળેલું.	A dry, heavily aromatic stir-fry quickly tossing fenugreek leaves and peas directly on a tawa.
-વેજ. હંગામા	Veg Hungama	ઘણા બધા શાકભાજી અને અત્યંત તીખી ગ્રેવીવાળું ધમાકેદાર શાક.	An explosive, heavily spiced Punjabi curry fiercely incorporating a wide variety of mixed veggies.
-વેજ. મનપસંદ	Veg Manpasand	વિવિધ પ્રકારની ગ્રેવી મિક્સ કરીને બનાવેલું પોતાની પસંદગીનું શાક.	A customizable, heartily satisfying vegetable dish freely mixing different types of savory gravies.
-વેજ. જયપુરી	Veg Jaipuri	રાજસ્થાની અને પંજાબી મસાલાઓનું પાપડના ટુકડા સાથેનું શાક.	A hybrid curry strongly uniting Rajasthani and Punjabi spices, notably garnished with crushed papad.
-કોર્ન કેપ્સિકમ પાલક પનીર	Corn Capsicum Palak Paneer	મકાઈ, કેપ્સિકમ, પાલક અને પનીરનું હેલ્ધી મિક્સ વેજિટેબલ.	A phenomenally healthy, vividly green mixed vegetable curry cleanly integrating corn, capsicum, spinach, and paneer.
-શાહી પનીર	Shahi Paneer	કાજુ અને ટામેટાની રિચ અને સ્હેજ મીઠી ગ્રેવીમાં પનીરના ટુકડા.	A mildly sweet, deeply luxurious dish bathing paneer cubes lavishly in a rich tomato-cashew gravy.
-પાલક પનીર	Palak Paneer	પાલકની ગ્રીન ગ્રેવીમાં નરમ પનીરના ટુકડા વાળી ઉત્તમ વાનગી.	A classically excellent preparation softly cooking paneer cubes thoroughly in a smooth, vibrant spinach gravy.
-છોલે પાલક કોર્ન	Chole Palak Corn	કાબુલી ચણા, પાલક અને મકાઈનું પંજાબી મસાલાવાળું મિશ્રણ.	A thickly spiced Punjabi medley seamlessly uniting chickpeas safely with spinach puree and corn.
-મટર પનીર	Matar Paneer	લીલા વટાણા અને પનીરનું કાંદા-ટામેટાની ગ્રેવીવાળું લોકપ્રિય શાક.	A widely popular, vastly recognized home-style curry dutifully combining green peas and paneer in brown gravy.
-પનીર ટકટક	Paneer Takatak	આદુ-મરચાના વધારાના તડકા સાથેનું અત્યંત તીખું પનીરનું શાક.	An incredibly spicy, loudly sizzling paneer dish aggressively tempered with extra ginger and chilies.
-ખોયા કાજુ	Khoya Kaju	માવો (ખોયા) અને તળેલા કાજુની સફેદ યા બ્રાઉન મીઠી ગ્રેવી.	A decadently rich, sweet gravy remarkably pairing fried whole cashews intimately with crumbled mawa.
-વેજ. હરીયાળી	Veg Hariyali	પાલક અને ફુદીનાની લીલી ગ્રેવીમાં વિવિધ શાકભાજીઓ.	A brightly striking, herbaceous curry reliably soaking assorted mixed vegetables completely in green spinach-mint gravy.
-વેજ. કડાઈ	Veg Kadai	કડાઈ મસાલામાં સિમલા મરચા, ડુંગળી અને શાકભાજીનું તીખું શાક.	A heavily spiced, wok-tossed curry vividly featuring onions, capsicum, and veggies vigorously cooked in kadai masala.
-વેજ. કોળહાપુરી	Veg Kolhapuri	મહારાષ્ટ્રિયન ટચ સાથેનું અતિશય તીખું અને મસાલેદાર વેજીટેબલ.	An exceedingly spicy, aggressively robust mixed vegetable dish audaciously boasting an authentic Maharashtrian touch.
-નવરત્ન કુરમા	Navratan Kurma	નવ અલગ-અલગ શાકભાજી અને ડ્રાયફ્રુટ્સની શાહી મીઠી ગ્રેવી.	A genuinely royal, sweet and creamy curry extensively utilizing nine different types of vegetables, fruits, and nuts.
-પનીર ટીક્કા મસાલા	Paneer Tikka Masala	તંદૂરમાં શેકેલા પનીરના ટુકડાવાળી લાલ અને તીખી ગ્રેવી.	A deeply flavorful, fiercely red gravy elegantly featuring heavily marinated, uniformly tandoor-roasted paneer cubes.
-પનીર ભૂર્જી	Paneer Bhurji	છીણેલા પનીરને ડુંગળી અને ટામેટા સાથે સાંતળીને બનાવેલી આઈટમ.	A largely dry, richly spiced scramble swiftly sautéing grated cottage cheese smoothly with onions and tomatoes.
-કાજુ પનીર	Kaju Paneer	કાજુની ગ્રેવીમાં પનીરના નરમ ચોરસ ટુકડાઓનું આકર્ષક શાક.	An intensely rich, visually appealing dish gracefully combining paneer chunks reliably with a cashew-based gravy.
-પનીર કોફતા	Paneer Kofta	પનીરના ગોળાકાર કોફતા અને પંજાબી મસાલેદાર ડીપ ગ્રેવી.	A lavishly heavy curry fully drowning soft paneer-stuffed dumplings neatly into a deep, spiced gravy.
-ચીઝ કોફતા	Cheese Kofta	ચીઝ બોલ્સને લાલ કે સફેદ ગ્રેવીમાં પકાવીને બનાવેલું શાક.	A deeply indulgent, cheese-centric curry heavily serving cheese-stuffed balls comfortably amid a rich gravy.
-નરગિસ કોફતા	Nargis Kofta	ઇંડાના આકારના પનીર અને શાકભાજીના અદભુત કોફતાનું શાક.	A visually stunning, egg-shaped vegetarian kofta elegantly immersed comprehensively into a robust Punjabi gravy.
-મલાઈ કોફતા	Malai Kofta	માવા અને પનીરના અત્યંત નરમ કોફતાવાળી ક્રીમી અને ગળકી ગ્રેવી.	A famously mild, sweetish dish reliably placing extremely soft mawa-paneer dumplings squarely into creamy white gravy.
-વેજ. કોફતા	Veg Kofta	વિવિધ છીણેલા શાકભાજીના બોલ્સને બ્રાઉન ગ્રેવીમાં પકાવેલા.	A thoroughly savory, hearty dish beautifully braising grated mixed vegetable balls predictably in brown onion-tomato gravy.
-પાલક મટર	Palak Matar	પાલકની લીલી ગ્રેવીમાં લીલા વટાણાનો પૌષ્ટિક સમન્વય.	A highly nourishing, iron-rich dish gracefully melding fresh green peas perfectly within a thick spinach gravy.
-પાલક ટમેટા	Palak Tomato	ટામેટાની ખટાશ અને પાલકની પ્યુરી ધરાવતી અનોખી ગ્રેવી.	An exceptionally unique, tangy gravy harmoniously blending the mild bitterness of spinach accurately with tomato acidity.
-આલુ પાલક	Aloo Palak	બાફેલા કાપેલા બટાકા અને પાલકની ગ્રેવીનું રોજિંદુ મસાલેદાર શાક.	An everyday, highly comforting culinary staple adequately cooking boiled potatoes entirely in a pureed spinach base.
-વેજ. ફાઈવસ્ટાર	Veg Five Star	ફાઈવ સ્ટાર હોટલની જેમ પાંચ અલગ શાકભાજી અને યુનિક ગ્રેવી.	A thoroughly premium, restaurant-style presentation notably combining precisely five assorted vegetables securely into a unique gravy.
-પનીર ચીલા	Paneer Cheela	પનીરમાં બેસન મિક્સ કરી બનાવેલા ગરમ ચિલ્લાનું ગ્રેવીવાળું શાક.	A surprisingly innovative gravy dish intelligently slicing and simmering besan-paneer pancakes strictly within Punjabi spices.
-આલુ મટર પનીર	Aloo Matar Paneer	બટાકા, વટાણા અને પનીરનું ટ્રેડિશનલ નોર્થ ઇન્ડિયન ફેમિલી શાક.	A traditionally comforting, North Indian staple widely using potatoes, peas, and paneer identically in one hearty gravy.
-🫘 Kathol Vegetable (કઠોળ વેજિટેબલ / Legume Dishes)
-Gujarati Name	English Name	Gujarati Description	English Description
-પંજાબી રાજમા	Punjabi Rajma	કાંદા અને લાલા ગ્રેવીમાં પકાવેલા રાજમાના લાલ દાણા.	A wildly comforting, deeply savory Punjabi stew essentially slow-cooking plump red kidney beans largely in onion-tomato gravy.
-ચણા મસાલા	Chana Masala	કાબુલી ચણાને તેલ અને ગરમ મસાલાઓમાં પકાવેલું લોકપ્રિય શાક.	An incredibly popular, profoundly spiced curry robustly simmering white chickpeas comprehensively in thick onion paste.
-મગ / મઠ	Moong / Math Beans	અનેક મસાલા નાખી બાફેલા મગ અને મઠનું હળવું અને પચવામાં સરળ કઠોળ.	A highly digestible, notably lightweight legume dish plainly cooking whole moong or math beans comfortably with light spices.
-વાલ નાના	Small Vaal Beans	સામાન્ય મસાલેદાર ગ્રેવીમાં પકાવેલા નાના કદના સુરતી વાલ.	A mildly spicy, deeply traditional gravy generously cooking small-sized Surti vaal completely until tender.
-વાલ મોટા	Big Vaal Beans	દેશી લસણના વઘારવાળા મસાલેદાર અને મોટા સફેદ વાલ.	A robustly favored, broadly rustic curry boldly tempering large white field beans strongly with garlic.
-ખાટા અડદ	Khata Urad	અડદની દાળને છાસમાં રાંધીને બનાવેલી ખાટી અને ઘટ્ટ વાનગી.	A thick, largely sour lentil porridge authentically preparing split black gram heavily with buttermilk.
-પંચ કઠોળ	Panch Kathol (Mixed Legumes)	પાંચ જાતના વિવિધ કઠોળને બાફીને તૈયાર કરેલું પૌષ્ટિક શાક.	A highly nutrient-dense, perfectly fibrous curry comprehensively boiling exactly five different types of legumes together.
-મગની છૂટી દાળ	Split Moong Dal	પાણી વગર, કોરી અને વઘારેલી મગની ફોતરાવાળી કે પીળી દાળ.	A largely dry, loosely textured side dish carefully boiling and tempering split moong beans delicately without excess water.
-મગનો તડકો દાળ	Moong Tadka Dal	લાલ મરચાં અને લસણનો વઘાર કરેલી મગની ગરમા-ગરમ દાળ.	A piping hot, thoroughly comforting moong lentil soup noticeably carrying a fierce, vibrant garlic-chili oil tempering.
-🫓 Puri and Paratha (પુરી અને પરોઠા)
-Gujarati Name	English Name	Gujarati Description	English Description
-સેફ્રોન પુરી	Saffron Puri	કેસર ઉમેરીને બનાવેલી સહેજ મીઠી અને પીળાસ પડતી ગરમ પુરી.	A slightly sweet, delightfully golden-hued hot deep-fried flatbread noticeably featuring saffron threads.
-મસાલા પુરી	Masala Puri	લોટમાં લાલ મરચું, હળદર અને જીરું નાખીને તળેલી કડક પુરી.	A heavily seasoned, widely beloved deep-fried wheat flatbread assertively incorporating chili, turmeric, and cumin.
-પાલક પુરી	Palak Puri	પાલકની ગ્રેવી બાંધીને લોટમાં બનાવેલી લીલી અને પૌષ્ટિક પુરી.	A brightly green, nutritionally dense deep-fried bread effectively blending smooth spinach puree entirely into wheat flour.
-બીટ પુરી	Beetroot Puri	બીટનો રસ ઉમેરીને બનાવેલી આકર્ષક લાલ રંગની ફુલેલી પુરી.	A visually stunning, distinctively reddish puffed flatbread cleverly utilizing fresh beetroot juice directly in the dough.
-વટાણા પુરી	Vatana Puri	બાફેલા લીલા વટાણાનો છૂંદો લોટમાં મિક્સ કરીને તળેલી પુરી.	A flavor-packed, softly puffed flatbread comfortably incorporating fully mashed green peas uniformly into the wheat dough.
-પરોઠા	Plain Paratha	ઘઉંના લોટમાંથી ઘી કે તેલ લગાવી ત્રિકોણ કે ગોળ શેકેલા પરોઠા.	A classic, flaky, lightly oiled or ghee-roasted plain Indian flatbread broadly consumed as a staple accompaniment.
-જીરા બટર પરોઠા	Jeera Butter Paratha	જીરાની સુગંધ અને બટરના મબલખ ઉપયોગથી બનેલા સ્વાદિષ્ટ પરોઠા.	A supremely delicious, layered flatbread loudly boasting a roasted cumin scent and lavishly cooked with butter.
-પંજાબી પરોઠા	Punjabi Paratha	જાડા, મોટા અને તવા પર ઘીમાં યોગ્ય રીતે શેકાયેલા પંજાબી પરોઠા.	A reliably thick, satisfyingly large, and heartily ghee-roasted traditional flatbread prominently originating from Punjab.
-રેડ પરોઠા	Red Paratha	ચૂકંદર કે લાલ મરચાની પેસ્ટ ઉમેરીને બનાવેલા ખાસ લાલ પરોઠા.	A specially hued, vibrantly red paratha subtly colored mostly through the distinct addition of beetroot or chili paste.
-મસાલા પરોઠા	Masala Paratha	લોટમાં ડુંગળી, કોથમીર અને ગરમ મસાલા નાખીને બનાવેલા પરોઠા.	A widely celebrated, heavily seasoned flatbread richly folding chopped onions, coriander, and garam masala deeply into the dough.
-ગાર્લિક પરોઠા	Garlic Paratha	લસણના નાના ટુકડાઓથી ભરેલા અને તેની તીવ્ર સુગંધવાળા પરોઠા.	A profoundly fragrant, appetizing flatbread visibly studded effectively with copious amounts of finely minced raw garlic.
-આલુ પરોઠા	Aloo Paratha	બટાકાનો તીખો મસાલો અંદર ભરીને તવા પર શેકેલા પ્રખ્યાત પરોઠા.	A globally recognizable, incredibly popular flatbread solidly stuffed securely with a generously spiced potato mash.
-વેજિટેબલ પરોઠા	Vegetable Paratha	છીણેલા વિવિધ શાકભાજીઓના મિશ્રણનો પૂરણ ધરાવતા હેલ્ધી પરોઠા.	A thoroughly healthy, densely packed stuffed flatbread creatively enclosing a heavily grated and spiced mixed vegetable filling.
-ગોબીના પરોઠા	Gobi Paratha	છીણેલી કોબીજના પૂરણવાળા કડક અને ગરમા-ગરમ પંજાબી પરોઠા.	A piping hot, predictably crispy Punjabi paratha completely relying strictly on a grated and seasoned cabbage stuffing.
-ફુલકોબીના પરોઠા	Cauliflower Paratha	ફુલેવરનું છીણ અને આદુ-મરચાની પેસ્ટ ભરેલા ઉત્તમ સ્વાદવાળા પરોઠા.	A widely appreciated, vastly flavorsome stuffed flatbread tightly holding finely grated cauliflower mixed accurately with ginger-chili paste.
-સાદી રોટલી	Plain Roti	ઘઉંના લોટમાંથી બનાવેલી અને ઘી ચોપડેલી સાદી અને નરમ રોટલી.	A thoroughly plain, notably soft whole wheat flatbread quickly turned on the tawa and reliably smeared with ghee.
-સ્વામી રોટલી	Swaminarayan Roti	ડુંગળી અને લસણના ઉપયોગ વગર સાવ સાદી રીતે બનાવેલી શુદ્ધ રોટલી.	A purely plain, completely uncontaminated whole wheat roti strictly obeying entirely to Swaminarayan dietary principles.
-બાજરાના રોટલા	Bajra Rotla	બાજરાના લોટમાંથી હાથ વડે ટીપીને બનાવેલા જાડા અને દેશી રોટલા.	A thick, largely rustic Indian bread genuinely made explicitly from pearl millet flour, accurately shaped merely by hand-patting.
-જુવારના રોટલા	Jowar Rotla	જુવારના લોટના સફેદ અને હાથથી બનાવેલા કાઠિયાવાડી રોટલા.	A notably light, broadly whitish traditional flatbread sincerely sourced straight from sorghum flour, broadly popular in Kathiyawad.
-મકાઈના થેપલા	Makai Thepla	મકાઈના લોટ અને મસાલાઓમાંથી બનાવેલા ગુજરાતી કડક થેપલા.	A uniquely crispy, distinctly yellow flatbread carefully integrating corn flour neatly with whole wheat and Gujarati spices.
-બિસ્કીટ ભાખરી	Biscuit Bhakhri	જાડી અને બિસ્કીટ જેવી અત્યંત કડક ઘી વાળી કાઠિયાવાડી ભાખરી.	A distinctively thick, exceedingly crispy Kathiyawadi flatbread heavily mimicking a dense biscuit severely loaded with ghee.
-Gujarati Name	English Name	Gujarati Description	English Description
-લચ્છા પરોઠા	Lachha Paratha	ઘણા બધા પડ (લેયર્સ) વાળો અને તેલ કે ઘીથી બનેલો ઉત્તર ભારતીય પરોઠો.	A deeply layered, visibly flaky North Indian flatbread slowly pan-fried steadily using significant amounts of oil or ghee.
-ફુદીના નાન	Mint Naan	તંદૂરમાં કાઢેલી અને ફુદીનાની સુગંધવાળી મેંદાની મોટી રોટલી.	A fragrant, soft refined flour flatbread properly baked firmly inside a tandoor delicately sprinkled primarily with dried mint.
-ગાર્લિક નાન	Garlic Naan	મેંદાના લોટમાં લસણ ચોંટાડીને તંદૂરમાં શેકેલી ભારે અને સ્વાદિષ્ટ નાન.	A richly heavy, incredibly flavorful tandoor-baked flatbread prominently featuring minced garlic vigorously pressed squarely onto its surface.
-જીરા ફુદીના નાન	Jeera Mint Naan	જીરું અને ફુદીનો લગાવીને તંદૂરમાં શેકેલી અનોખી ફ્લેવરવાળી નાન.	A remarkably distinct, heavily herbal naan broadly showcasing roasted cumin seeds completely paired with refreshing mint leaves.
-સ્વામી રોટી	Swaminarayan Roti	કોઈપણ ભેળસેળ યા ડુંગળી લસણ વગરની એકદમ સાદી ઘઉંની રોટલી.	A completely simple, strictly uncomplicated whole wheat roti completely omitting all traces basically of alliums like onion and garlic.
-પંજાબી રોટી	Punjabi Roti	જાડી અને તંદૂરમાં શેકાયેલી મોટી સાઈઝની ઘઉંના લોટની રોટી.	A noticeably thick, dependably heavy whole wheat flatbread authentically baked rapidly in a blistering hot clay tandoor.
-બટર નાન	Butter Naan	મેંદામાંથી બનાવેલી અને તેના પર મબલખ બટર ચોપડેલી પ્રખ્યાત નાન.	An extraordinarily famous, vastly consumed teardrop-shaped tandoor flatbread enthusiastically slathered repeatedly with copious amounts of butter.
-કુલચા	Kulcha	બેકિંગ પાવડર નાખીને બનાવેલી પોચી અને ગોળાકાર પંજાબી બ્રેડ.	A wonderfully soft, gently leavened circular flatbread predominantly found consistently alongside hearty Punjabi chickpea curries.
-સ્ટફ્ડ કુલચા	Stuffed Kulcha	અંદરથી બટાકા કે પનીર ભરેલો અને તવા પર શેકેલો ભરાવદાર કુલચો.	A heavily filling, securely stuffed variation predictably inserting a spiced potato or paneer mixture firmly into the kulcha dough.
-રેશમ પરોઠા	Silk Paratha	રેશમ જેવો અત્યંત પાતળો અને નરમ મોટી સાઈઝનો મેંદાનો પરોઠો.	An exceptionally thin, highly oversized refined flour flatbread broadly characterized generally by its silky, incredibly smooth texture.
-બેબી  નાન	Baby Naan	સામાન્ય નાન કરતા સાઈઝમાં અત્યંત નાની અને નરમ બટર નાન.	A notably miniaturized, deeply cute, completely soft variant faithfully presenting essentially the traditional butter naan in a tiny size.
-🥤 Soda / Cold Drinks Menu
-Gujarati Name	English Name	Gujarati Description	English Description
-જીરા મસાલા	Jeera Masala	જીરું અને સંચળ નાખીને બનાવેલી પાચક અને ઠંડી મસાલા સોડા.	A deeply cooling, highly digestive fizzy soda vigorously packing the robust earthy flavor explicitly of roasted cumin seeds.
-ફેન્ટા	Fanta	બાળકોની પ્રિય નારંગીના સ્વાદવાળી અને ચમકતા રંગની ઠંડી બોટલ.	A universally loved, brightly orange-colored carbonated soft drink solidly delivering a powerfully sweet citrus hit.
-જામફળ	Guava	જામફળ પલ્પના સ્વાદવાળું એક વિશિષ્ટ અને મીઠું ઠંડું પીણું.	A distinctly unique, largely sweet chilled beverage faithfully capturing the tropical, heavily fragrant taste naturally of ripe guavas.
-થમ્સ અપ	Thums Up	સ્ટ્રોંગ અને તીખા સ્વાદવાળી લોકપ્રિય બ્લેક કોલ્ડ ડ્રિંકની બોટલ.	A vastly popular, dependably strong, and distinctly masculine dark cola generally known widely for its robust, fizzy bite.
-બ્લુબેરી	Blueberry	બ્લુબેરીના નયનરમ્ય રંગ અને બેરીના સ્વાદવાળું ઠંડું પીણું.	A visually refreshing, startlingly blue chilled beverage noticeably imparting the tartly sweet flavor naturally found within blueberries.
-સ્પે. લીંબુ સોડા	Special Lemon Soda	લીંબુનો રસ, મીઠું અને ખાંડથી મિક્સ કરેલી ક્લાસિક રિફ્રેશિંગ સોડા.	A definitively classic, immensely refreshing carbonated drink efficiently mixing freshly squeezed lemon juice smoothly with salt and sugar.
-સ્પે. રીંગ યક્ડા	Special Ring Yakda Soda	વિવિધ નમકીન અને ચટાકેદાર મસાલાઓનું અનોખું સોડા પીણું.	An exceptionally unique, wildly heavily spiced proprietary fizzy soda proudly offering a deeply tangy, extremely savory experience.
-સ્પે. આદુ ફુદીનો	Special Ginger Mint Soda	આદુ અને ફુદીનાના પાનથી બનેલી અત્યંત તાજગીસભર સોડા.	An extraordinarily invigorating, deeply crisp soda remarkably blending the warm kick purely of ginger effectively with cool mint.
-સ્પે. છાસ સોડા	Special Buttermilk Soda	મસાલા છાસમાં લાઈવ સોડા મિક્સ કરીને બનાવેલું કાઠિયાવાડી પીણું.	A profoundly unconventional, distinctly Kathiyawadi beverage bravely mixing savory spiced buttermilk directly with immensely fizzy club soda.
+☕ Hot Items (હોટ આઇટમ)
+1. Tea / Coffee
+
+ચા - કોફી
+English: Freshly brewed traditional Indian tea or aromatic coffee served hot.
+Gujarati: તાજી બનાવેલી ભારતીય પરંપરાગત ચા અથવા સુગંધિત કોફી.
+
+2. Green Tea
+
+ગ્રીન ટી
+English: Healthy green tea rich in antioxidants and light flavor.
+Gujarati: એન્ટીઑક્સિડન્ટથી ભરપૂર હળવી અને આરોગ્યપ્રદ ગ્રીન ટી.
+
+3. Bournvita
+
+બોર્નવીટા
+English: Warm milk mixed with delicious chocolate Bournvita for energy.
+Gujarati: ઉર્જાદાયક ચોકલેટ સ્વાદવાળું બોર્નવીટા સાથેનું ગરમ દૂધ.
+
+4. Special Rajwadi Tea
+
+સ્પેશિયલ રાજવાડી ચા
+English: Rich royal-style tea prepared with milk, spices, and strong flavor.
+Gujarati: દૂધ અને મસાલા સાથે બનેલી ગાઢ સ્વાદવાળી રાજવાડી ચા.
+
+5. Cold Coffee
+
+કોલ્ડ કોફી
+English: Chilled coffee blended with milk and sugar, smooth and refreshing.
+Gujarati: દૂધ અને ખાંડ સાથે બનાવેલી ઠંડી અને સ્વાદિષ્ટ કોફી.
+
+6. Cold Cocoa
+
+કોલ્ડ કોકો
+English: Cold chocolate drink made with cocoa, milk, and ice.
+Gujarati: કોકો પાઉડર, દૂધ અને બરફથી બનેલું ચોકલેટ સ્વાદવાળું ઠંડુ પીણું.
+🧃 Fresh Juice (ફ્રેશ જ્યુસ)
+4. Orange Special Juice (ઓરેન્જ સ્પેશિયલ જ્યુસ)
+
+(Orange, Apple, Pomegranate)
+English: A refreshing mix of orange, apple, and pomegranate full of vitamins.
+Gujarati: સંતરા, સફરજન અને અનારનું તાજગીદાયક અને વિટામિન ભરપૂર જ્યુસ.
+
+5. Pineapple Special Juice (પાઈનેપલ સ્પેશિયલ જ્યુસ)
+
+(Pineapple, Apple, Pomegranate)
+English: Sweet and tangy pineapple juice blended with apple and pomegranate.
+Gujarati: મીઠાશ અને ખટાશ ભરેલું પાઈનેપલ, સફરજન અને અનારનું મિશ્રણ.
+
+6. Guava Juice (જામફળ જ્યુસ)
+
+English: Fresh guava juice with natural sweetness and rich fiber.
+Gujarati: તાજું જામફળનું સ્વાદિષ્ટ અને પોષક તત્વોથી ભરેલું જ્યુસ.
+
+7. Kiwi Pineapple Juice (કિવી પાઈનેપલ જ્યુસ)
+
+(Kiwi, Pineapple, Sugar)
+English: Exotic kiwi blended with pineapple for a tropical refreshing drink.
+Gujarati: કિવી અને પાઈનેપલનું ટ્રોપિકલ સ્વાદવાળું તાજગીદાયક જ્યુસ.
+
+8. Watermelon Juice (વોટર મેલન જ્યુસ)
+
+(Watermelon)
+English: Cool and refreshing watermelon juice perfect for summer.
+Gujarati: ગરમીમાં તાજગી આપતું ઠંડુ તરબૂચનું જ્યુસ.
+
+9. Watermelon Mix Juice (વોટર મેલન મિક્સ જ્યુસ)
+
+(Watermelon, Lemon, Sugar)
+English: Watermelon blended with lemon for a refreshing citrus twist.
+Gujarati: તરબૂચ અને લીંબુનું તાજગીદાયક મિશ્રણ.
+
+10. Cucumber Juice (કાકડી જ્યુસ)
+
+(Cucumber)
+English: Hydrating cucumber juice that is light and refreshing.
+Gujarati: શરીરને ઠંડક આપતું કાકડીનું હળવું અને તાજગીદાયક જ્યુસ.
+
+11. Lemon Ginger Juice (લીંબુ જિંજર જ્યુસ)
+
+(Lemon, Ginger, Pineapple)
+English: Tangy lemon mixed with ginger and pineapple for a spicy refreshing taste.
+Gujarati: લીંબુ, આદુ અને પાઈનેપલનું ખટમીઠું અને તાજગીદાયક મિશ્રણ.
+
+12. Mango Juice (મેંગો જ્યુસ)
+
+(Pineapple, Lemon, Apple)
+English: Delicious mango drink blended with pineapple, lemon, and apple.
+Gujarati: કેરી, પાઈનેપલ, લીંબુ અને સફરજનનું સ્વાદિષ્ટ મિશ્રણ.
+
+13. Special Mango Juice (સ્પેશિયલ મેંગો જ્યુસ – Seasonal)
+
+English: Thick and rich mango juice made from fresh seasonal mangoes.
+Gujarati: સિઝનલ કેરીથી બનાવેલું ગાઢ અને સ્વાદિષ્ટ મેંગો જ્યુસ.
+
+14. Red Apple Juice (રેડ સફરજન જ્યુસ)
+
+(Apple)
+English: Sweet and nutritious fresh apple juice.
+Gujarati: મીઠું અને પોષક તત્વોથી ભરેલું સફરજનનું તાજું જ્યુસ.
+
+15. Pear Apple Juice (નાસપતી સફરજન જ્યુસ)
+
+(Pear, Apple)
+English: A smooth blend of pear and apple with natural sweetness.
+Gujarati: નાસપતી અને સફરજનનું સ્વાદિષ્ટ મિશ્રણ.
+
+16. Litchi Juice (લીચી જ્યુસ)
+
+(Litchi, Sugar)
+English: Sweet and aromatic litchi juice loved by everyone.
+Gujarati: મીઠું અને સુગંધિત લીચીનું જ્યુસ.
+
+17. Coconut Water Juice (કોકોનટ વોટર જ્યુસ)
+
+(Coconut Water, Pineapple, Apple)
+English: Fresh coconut water blended with fruits for a healthy drink.
+Gujarati: નાળિયેર પાણી અને ફળોનું આરોગ્યપ્રદ મિશ્રણ.
+
+18. Orange Power Juice (ઓરેન્જ પાવર જ્યુસ)
+
+(Orange, Pineapple)
+English: Vitamin-C rich orange and pineapple power drink.
+Gujarati: સંતરા અને પાઈનેપલનું વિટામિન-C ભરપૂર જ્યુસ.
+
+19. Black Mango Juice (બ્લેક મેંગો જ્યુસ – Seasonal)
+
+English: Special seasonal mango drink with a rich unique taste.
+Gujarati: સિઝનલ કેરીથી બનાવેલું વિશેષ સ્વાદવાળું જ્યુસ.
+
+🍹 Mocktail (મોકટેલ)
+20. Blackcurrant with Vanilla (બ્લેકકરન્ટ વિથ વેનીલા)
+
+English: Sweet blackcurrant drink blended with smooth vanilla flavor.
+Gujarati: બ્લેકકરન્ટ અને વેનીલાનું મીઠું અને તાજગીદાયક મિશ્રણ.
+
+21. Special Colada (સ્પેશિયલ કોલાડા)
+
+English: Creamy tropical drink with pineapple and coconut flavors.
+Gujarati: પાઈનેપલ અને નાળિયેર સ્વાદવાળું ક્રીમી ટ્રોપિકલ મોકટેલ.
+
+22. Blue Mojito Twist (બ્લૂ મોજીટો ટ્વિસ્ટ)
+
+English: Refreshing mint mojito with a cool blue citrus flavor.
+Gujarati: પુદીના અને સિટ્રસ સ્વાદવાળું તાજગીદાયક બ્લૂ મોજીટો.
+
+23. Orange Blossom (ઓરેન્જ બ્લોસમ)
+
+English: Sweet orange-based mocktail with a light refreshing taste.
+Gujarati: સંતરા આધારિત મીઠું અને તાજગીદાયક મોકટેલ.
+
+24. Blueberry Colada (બ્લૂબેરી કોલાડા)
+
+English: Blueberry flavored creamy tropical mocktail.
+Gujarati: બ્લૂબેરી સ્વાદવાળું ક્રીમી ટ્રોપિકલ મોકટેલ.
+
+25. Mint Mojito (મીન્ટ મોજીટો)
+
+English: Classic mint and lime refreshing drink.
+Gujarati: પુદીના અને લીંબુનું ક્લાસિક તાજગીદાયક પીણું.
+Red Bull (Small)
+
+રેડ બુલ (સ્મોલ)
+
+English: A popular energy drink that boosts energy and alertness with a strong refreshing taste.
+Gujarati: ઊર્જા અને તાજગી આપતું લોકપ્રિય એનર્જી ડ્રિંક, જે તરત એનર્જી આપે છે.
+
+Monster (Small)
+
+મોન્સ્ટર (સ્મોલ)
+
+English: A powerful energy drink known for its bold flavor and long-lasting energy boost.
+Gujarati: મજબૂત સ્વાદ અને લાંબા સમય સુધી ઊર્જા આપતું એનર્જી ડ્રિંક.
+
+Appy Fizz (Small)
+
+એપ્પી ફિઝ (સ્મોલ)
+
+English: A sparkling apple flavored drink with a refreshing fizzy taste.
+Gujarati: સફરજન સ્વાદવાળું ફિઝી અને તાજગીદાયક પીણું.
+
+Minute Maid Pulpy Orange
+
+ઓરેન્જ પલ્પી (મિનિટ મેઇડ)
+
+English: Orange juice drink with real orange pulp for a fresh fruity taste.
+Gujarati: સાચા સંતરાના પલ્પ સાથેનું તાજગીદાયક સંતરાનું પીણું.
+
+Mango Drink (Tetra Pack)
+
+મેંગો (ટેટ્રા પેકિંગ)
+
+English: A sweet and refreshing mango drink packed in a convenient tetra pack, made from delicious mango pulp.
+Gujarati: કેરીના પલ્પથી બનેલું મીઠું અને તાજગીદાયક મેંગો ડ્રિંક, ટેટ્રા પેકમાં ઉપલબ્ધ.
+
+Amul Milk (Packing Bottle)
+
+અમૂલ મિલ્ક (પેકિંગ બોટલ)
+
+English: Fresh and nutritious flavored milk from Amul served chilled.
+Gujarati: અમૂલનું તાજું અને પૌષ્ટિક ફ્લેવર્ડ મિલ્ક.
+
+Davat Soda (Various Flavours)
+
+દાવત સોડા (વિવિધ ફ્લેવર)
+
+English: Flavored soda drink available in different refreshing flavors.
+Gujarati: વિવિધ સ્વાદમાં મળતું તાજગીદાયક સોડા પીણું.
+
+Paper Bottle Soda (Various Flavours)
+
+પેપર બોટલ સોડા (વિવિધ ફ્લેવર)
+
+English: Traditional soda served in classic bottle style with multiple flavors.
+Gujarati: પરંપરાગત બોટલમાં પીરસાતું વિવિધ સ્વાદવાળું સોડા પીણું.
+
+Oreo Shake
+
+ઓરિયો શેક
+
+English: A creamy milkshake blended with Oreo biscuits and chilled milk.
+Gujarati: ઓરિયો બિસ્કિટ અને ઠંડા દૂધથી બનેલું ક્રીમી મિલ્કશેક.
+
+Rose Faluda Shake
+
+રોઝ ફાલુદા શેક
+
+English: Sweet rose flavored faluda shake with rich and refreshing taste.
+Gujarati: ગુલાબ સ્વાદવાળું મીઠું અને તાજગીદાયક ફાલુદા શેક.
+
+Chikoo Shake (Seasonal)
+
+ચીકુ શેક (સીઝનલ)
+
+English: Thick and naturally sweet milkshake made from fresh chikoo fruit.
+Gujarati: તાજા ચીકુ ફળથી બનેલું ગાઢ અને મીઠું મિલ્કશેક.
+
+Strawberry Banana Shake (Seasonal)
+
+સ્ટ્રોબેરી બનાના શેક (સીઝનલ)
+
+English: A delicious blend of strawberry and banana creating a sweet creamy shake.
+Gujarati: સ્ટ્રોબેરી અને કેળાનું સ્વાદિષ્ટ મિશ્રણ બનેલું ક્રીમી શેક.
+
+Badam Shake
+
+બદામ શેક
+
+English: Rich almond flavored milkshake packed with nutrition and taste.
+Gujarati: બદામના સ્વાદવાળું પૌષ્ટિક અને સ્વાદિષ્ટ મિલ્કશેક.
+
+Mango Shake (Seasonal)
+
+મેંગો શેક (સીઝનલ)
+
+English: Thick and creamy mango milkshake made from fresh seasonal mangoes.
+Gujarati: સિઝનલ કેરીથી બનેલું ગાઢ અને ક્રીમી મેંગો શેક.
+Malaysian Roll
+
+મલેશિયન રોલ
+
+English: A crispy roll filled with spicy vegetables and flavorful sauces.
+Gujarati: મસાલેદાર શાકભાજી અને સ્વાદિષ્ટ સોસથી ભરેલો કરકરો રોલ.
+
+Hara Bhara Kabab
+
+હરાભરા કબાબ
+
+English: Healthy green vegetable kabab made with spinach, peas, and spices.
+Gujarati: પાલક, વટાણા અને મસાલાથી બનેલો સ્વાદિષ્ટ હરાભરા કબાબ.
+
+Batter Corn Balls
+
+બેટર કોર્ન બોલ્સ
+
+English: Sweet corn balls coated in crispy batter and deep fried.
+Gujarati: મકાઈથી બનેલા બોલ્સ, બેટરમાં ડીપ ફ્રાય કરીને કરકરા બનાવવામાં આવે છે.
+
+Cheese Corn Lollipops
+
+ચીઝ કોર્ન લોલીપોપ
+
+English: Crispy snack made with corn and cheese shaped like small lollipops.
+Gujarati: મકાઈ અને ચીઝથી બનેલું કરકરો નાસ્તો, લોલીપોપ આકારમાં.
+
+Mexican Tikki
+
+મેકસિકન ટિક્કી
+
+English: Spicy potato tikki with Mexican spices and herbs.
+Gujarati: મેકસિકન મસાલા અને હર્બ્સ સાથે બનાવેલી સ્વાદિષ્ટ બટાકાની ટિક્કી.
+
+Cheese Chilli Samosa
+
+ચીઝ ચીલી સમોસા
+
+English: Crispy samosa stuffed with cheese and spicy chilli filling.
+Gujarati: ચીઝ અને મસાલેદાર ચીલી ભરાવ સાથેનો કરકરો સમોસા.
+
+Mini Spicy Burger (Oven)
+
+મીની સ્પાઇસી બર્ગર (ઓવન)
+
+English: Small burger filled with spicy vegetable patty and sauces, baked in oven.
+Gujarati: મસાલેદાર વેજ પેટી અને સોસ સાથેનો નાનો બર્ગર, ઓવનમાં તૈયાર.
+
+Veg Burger
+
+વેજ બર્ગર
+
+English: Classic vegetable burger with crispy patty and fresh vegetables.
+Gujarati: કરકરી વેજ પેટી અને તાજી શાકભાજી સાથેનો ક્લાસિક બર્ગર.
+
+Golgappa Shot
+
+ગોલગપ્પા શોટ
+
+English: Mini pani puri served in shot style with tangy flavored water.
+Gujarati: ખટ્ટા પાણી સાથે શોટ સ્ટાઇલમાં પીરસાતી મિની પાણી પુરી.
+
+Italian Vol-au-vent
+
+ઇટાલિયન વોલવો
+
+English: Crispy puff pastry cups filled with creamy vegetable stuffing.
+Gujarati: પફ પેસ્ટ્રી કપમાં ક્રીમી વેજ ભરાવ સાથેનું કરકરું નાસ્તો.
+
+Italian Cheese Puff
+
+ઇટાલિયન ચીઝ પફ
+
+English: Light and flaky puff pastry filled with melted cheese.
+Gujarati: પફ પેસ્ટ્રીમાં ભરેલું ઓગળેલું ચીઝવાળું સ્વાદિષ્ટ નાસ્તો.
+
+Biscuit Pizza (Oven)
+
+બિસ્કિટ પીઝા (ઓવન)
+
+English: Mini pizza made on biscuit base with cheese and toppings.
+Gujarati: બિસ્કિટ બેઝ પર ચીઝ અને ટોપિંગ્સ સાથે બનાવેલું મિની પિઝા.
+
+Smiley Potato
+
+સ્માઇલી પોટેટો
+
+English: Crispy smiley-shaped potato snacks loved by kids.
+Gujarati: સ્માઇલ આકારના કરકરા બટાકાના નાસ્તા.
+
+Potato Roast
+
+પોટેટો રોસ્ટ
+
+English: Roasted potatoes seasoned with spices and herbs.
+Gujarati: મસાલા અને હર્બ્સ સાથે રોસ્ટ કરેલા બટાકા.
+
+Italian Tart (Oven)
+
+ઇટાલિયન ટાર્ટ (ઓવન)
+
+English: Baked tart filled with Italian flavored vegetable mixture.
+Gujarati: ઇટાલિયન સ્વાદવાળી વેજ મિશ્રણથી ભરેલી બેક કરેલી ટાર્ટ.
+
+Mexican Tart (Oven)
+
+મેકસિકન ટાર્ટ (ઓવન)
+
+English: Baked tart with spicy Mexican style vegetable filling.
+Gujarati: મેકસિકન મસાલા સાથેની વેજ ભરાવવાળી બેક ટાર્ટ.
+
+Corn Roll (Oven)
+
+કોર્ન રોલ (ઓવન)
+
+English: Soft baked roll stuffed with sweet corn and cheese mixture.
+Gujarati: મકાઈ અને ચીઝના ભરાવ સાથેનો ઓવનમાં બનાવેલો રોલ.
+
+Italian Rock (Oven)
+
+ઇટાલિયન રોક (ઓવન)
+
+English: Italian style baked snack with herbs, cheese, and vegetables.
+Gujarati: ઇટાલિયન હર્બ્સ, ચીઝ અને શાકભાજી સાથેનું બેક કરેલું નાસ્તો.
+Pineapple Tart
+
+પાઇનેપલ ટાર્ટ
+
+English: A sweet pastry tart filled with fresh pineapple flavored cream and soft crust.
+Gujarati: પાઇનએપલ સ્વાદવાળી ક્રીમથી ભરેલી મીઠી પેસ્ટ્રી ટાર્ટ.
+
+Choco Chips Tart
+
+ચોકો ચિપ્સ ટાર્ટ
+
+English: A delicious tart topped with chocolate chips and creamy filling.
+Gujarati: ચોકલેટ ચિપ્સ અને ક્રીમી ભરાવ સાથેની સ્વાદિષ્ટ ટાર્ટ.
+
+Orange Tart
+
+ઓરેન્જ ટાર્ટ
+
+English: A refreshing dessert tart with sweet and tangy orange flavored cream.
+Gujarati: મીઠા અને ખટ્ટા ઓરેન્જ સ્વાદવાળી ક્રીમથી બનેલી ટાર્ટ.
+
+Creamy Pineapple Vol-au-vent
+
+ક્રીમી પાઇનેપલ વોલવો
+
+English: A crispy puff pastry cup filled with creamy pineapple flavored mixture.
+Gujarati: પફ પેસ્ટ્રી કપમાં ક્રીમી પાઇનેપલ ભરાવ સાથેનું સ્વાદિષ્ટ નાસ્તો.

@@ -28,6 +28,17 @@ export default function ContactPage() {
     message: "",
   })
 
+  // Calculate tomorrow's date for the minimum event date
+  const getTomorrowDate = () => {
+    const tomorrow = new Date()
+    tomorrow.setDate(tomorrow.getDate() + 1)
+    const year = tomorrow.getFullYear()
+    const month = String(tomorrow.getMonth() + 1).padStart(2, "0")
+    const day = String(tomorrow.getDate()).padStart(2, "0")
+    return `${year}-${month}-${day}`
+  }
+  const minDate = getTomorrowDate()
+
   const handleInputChange = (field: string, value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }))
   }
@@ -268,7 +279,10 @@ export default function ContactPage() {
                       <Input
                         type="tel"
                         value={formData.phone}
-                        onChange={(e) => handleInputChange("phone", e.target.value)}
+                        onChange={(e) => {
+                          const val = e.target.value.replace(/[^0-9+\s-]/g, "")
+                          handleInputChange("phone", val)
+                        }}
                         placeholder={t("form_phone_placeholder", "Enter your phone number", "તમારો ફોન નંબર દાખલ કરો")}
                         className="bg-[#0f0f11] border-[#27272a] text-white focus-visible:ring-[#d97706] placeholder:text-gray-600 rounded-sm h-12"
                       />
@@ -306,7 +320,7 @@ export default function ContactPage() {
                         type="date"
                         value={formData.event_date}
                         onChange={(e) => handleInputChange("event_date", e.target.value)}
-                        min={new Date().toISOString().split("T")[0]}
+                        min={minDate}
                         className="bg-[#0f0f11] border-[#27272a] text-white focus-visible:ring-[#d97706] rounded-sm h-12"
                       />
                     </div>

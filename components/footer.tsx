@@ -42,10 +42,10 @@ export default function Footer() {
               )}
             </p>
             <div className="flex space-x-3 pt-2">
-              <a href="#" className="w-8 h-8 rounded-sm bg-[#18181b] border border-[#27272a] flex items-center justify-center hover:bg-[#d97706] hover:text-black hover:border-[#d97706] transition-all">
+              <a href="/" className="w-8 h-8 rounded-sm bg-[#18181b] border border-[#27272a] flex items-center justify-center hover:bg-[#d97706] hover:text-black hover:border-[#d97706] transition-all">
                 <Globe className="h-4 w-4" />
               </a>
-              <a href="#" className="w-8 h-8 rounded-sm bg-[#18181b] border border-[#27272a] flex items-center justify-center hover:bg-[#d97706] hover:text-black hover:border-[#d97706] transition-all">
+              <a href="/events" className="w-8 h-8 rounded-sm bg-[#18181b] border border-[#27272a] flex items-center justify-center hover:bg-[#d97706] hover:text-black hover:border-[#d97706] transition-all">
                 <Camera className="h-4 w-4" />
               </a>
             </div>
@@ -100,10 +100,10 @@ export default function Footer() {
                   <p>+91 93136 77629</p>
                 </div>
               </div>
-              <div className="flex items-start space-x-3">
+              {/* <div className="flex items-start space-x-3">
                 <Mail className="h-4 w-4 text-[#d97706] mt-0.5" />
                 <p>info@payalcatering.com</p>
-              </div>
+              </div> */}
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-[#d97706] mt-0.5" />
                 <p className="leading-relaxed">
@@ -124,10 +124,10 @@ export default function Footer() {
           <p>
             © 2026 Payal Catering. Luxury Redefined.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          {/* <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">Privacy</a>
             <a href="#" className="hover:text-white transition-colors">Terms</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

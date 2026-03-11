@@ -477,7 +477,7 @@ export default function HomePage() {
                     </div>
                   </div>
 
-                  <div className="flex items-center space-x-6 group cursor-pointer">
+                  {/* <div className="flex items-center space-x-6 group cursor-pointer">
                     <div className="w-12 h-12 bg-[#0f0f11] border border-[#27272a] rounded-full flex items-center justify-center group-hover:border-[#d97706] transition-colors duration-300 text-gray-400 group-hover:text-[#d97706]">
                       <Mail className="h-5 w-5" />
                     </div>
@@ -485,7 +485,7 @@ export default function HomePage() {
                       <div className="font-bold text-lg text-white">info@payalcatering.com</div>
                       <div className="text-gray-500 text-xs font-semibold tracking-wider uppercase mt-1">Email us</div>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="flex flex-col space-y-3 pt-6 border-t border-[#27272a]">
                     <div className="flex items-start space-x-6">

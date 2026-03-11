@@ -450,12 +450,12 @@ export default function CreateMenuPage() {
                         animate="show"
                         exit="hidden"
                         variants={containerVariants}
-                        className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 overflow-hidden"
+                        className="grid grid-cols-2 lg:grid-cols-2 gap-3 sm:gap-6 mt-4 overflow-hidden"
                       >
                         {categoryItems.map((item, idx) => (
                           <motion.div key={item.id} variants={itemVariants}>
                             <Card className="bg-card border-border overflow-hidden flex flex-col h-full outline-none">
-                              <div className="relative h-56 sm:h-48 w-full group overflow-hidden">
+                              <div className="relative h-36 sm:h-48 w-full group overflow-hidden">
                                 <Image
                                   priority={idx < 2}
                                   src={
@@ -475,9 +475,9 @@ export default function CreateMenuPage() {
                                   </Badge>
                                 )}
                               </div>
-                              <CardContent className="p-4 sm:p-5 flex-1 flex flex-col justify-between z-10 -mt-6 sm:-mt-6">
+                              <CardContent className="p-3 sm:p-5 flex-1 flex flex-col justify-between z-10 -mt-6 sm:-mt-6">
                                 <div>
-                                  <h3 className="text-lg sm:text-lg font-serif text-foreground mb-2 sm:mb-2 leading-tight drop-shadow-md">
+                                  <h3 className="text-base sm:text-lg font-serif text-foreground mb-1 sm:mb-2 leading-tight drop-shadow-md">
                                     {language === "gu" ? item.name_gu : item.name_en}
                                   </h3>
                                   <p className="text-xs sm:text-xs text-muted-foreground line-clamp-2 leading-relaxed mb-6 font-light">
@@ -496,18 +496,18 @@ export default function CreateMenuPage() {
                                       variant="outline"
                                       size="sm"
                                       onClick={() => handleRemoveItem(item.id)}
-                                      className="border-primary text-primary bg-primary/10 hover:bg-primary/20 hover:text-primary font-semibold tracking-wider text-[10px] px-4 rounded-sm transition-all"
+                                      className="border-primary text-primary bg-primary/10 hover:bg-primary/20 hover:text-primary font-semibold tracking-wider text-[9px] sm:text-[10px] px-2 sm:px-4 rounded-sm transition-all"
                                     >
-                                      ADDED <CheckCircle className="ml-1.5 h-3 w-3" />
+                                      ADDED <CheckCircle className="ml-1 sm:ml-1.5 h-3 w-3" />
                                     </Button>
                                   ) : (
                                     <Button
                                       variant="outline"
                                       size="sm"
                                       onClick={() => handleAddItem(item)}
-                                      className="border-border text-muted-foreground bg-transparent hover:border-primary hover:text-primary hover:bg-primary/5 font-semibold tracking-wider text-[10px] px-4 rounded-sm transition-all"
+                                      className="border-border text-muted-foreground bg-transparent hover:border-primary hover:text-primary hover:bg-primary/5 font-semibold tracking-wider text-[9px] sm:text-[10px] px-2 sm:px-4 rounded-sm transition-all"
                                     >
-                                      SELECT <Plus className="ml-1.5 h-3 w-3" />
+                                      SELECT <Plus className="ml-1 sm:ml-1.5 h-3 w-3" />
                                     </Button>
                                   )}
                                 </div>

@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
+import { Checkbox } from "@/components/ui/checkbox"
 import {
     Calculator,
     ArrowLeft,
@@ -37,6 +38,7 @@ export default function MaterialCalculatorPage() {
     const [isLoading, setIsLoading] = useState(true)
     const [isViewingCalculator, setIsViewingCalculator] = useState(false)
     const [isEditing, setIsEditing] = useState(false)
+    const [selectedItemIndices, setSelectedItemIndices] = useState<Set<number>>(new Set())
 
     // Event details for PDF
     const [eventDetails, setEventDetails] = useState({
@@ -59,7 +61,9 @@ export default function MaterialCalculatorPage() {
     const handleSelectTemplate = async (template: any) => {
         setSelectedTemplate(template)
         const { data } = await getMaterialItemsAction(template.id)
-        setItems(data || [])
+        const fetchedItems = data || []
+        setItems(fetchedItems)
+        setSelectedItemIndices(new Set(fetchedItems.map((_: any, i: number) => i)))
         setIsViewingCalculator(true)
         setIsEditing(false)
     }
@@ -71,6 +75,7 @@ export default function MaterialCalculatorPage() {
             base_guest_count: 100
         })
         setItems([])
+        setSelectedItemIndices(new Set())
         setIsViewingCalculator(true)
         setIsEditing(true)
     }
@@ -87,6 +92,27 @@ export default function MaterialCalculatorPage() {
                 sort_order: items.length
             }
         ])
+        const newSet = new Set(selectedItemIndices)
+        newSet.add(items.length)
+        setSelectedItemIndices(newSet)
+    }
+
+    const toggleSelectItem = (index: number) => {
+        const newSet = new Set(selectedItemIndices)
+        if (newSet.has(index)) {
+            newSet.delete(index)
+        } else {
+            newSet.add(index)
+        }
+        setSelectedItemIndices(newSet)
+    }
+
+    const toggleSelectAll = () => {
+        if (selectedItemIndices.size === items.length) {
+            setSelectedItemIndices(new Set())
+        } else {
+            setSelectedItemIndices(new Set(items.map((_: any, i: number) => i)))
+        }
     }
 
     const handleRemoveItem = (index: number) => {
@@ -192,20 +218,26 @@ export default function MaterialCalculatorPage() {
           }
           
           th {
-            background: #d97706;
-            color: white;
+            background: #f8fafc;
+            color: #475569;
             text-align: left;
-            padding: 10px;
-            font-size: 14px;
+            padding: 4px 6px;
+            font-size: 11px;
+            border-bottom: 2px solid #e2e8f0;
           }
           
           td {
             border-bottom: 1px solid #e2e8f0;
-            padding: 8px 10px;
-            font-size: 14px;
+            padding: 4px 6px;
+            font-size: 11px;
+            vertical-align: top;
           }
           
           .quantity { font-weight: bold; }
+          
+          .col-divider {
+            border-left: 1px dashed #cbd5e1;
+          }
           
           .footer {
             margin-top: 30px;
@@ -221,9 +253,9 @@ export default function MaterialCalculatorPage() {
       </head>
       <body>
         <div class="header">
-          <h1>પાયલ કેટરિંગ - કસ્ટમ મેનુ લિસ્ટ</h1>
+          <h1>પાયલ કેટરિંગ - મટીરીયલ લિસ્ટ</h1>
           <div style="font-size: 14px; color: #666; margin-top: 5px;">
-            કસ્ટમ મેનુ કેલ્ક્યુલેટર • Payal Catering
+            Material Calculator • Payal Catering
           </div>
         </div>
 
@@ -243,28 +275,67 @@ export default function MaterialCalculatorPage() {
         <table>
           <thead>
             <tr>
-              <th width="10%">ક્રમ</th>
-              <th width="60%">વસ્તુ (Item)</th>
-              <th width="30%">જથ્થો (Quantity)</th>
+              <th width="3%">ક્રમ</th>
+              <th width="15%">વસ્તુ (Item)</th>
+              <th width="7%">જથ્થો (Qty)</th>
+              <th width="3%" class="col-divider">ક્રમ</th>
+              <th width="15%">વસ્તુ (Item)</th>
+              <th width="7%">જથ્થો (Qty)</th>
+              <th width="3%" class="col-divider">ક્રમ</th>
+              <th width="15%">વસ્તુ (Item)</th>
+              <th width="7%">જથ્થો (Qty)</th>
+              <th width="3%" class="col-divider">ક્રમ</th>
+              <th width="15%">વસ્તુ (Item)</th>
+              <th width="7%">જથ્થો (Qty)</th>
             </tr>
           </thead>
           <tbody>
-            ${items.map((item, index) => {
-            const multiplier = guestCount / (selectedTemplate.base_guest_count || 100)
-            const calculatedQty = (item.base_quantity * multiplier).toFixed(2).replace(/\.00$/, "")
-            return `
-                <tr>
-                  <td>${index + 1}</td>
-                  <td>${item.name_gu} <br> <span style="font-size: 10px; color: #666;">${item.name_en}</span></td>
-                  <td class="quantity">${calculatedQty} ${item.unit_gu}</td>
-                </tr>
-              `
-        }).join("")}
+            ${(() => {
+                const selectedItemsToPrint = items.filter((_: any, idx: number) => selectedItemIndices.has(idx))
+                let rowsContent = ''
+                for (let i = 0; i < selectedItemsToPrint.length; i += 4) {
+                    const i1 = selectedItemsToPrint[i]
+                    const i2 = selectedItemsToPrint[i + 1]
+                    const i3 = selectedItemsToPrint[i + 2]
+                    const i4 = selectedItemsToPrint[i + 3]
+
+                    const multiplier = guestCount / (selectedTemplate.base_guest_count || 100)
+                    
+                    rowsContent += '<tr>'
+                    
+                    // Column 1
+                    if (i1) {
+                        const qty = (i1.base_quantity * multiplier).toFixed(2).replace(/\.00$/, "")
+                        rowsContent += `<td>${i + 1}</td><td>${i1.name_gu} <br> <span style="font-size: 9px; color: #666;">${i1.name_en}</span></td><td class="quantity">${qty} ${i1.unit_gu}</td>`
+                    } else { rowsContent += `<td></td><td></td><td></td>` }
+                    
+                    // Column 2
+                    if (i2) {
+                        const qty = (i2.base_quantity * multiplier).toFixed(2).replace(/\.00$/, "")
+                        rowsContent += `<td class="col-divider">${i + 2}</td><td>${i2.name_gu} <br> <span style="font-size: 9px; color: #666;">${i2.name_en}</span></td><td class="quantity">${qty} ${i2.unit_gu}</td>`
+                    } else { rowsContent += `<td class="col-divider"></td><td></td><td></td>` }
+                    
+                    // Column 3
+                    if (i3) {
+                        const qty = (i3.base_quantity * multiplier).toFixed(2).replace(/\.00$/, "")
+                        rowsContent += `<td class="col-divider">${i + 3}</td><td>${i3.name_gu} <br> <span style="font-size: 9px; color: #666;">${i3.name_en}</span></td><td class="quantity">${qty} ${i3.unit_gu}</td>`
+                    } else { rowsContent += `<td class="col-divider"></td><td></td><td></td>` }
+                    
+                    // Column 4
+                    if (i4) {
+                        const qty = (i4.base_quantity * multiplier).toFixed(2).replace(/\.00$/, "")
+                        rowsContent += `<td class="col-divider">${i + 4}</td><td>${i4.name_gu} <br> <span style="font-size: 9px; color: #666;">${i4.name_en}</span></td><td class="quantity">${qty} ${i4.unit_gu}</td>`
+                    } else { rowsContent += `<td class="col-divider"></td><td></td><td></td>` }
+                    
+                    rowsContent += '</tr>'
+                }
+                return rowsContent
+            })()}
           </tbody>
         </table>
 
         <div class="footer">
-          પાયલ કેટરિંગ - અસલી સ્વાદ, યાદગાર ક્ષણો | +91 98765 43210
+          પાયલ કેટરિંગ - અસલી સ્વાદ, યાદગાર ક્ષણો | +91 97147 99377
           <br>
           Generated on ${new Date().toLocaleDateString('gu-IN')}
         </div>
@@ -481,6 +552,13 @@ export default function MaterialCalculatorPage() {
                                     <Table>
                                         <TableHeader>
                                             <TableRow className="border-[#27272a] hover:bg-transparent">
+                                                <TableHead className="w-[40px]">
+                                                    <Checkbox 
+                                                        checked={items.length > 0 && selectedItemIndices.size === items.length}
+                                                        onCheckedChange={toggleSelectAll}
+                                                        className="border-gray-500 data-[state=checked]:bg-[#d97706] data-[state=checked]:border-[#d97706]"
+                                                    />
+                                                </TableHead>
                                                 <TableHead className="w-[80px] text-gray-500">Order</TableHead>
                                                 <TableHead className="text-gray-500">Item Name (Guj/Eng)</TableHead>
                                                 <TableHead className="text-gray-500">Base Qty (per {selectedTemplate.base_guest_count})</TableHead>
@@ -496,6 +574,13 @@ export default function MaterialCalculatorPage() {
 
                                                 return (
                                                     <TableRow key={index} className="border-[#27272a] hover:bg-[#27272a]/20 transition-colors">
+                                                        <TableCell>
+                                                            <Checkbox 
+                                                                checked={selectedItemIndices.has(index)}
+                                                                onCheckedChange={() => toggleSelectItem(index)}
+                                                                className="border-gray-500 data-[state=checked]:bg-[#d97706] data-[state=checked]:border-[#d97706] mt-1"
+                                                            />
+                                                        </TableCell>
                                                         <TableCell className="text-gray-500 font-mono text-xs">{index + 1}</TableCell>
                                                         <TableCell>
                                                             {isEditing ? (
@@ -578,7 +663,7 @@ export default function MaterialCalculatorPage() {
                                             })}
                                             {isEditing && (
                                                 <TableRow className="border-none">
-                                                    <TableCell colSpan={6} className="text-center py-6">
+                                                    <TableCell colSpan={7} className="text-center py-6">
                                                         <Button onClick={handleAddItem} variant="outline" className="border-dashed border-[#27272a] bg-transparent text-gray-500 hover:text-[#d97706] hover:border-[#d97706]">
                                                             <Plus className="h-4 w-4 mr-2" /> Add Item Row
                                                         </Button>

@@ -39,10 +39,10 @@ export default function Header() {
               <Phone className="h-3 w-3" />
               <span>+91 97147 99377</span>
             </div>
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <Mail className="h-3 w-3" />
               <span>info@payalcatering.com</span>
-            </div>
+            </div> */}
           </div>
           <div className="flex items-center">
             <button

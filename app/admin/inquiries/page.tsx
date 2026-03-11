@@ -347,7 +347,7 @@ export default function AdminInquiriesPage() {
                                                     <TableHead className="font-semibold px-6 py-4 text-gray-400">Client</TableHead>
                                                     <TableHead className="font-semibold text-gray-400">Details</TableHead>
                                                     <TableHead className="font-semibold text-gray-400">Event Info</TableHead>
-                                                    <TableHead className="font-semibold text-gray-400">Status</TableHead>
+                                                    {typeFilter === "custom_menu" && <TableHead className="font-semibold text-gray-400">Status</TableHead>}
                                                     <TableHead className="font-semibold text-right px-6 text-gray-400">Actions</TableHead>
                                                 </TableRow>
                                             </TableHeader>
@@ -409,20 +409,22 @@ export default function AdminInquiriesPage() {
                                                         </TableCell>
 
                                                         {/* Status */}
-                                                        <TableCell className="align-top py-4">
-                                                            <Badge
-                                                                className={
-                                                                    inquiry.status === "pending"
-                                                                        ? "bg-red-500/20 text-red-500 border-red-500/50"
-                                                                        : inquiry.status === "in_progress"
-                                                                            ? "bg-amber-500/20 text-amber-500 border-amber-500/50"
-                                                                            : "bg-emerald-500/20 text-emerald-500 border-emerald-500/50"
-                                                                }
-                                                                variant="outline"
-                                                            >
-                                                                {inquiry.status.replace('_', ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
-                                                            </Badge>
-                                                        </TableCell>
+                                                        {typeFilter === "custom_menu" && (
+                                                            <TableCell className="align-top py-4">
+                                                                <Badge
+                                                                    className={
+                                                                        inquiry.status === "pending"
+                                                                            ? "bg-red-500/20 text-red-500 border-red-500/50"
+                                                                            : inquiry.status === "in_progress"
+                                                                                ? "bg-amber-500/20 text-amber-500 border-amber-500/50"
+                                                                                : "bg-emerald-500/20 text-emerald-500 border-emerald-500/50"
+                                                                    }
+                                                                    variant="outline"
+                                                                >
+                                                                    {inquiry.status.replace('_', ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}
+                                                                </Badge>
+                                                            </TableCell>
+                                                        )}
 
                                                         {/* Actions */}
                                                         <TableCell className="align-top py-4 px-6">
@@ -445,19 +447,21 @@ export default function AdminInquiriesPage() {
                                                                     </Button>
                                                                 )}
 
-                                                                <Select
-                                                                    defaultValue={inquiry.status}
-                                                                    onValueChange={(val) => updateInquiryStatus(inquiry.id, val)}
-                                                                >
-                                                                    <SelectTrigger className="h-8 w-32 bg-[#0f0f11] border-[#27272a] text-sm">
-                                                                        <SelectValue />
-                                                                    </SelectTrigger>
-                                                                    <SelectContent className="bg-[#18181b] border-[#27272a]">
-                                                                        <SelectItem value="pending">Pending</SelectItem>
-                                                                        <SelectItem value="in_progress">In Progress</SelectItem>
-                                                                        <SelectItem value="completed">Completed</SelectItem>
-                                                                    </SelectContent>
-                                                                </Select>
+                                                                {inquiry.type === "custom_menu" && (
+                                                                    <Select
+                                                                        defaultValue={inquiry.status}
+                                                                        onValueChange={(val) => updateInquiryStatus(inquiry.id, val)}
+                                                                    >
+                                                                        <SelectTrigger className="h-8 w-32 bg-[#0f0f11] border-[#27272a] text-sm">
+                                                                            <SelectValue />
+                                                                        </SelectTrigger>
+                                                                        <SelectContent className="bg-[#18181b] border-[#27272a]">
+                                                                            <SelectItem value="pending">Pending</SelectItem>
+                                                                            <SelectItem value="in_progress">In Progress</SelectItem>
+                                                                            <SelectItem value="completed">Completed</SelectItem>
+                                                                        </SelectContent>
+                                                                    </Select>
+                                                                )}
 
                                                                 <Button variant="ghost" size="sm" onClick={() => deleteInquiry(inquiry.id)} className="h-8 w-8 p-0 text-gray-500 hover:text-red-500">
                                                                     <Trash2 className="h-3.5 w-3.5" />
