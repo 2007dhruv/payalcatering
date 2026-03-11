@@ -2,6 +2,7 @@ import { type NextRequest, NextResponse } from "next/server"
 import { savePhotoAction } from "@/app/actions"
 import { writeFile, mkdir } from 'fs/promises'
 import path from 'path'
+import { db } from "@/lib/db"
 export const maxDuration = 60; // Increase max timeout for Vercel
 
 export async function POST(request: NextRequest) {
@@ -12,7 +13,11 @@ export async function POST(request: NextRequest) {
     const categories = formData.getAll("categories") as string[]
     const descriptions = formData.getAll("descriptions") as string[]
 
+    // Auto-migrate column size for live server (bypasses cPanel manual fix)
+    await db.execute("ALTER TABLE photos MODIFY file_url LONGTEXT").catch(e => console.error("Migration skipped:", e))
+
     const uploadResults = []
+    let lastError = null;
 
     for (let i = 0; i < files.length; i++) {
       const file = files[i]
@@ -47,6 +52,7 @@ export async function POST(request: NextRequest) {
       })
 
       if (error) {
+        lastError = error;
         console.error("Database error:", error)
         continue
       }
@@ -57,6 +63,13 @@ export async function POST(request: NextRequest) {
         url: fileUrl,
         category: category,
       })
+    }
+
+    if (uploadResults.length === 0 && files.length > 0) {
+      return NextResponse.json({
+        success: false,
+        message: `Upload failed. Database error: ${lastError || "No files were processed"}`
+      }, { status: 400 })
     }
 
     return NextResponse.json({
