@@ -1,7 +1,7 @@
 "use client"
 
-import type React from "react"
-import { useEffect, useState } from "react"
+import React from "react"
+import { useEffect, useState, useMemo, useCallback } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
@@ -23,11 +23,13 @@ type SelectedMenuItem = MenuItem
 
 function EventForm({
   onSubmit,
+  onFormDataChange,
   isSubmitting,
   disabled,
   setIsTermsOpen,
 }: {
   onSubmit: (formData: any, termsAccepted: boolean) => void
+  onFormDataChange?: (formData: any) => void
   isSubmitting: boolean
   disabled: boolean
   setIsTermsOpen: (open: boolean) => void
@@ -40,13 +42,26 @@ function EventForm({
     event_type: "",
     event_date: "",
     event_time: "",
+    event_time_custom: "",
     guest_count: "",
   })
   const [termsAccepted, setTermsAccepted] = useState(false)
 
   const handleInputChange = (field: string, value: string) => {
-    setFormData((prev) => ({ ...prev, [field]: value }))
+    setFormData((prev) => {
+      const newFormData = { ...prev, [field]: value }
+      return newFormData
+    })
   }
+
+  // Use useEffect to notify parent of form data changes without side-effects during render
+  // Only notify parent when event_time changes or on mount to avoid lag on every keystroke
+  useEffect(() => {
+    if (onFormDataChange) onFormDataChange(formData)
+  }, [formData.event_time, onFormDataChange])
+
+  // Need to fix the closure issue in handleInputChange
+  // Using useEffect or a functional state update is better but I'll update the function locally
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -110,7 +125,7 @@ function EventForm({
         </Select>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 pt-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
         <div className="relative">
           <Input
             type="date"
@@ -121,15 +136,37 @@ function EventForm({
           />
         </div>
         <div className="relative">
-          <Input
-            type="time"
-            required
+          <Select
             value={formData.event_time}
-            onChange={(e) => handleInputChange("event_time", e.target.value)}
-            className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary [color-scheme:dark]"
-          />
+            onValueChange={(val) => handleInputChange("event_time", val)}
+            required
+          >
+            <SelectTrigger className="w-full bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground focus:ring-0 focus:border-primary focus-visible:ring-0 focus-visible:border-primary">
+              <SelectValue placeholder={t("form_event_time", "Event Time", "પ્રસંગનો સમય")} />
+            </SelectTrigger>
+            <SelectContent className="bg-card border-border text-foreground">
+              <SelectItem value="morning" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_morning", "Morning", "સવાર")}</SelectItem>
+              <SelectItem value="evening" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_evening", "Evening", "સાંજ")}</SelectItem>
+              <SelectItem value="night" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_night", "Night", "રાત")}</SelectItem>
+              <SelectItem value="full_day" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_full_day", "Full Day Menu", "આખો દિવસ મેનુ")}</SelectItem>
+              <SelectItem value="other" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_other", "Other", "અન્ય")}</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
       </div>
+
+      {formData.event_time === 'other' && (
+        <div className="pt-2">
+          <Input
+            type="text"
+            placeholder={t("form_event_time_custom", "Type event name (e.g. Dandiya Night)", "ઇવેન્ટનું નામ લખો (દા.ત. દાંડિયા નાઈટ)")}
+            required
+            value={(formData as any).event_time_custom || ""}
+            onChange={(e) => handleInputChange("event_time_custom", e.target.value)}
+            className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary"
+          />
+        </div>
+      )}
 
       <div className="flex items-start space-x-3 pt-6">
         <Checkbox
@@ -154,6 +191,30 @@ function EventForm({
   )
 }
 
+function SlotSwitcher({ activeSlot, onChange }: { activeSlot: string, onChange: (slot: any) => void }) {
+  const { t } = useLanguage()
+  const slots = [
+    { id: "breakfast", label: t("slot_breakfast", "Breakfast", "નાસ્તો") },
+    { id: "lunch", label: t("slot_lunch", "Lunch", "બપોરનું ભોજન") },
+    { id: "dinner", label: t("slot_dinner", "Dinner", "સાંજનું ભોજન") },
+  ]
+
+  return (
+    <div className="flex bg-card border border-border p-1 rounded-sm mb-6">
+      {slots.map((slot) => (
+        <button
+          key={slot.id}
+          onClick={() => onChange(slot.id)}
+          className={`flex-1 py-2 text-xs font-bold tracking-widest uppercase transition-all rounded-sm ${activeSlot === slot.id ? "bg-primary text-primary-foreground shadow-lg" : "text-muted-foreground hover:text-foreground"
+            }`}
+        >
+          {slot.id === "breakfast" ? "☕" : slot.id === "lunch" ? "🌞" : "🌙"} {slot.label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
 export default function CreateMenuPage() {
   const { language, t } = useLanguage()
   const [categories, setCategories] = useState<any[]>([])
@@ -171,6 +232,11 @@ export default function CreateMenuPage() {
   const [openCategories, setOpenCategories] = useState<Record<string, boolean>>({})
   const [formResetKey, setFormResetKey] = useState(0)
 
+  // Active slot for Full Day mode
+  const [activeSlot, setActiveSlot] = useState<"breakfast" | "lunch" | "dinner">("breakfast")
+  // Reference to the event form data to determine if Full Day is selected
+  const [eventTimeType, setEventTimeType] = useState<string>("")
+
   useEffect(() => {
     fetchMenuData()
   }, [])
@@ -178,6 +244,29 @@ export default function CreateMenuPage() {
   useEffect(() => {
     filterItems()
   }, [menuItems, searchTerm, language])
+
+  // Optimize: Pre-group items by category to avoid O(C*I) filtering during render
+  const groupedItems = useMemo(() => {
+    const groups: Record<string, MenuItem[]> = {}
+    filteredItems.forEach((item) => {
+      if (!groups[item.category_id]) groups[item.category_id] = []
+      groups[item.category_id].push(item)
+    })
+    return groups
+  }, [filteredItems])
+
+  const handleFormDataChange = useCallback((data: any) => {
+    setEventTimeType(data.event_time)
+    // If switching to full day, auto-assign existing general items to breakfast
+    // so they show up in the grouped PDF view
+    if (data.event_time === 'full_day') {
+      setSelectedMenu(prev => prev.map(item => 
+        (!item.time_slot || item.time_slot === 'general') 
+        ? { ...item, time_slot: 'breakfast' } 
+        : item
+      ))
+    }
+  }, [])
 
   const fetchMenuData = async () => {
     setIsLoading(true)
@@ -215,14 +304,21 @@ export default function CreateMenuPage() {
 
   const handleAddItem = (item: MenuItem) => {
     setSelectedMenu((prev) => {
-      const existingItem = prev.find((selected) => selected.id === item.id)
+      // For Full Day, we can have the same item in different slots potentially? 
+      // User says "they send three menu this not need" implying one unified inquiry with grouped items.
+      // Let's check for unique combo of item.id + slot
+      const currentSlot = eventTimeType === 'full_day' ? activeSlot : 'general'
+      const existingItem = prev.find((selected) => selected.id === item.id && selected.time_slot === currentSlot)
       if (existingItem) return prev
-      return [...prev, item]
+      return [...prev, { ...item, time_slot: currentSlot }]
     })
   }
 
-  const handleRemoveItem = (itemId: string) => {
-    setSelectedMenu((prev) => prev.filter((item) => item.id !== itemId))
+  const handleRemoveItem = (itemId: string, slot?: string) => {
+    setSelectedMenu((prev) => prev.filter((item) => {
+      if (slot) return !(item.id === itemId && item.time_slot === slot)
+      return item.id !== itemId
+    }))
   }
 
   const handleFinalSubmit = async (submittedFormData: any, termsAccepted: boolean) => {
@@ -249,6 +345,7 @@ export default function CreateMenuPage() {
           id: item.id,
           name_en: item.name_en,
           name_gu: item.name_gu,
+          time_slot: item.time_slot,
         })),
       })
 
@@ -415,13 +512,21 @@ export default function CreateMenuPage() {
           </div>
         </motion.div>
 
-        {/* 2-Column Layout */}
+          {/* hero Area search stuff... omitted for brevity */}
+
+        {/* Slot Switcher for Full Day */}
+        {eventTimeType === 'full_day' && (
+          <div className="max-w-2xl mx-auto mb-8">
+            <SlotSwitcher activeSlot={activeSlot} onChange={setActiveSlot} />
+          </div>
+        )}
+
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 relative items-start">
 
           {/* LEFT: Menu Items */}
           <div className="flex-1 space-y-6">
             {categories.map((category) => {
-              const categoryItems = filteredItems.filter((item) => item.category_id === category.id)
+              const categoryItems = groupedItems[category.id] || []
               if (categoryItems.length === 0 && searchTerm) return null
 
               return (
@@ -491,11 +596,14 @@ export default function CreateMenuPage() {
                                     ITEM-{item.id.toString().substring(0, 4)}
                                   </span>
 
-                                  {selectedMenu.some((selected) => selected.id === item.id) ? (
+                                  {selectedMenu.some((selected) => 
+                                    selected.id === item.id && 
+                                    (eventTimeType === 'full_day' ? selected.time_slot === activeSlot : true)
+                                  ) ? (
                                     <Button
                                       variant="outline"
                                       size="sm"
-                                      onClick={() => handleRemoveItem(item.id)}
+                                      onClick={() => handleRemoveItem(item.id, eventTimeType === 'full_day' ? activeSlot : undefined)}
                                       className="border-primary text-primary bg-primary/10 hover:bg-primary/20 hover:text-primary font-semibold tracking-wider text-[9px] sm:text-[10px] px-2 sm:px-4 rounded-sm transition-all"
                                     >
                                       ADDED <CheckCircle className="ml-1 sm:ml-1.5 h-3 w-3" />
@@ -562,27 +670,39 @@ export default function CreateMenuPage() {
                       <p className="text-xs text-muted-foreground font-light">{t("menu_empty_desc", "Begin your culinary journey by selecting dishes from the menu.", "મેનુમાંથી વાનગીઓ પસંદ કરીને તમારી ડીશ તૈયાર કરો.")}</p>
                     </div>
                   ) : (
-                    <div className="space-y-4">
-                      <AnimatePresence>
-                        {selectedMenu.map((item) => (
-                          <motion.div
-                            key={item.id}
-                            initial={{ opacity: 0, height: 0 }}
-                            animate={{ opacity: 1, height: 'auto' }}
-                            exit={{ opacity: 0, height: 0 }}
-                            className="flex justify-between items-start group"
-                          >
-                            <div>
-                              <p className="text-sm text-muted-foreground group-hover:text-primary transition-colors">
-                                {language === "gu" ? item.name_gu : item.name_en}
-                              </p>
-                            </div>
-                            <button onClick={() => handleRemoveItem(item.id)} className="text-muted-foreground hover:text-red-500 transition-colors ml-4 mt-0.5">
-                              <X className="h-3 w-3" />
-                            </button>
-                          </motion.div>
-                        ))}
-                      </AnimatePresence>
+                    <div className="space-y-6">
+                      {/* Grouping items by slot for Full Day */}
+                      {[...new Set(selectedMenu.map(i => i.time_slot))].map(slot => (
+                        <div key={slot} className="space-y-3">
+                          {slot !== 'general' && (
+                            <h5 className="text-[10px] font-bold tracking-widest uppercase text-primary/70 border-b border-primary/20 pb-1">
+                              {slot === 'breakfast' ? t("slot_breakfast", "Breakfast", "નાસ્તો") :
+                                slot === 'lunch' ? t("slot_lunch", "Lunch", "બપોરનું ભોજન") :
+                                  slot === 'dinner' ? t("slot_dinner", "Dinner", "સાંજનું ભોજન") : slot}
+                            </h5>
+                          )}
+                          <AnimatePresence>
+                            {selectedMenu.filter(i => i.time_slot === slot).map((item) => (
+                              <motion.div
+                                key={`${item.id}-${item.time_slot}`}
+                                initial={{ opacity: 0, height: 0 }}
+                                animate={{ opacity: 1, height: 'auto' }}
+                                exit={{ opacity: 0, height: 0 }}
+                                className="flex justify-between items-start group"
+                              >
+                                <div>
+                                  <p className="text-sm text-muted-foreground group-hover:text-primary transition-colors">
+                                    {language === "gu" ? item.name_gu : item.name_en}
+                                  </p>
+                                </div>
+                                <button onClick={() => handleRemoveItem(item.id, item.time_slot)} className="text-muted-foreground hover:text-red-500 transition-colors ml-4 mt-0.5">
+                                  <X className="h-3 w-3" />
+                                </button>
+                              </motion.div>
+                            ))}
+                          </AnimatePresence>
+                        </div>
+                      ))}
                     </div>
                   )}
                 </div>
@@ -598,6 +718,7 @@ export default function CreateMenuPage() {
 
                   <EventForm
                     key={formResetKey}
+                    onFormDataChange={handleFormDataChange}
                     onSubmit={handleFinalSubmit}
                     isSubmitting={isSubmitting}
                     disabled={selectedMenu.length === 0}

@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 import { Leaf, Search, X, ChevronDown } from "lucide-react"
 import { getMenuItemsAndCategoriesAction } from "@/app/actions"
@@ -42,7 +43,7 @@ export default function EditCustomMenuDialog({ isOpen, onOpenChange, inquiry, on
           id: item.id,
           name_en: item.name_en,
           name_gu: item.name_gu,
-          // Add other properties if needed, though for display/selection, id and names are key
+          time_slot: item.time_slot || 'general'
         })) as MenuItem[]
         setSelectedMenu(initialSelected)
       } else {
@@ -90,17 +91,11 @@ export default function EditCustomMenuDialog({ isOpen, onOpenChange, inquiry, on
   }
 
   const handleAddItem = (item: MenuItem) => {
-    setSelectedMenu((prev) => {
-      const existingItem = prev.find((selected) => selected.id === item.id)
-      if (existingItem) {
-        return prev
-      }
-      return [...prev, item]
-    })
+    setSelectedMenu((prev) => [...prev, { ...item, time_slot: 'general' }])
   }
 
-  const handleRemoveItem = (itemId: string) => {
-    setSelectedMenu((prev) => prev.filter((item) => item.id !== itemId))
+  const handleRemoveItem = (index: number) => {
+    setSelectedMenu((prev) => prev.filter((_, i) => i !== index))
   }
 
   const handleSave = async () => {
@@ -112,6 +107,7 @@ export default function EditCustomMenuDialog({ isOpen, onOpenChange, inquiry, on
         id: item.id,
         name_en: item.name_en,
         name_gu: item.name_gu,
+        time_slot: item.time_slot,
       }))
       await onSave(inquiry.id, itemsToSave)
       onOpenChange(false) // Close dialog on successful save
@@ -209,19 +205,20 @@ export default function EditCustomMenuDialog({ isOpen, onOpenChange, inquiry, on
                               <h4 className="font-bold text-white text-sm mb-3">
                                 {language === "gu" ? item.name_gu : item.name_en}
                               </h4>
-                              <Button
-                                size="sm"
-                                onClick={() => handleAddItem(item)}
-                                disabled={selectedMenu.some((selected) => selected.id === item.id)}
-                                className={`w-full font-bold rounded-lg text-xs transition-all h-9 ${selectedMenu.some((selected) => selected.id === item.id)
-                                    ? "bg-[#18181b] text-gray-500 border border-[#27272a]"
-                                    : "bg-gradient-to-r from-[#d97706] to-[#ea580c] hover:from-[#f59e0b] hover:to-[#f97316] text-black shadow-lg shadow-orange-900/20"
-                                  }`}
-                              >
-                                {selectedMenu.some((selected) => selected.id === item.id)
-                                  ? t("added", "Added", "ઉમેર્યું")
-                                  : t("add_to_menu", "Add to Menu", "મેનુમાં ઉમેરો")}
-                              </Button>
+                              <div className="relative">
+                                <Button
+                                  size="sm"
+                                  onClick={() => handleAddItem(item)}
+                                  className="w-full font-bold rounded-lg text-xs transition-all h-9 bg-gradient-to-r from-[#d97706] to-[#ea580c] hover:from-[#f59e0b] hover:to-[#f97316] text-black shadow-lg shadow-orange-900/20"
+                                >
+                                  {t("add_to_menu", "Add to Menu", "મેનુમાં ઉમેરો")}
+                                </Button>
+                                {selectedMenu.filter(s => s.id === item.id).length > 0 && (
+                                  <Badge className="absolute -top-2 -right-2 bg-white text-black border-none text-[10px] font-bold h-5 w-5 rounded-full flex items-center justify-center p-0 shadow-lg">
+                                    {selectedMenu.filter(s => s.id === item.id).length}
+                                  </Badge>
+                                )}
+                              </div>
                             </CardContent>
                           </Card>
                         ))}
@@ -256,22 +253,45 @@ export default function EditCustomMenuDialog({ isOpen, onOpenChange, inquiry, on
                 </div>
               ) : (
                 <div className="space-y-2">
-                  {selectedMenu.map((item) => (
+                  {selectedMenu.map((item, index) => (
                     <div
-                      key={item.id}
+                      key={`${item.id}-${index}`}
                       className="flex items-center justify-between bg-[#18181b] border border-[#27272a] p-3 rounded-xl group hover:border-[#d97706]/30 transition-all"
                     >
-                      <p className="font-semibold text-sm text-gray-200 group-hover:text-white transition-colors">
-                        {language === "gu" ? item.name_gu : item.name_en}
-                      </p>
-                      <Button
-                        variant="ghost"
-                        size="icon"
-                        onClick={() => handleRemoveItem(item.id)}
-                        className="h-8 w-8 text-gray-500 hover:text-red-400 hover:bg-red-400/10 rounded-lg transition-all"
-                      >
-                        <X className="h-4 w-4" />
-                      </Button>
+                      <div className="flex flex-col">
+                        <p className="font-semibold text-sm text-gray-200 group-hover:text-white transition-colors">
+                          {language === "gu" ? item.name_gu : item.name_en}
+                        </p>
+                      </div>
+
+                      <div className="flex items-center gap-2">
+                        <Select
+                          value={item.time_slot || "general"}
+                          onValueChange={(val) => {
+                            const newMenu = [...selectedMenu]
+                            newMenu[index] = { ...newMenu[index], time_slot: val }
+                            setSelectedMenu(newMenu)
+                          }}
+                        >
+                          <SelectTrigger className="w-[110px] h-8 text-[10px] bg-[#0f0f11] border-[#27272a] text-gray-300">
+                            <SelectValue />
+                          </SelectTrigger>
+                          <SelectContent className="bg-[#18181b] border-[#27272a] text-white">
+                            <SelectItem value="general">{t("slot_general", "General", "સામાન્ય મેનુ")}</SelectItem>
+                            <SelectItem value="breakfast">{t("slot_breakfast", "Breakfast", "સવારનું મેનુ")}</SelectItem>
+                            <SelectItem value="lunch">{t("slot_lunch", "Lunch", "બપોરનું મેનુ")}</SelectItem>
+                            <SelectItem value="dinner">{t("slot_dinner", "Dinner", "રાતનું મેનુ")}</SelectItem>
+                          </SelectContent>
+                        </Select>
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          onClick={() => handleRemoveItem(index)}
+                          className="h-8 w-8 text-gray-500 hover:text-red-400 hover:bg-red-400/10 rounded-lg transition-all"
+                        >
+                          <X className="h-4 w-4" />
+                        </Button>
+                      </div>
                     </div>
                   ))}
                 </div>

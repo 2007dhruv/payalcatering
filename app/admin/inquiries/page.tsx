@@ -155,16 +155,66 @@ export default function AdminInquiriesPage() {
         <div class="section">
           <div class="section-title">${useGujarati ? "ઇવેન્ટની વિગતો" : "Event Details"}</div>
           <div class="info-grid">
-            ${inquiry.event_type ? `<div class="info-item"><div class="info-label">${useGujarati ? "પ્રકાર" : "Type"}</div><div class="info-value">${inquiry.event_type}</div></div>` : ""}
+            ${inquiry.event_type ? `<div class="info-item"><div class="info-label">${useGujarati ? "પ્રકાર" : "Type"}</div><div class="info-value">${(() => {
+    const eventTypeMap = {
+      wedding: useGujarati ? "લગ્ન" : "Wedding",
+      corporate: useGujarati ? "કોર્પોરેટ ઇવેન્ટ" : "Corporate Event",
+      birthday: useGujarati ? "જન્મદિવસ પાર્ટી" : "Birthday Party",
+      anniversary: useGujarati ? "વર્ષગાંઠ" : "Anniversary",
+      festival: useGujarati ? "તહેવાર" : "Festival",
+      other: useGujarati ? "અન્ય" : "Other",
+    }
+    return (eventTypeMap[inquiry.event_type as keyof typeof eventTypeMap] || inquiry.event_type)
+  })()}</div></div>` : ""}
             ${inquiry.event_date ? `<div class="info-item"><div class="info-label">${useGujarati ? "તારીખ" : "Date"}</div><div class="info-value">${new Date(inquiry.event_date).toLocaleDateString()}</div></div>` : ""}
-            ${inquiry.event_time ? `<div class="info-item"><div class="info-label">${useGujarati ? "સમય" : "Time"}</div><div class="info-value">${inquiry.event_time}</div></div>` : ""}
+            ${inquiry.event_time ? `<div class="info-item"><div class="info-label">${useGujarati ? "સમય" : "Time"}</div><div class="info-value" style="font-weight: 800; color: #d97706; font-size: 1.1em;">${(() => {
+    const timeValue = String(inquiry.event_time || '').toLowerCase().trim();
+    if (timeValue === 'morning') return useGujarati ? 'સવાર' : 'Morning';
+    if (timeValue === 'evening') return useGujarati ? 'સાંજ' : 'Evening';
+    if (timeValue === 'night') return useGujarati ? 'રાત' : 'Night';
+    if (timeValue === 'full_day' || timeValue.includes('full') || timeValue.includes('આખો દિવસ')) return useGujarati ? 'આખો દિવસ મેનુ' : 'Full Day Menu';
+    if (timeValue === 'other') return inquiry.event_time_custom || (useGujarati ? 'અન્ય' : 'Other');
+    return inquiry.event_time;
+  })()}</div></div>` : ""}
           </div>
         </div>
         ${inquiry.type === 'custom_menu' ? `
         <div class="section">
-          <div class="section-title">${useGujarati ? "પસંદ કરેલી મેનુ" : "Selected Menu"}</div>
+          <div class="section-title">${useGujarati ? "પસંદ કરેલી મેનુ વસ્તુઓ" : "Selected Menu Items"}</div>
           <div class="menu-items">
-            ${inquiry.selected_menu_items?.map((item: any, i: number) => `<div class="menu-item">${i + 1}. ${useGujarati && item.name_gu ? item.name_gu : (item.name_en || item.name)}</div>`).join("") || "No items"}
+            ${(() => {
+    const items = inquiry.selected_menu_items || [];
+    const slotOrder = ['breakfast', 'lunch', 'dinner', 'general'];
+    const slots = [...new Set(items.map((i: any) => i.time_slot || 'general'))].sort((a, b) => {
+      return slotOrder.indexOf(a as string) - slotOrder.indexOf(b as string);
+    });
+
+    return slots.map(slot => {
+      const slotItems = items.filter((i: any) => (i.time_slot || 'general') === slot);
+      if (slotItems.length === 0) return '';
+
+      const slotName = slot === 'breakfast' ? (useGujarati ? 'સવારનું મેનુ (Morning)' : 'Morning Menu') :
+        slot === 'lunch' ? (useGujarati ? 'બપોરનું મેનુ (Afternoon)' : 'Afternoon Menu') :
+        slot === 'dinner' ? (useGujarati ? 'રાતનું મેનુ (Evening/Night)' : 'Evening / Night Menu') : 
+        (useGujarati ? 'મેનુ' : 'Menu');
+
+      return `
+                <div style="margin-bottom: 25px; page-break-before: always;">
+                  <div style="background: #fef3c7; color: #d97706; padding: 10px 15px; font-weight: bold; font-size: 18px; border-left: 5px solid #f59e0b; margin-bottom: 12px; border-radius: 4px;">
+                    ${slotName}
+                  </div>
+                  <div style="display: grid; grid-template-columns: 1fr; gap: 8px;">
+                    ${slotItems.map((item: any, i: number) => `
+                      <div class="menu-item" style="background: white; border: 1px solid #e5e7eb; padding: 12px 15px; border-radius: 6px; margin-bottom: 8px; border-left: 4px solid #10b981; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
+                        <span style="font-weight: bold; color: #d97706; margin-right: 12px;">${i + 1}.</span>
+                        <span style="font-weight: 600;">${useGujarati && item.name_gu ? item.name_gu : (item.name_en || item.name)}</span>
+                      </div>
+                    `).join("")}
+                  </div>
+                </div>
+              `;
+    }).join("");
+  })()}
           </div>
         </div>` : ""}
         ${inquiry.message ? `<div class="section"><div class="section-title">Message</div><div class="info-item"><div class="info-value">${inquiry.message}</div></div></div>` : ""}
@@ -177,7 +227,12 @@ export default function AdminInquiriesPage() {
         if (printWindow) {
             printWindow.document.write(htmlContent)
             printWindow.document.close()
-            setTimeout(() => printWindow.print(), 1000)
+            // Print but don't close the window automatically so user can review the content
+            printWindow.onload = () => {
+              setTimeout(() => {
+                printWindow.print();
+              }, 10000);
+            };
         } else {
             const blob = new Blob([htmlContent], { type: "text/html" })
             const url = URL.createObjectURL(blob)

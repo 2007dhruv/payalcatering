@@ -61,6 +61,7 @@ CREATE TABLE IF NOT EXISTS contact_inquiries (
   selected_menu_items JSON,
   event_address TEXT,
   event_time VARCHAR(100),
+  event_time_custom VARCHAR(255),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
