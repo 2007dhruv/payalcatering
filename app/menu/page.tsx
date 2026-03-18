@@ -138,7 +138,7 @@ function EventForm({
           </SelectTrigger>
           <SelectContent className="bg-card border-border text-foreground">
             <SelectItem value="morning" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_morning", "Morning", "સવાર")}</SelectItem>
-            <SelectItem value="evening" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_evening", "Evening", "સાંજ")}</SelectItem>
+            <SelectItem value="afternoon" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_afternoon", "Afternoon", "બપોરે")}</SelectItem>
             <SelectItem value="night" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_night", "Night", "રાત")}</SelectItem>
             <SelectItem value="full_day" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_full_day", "Full Day Menu", "આખો દિવસ મેનુ")}</SelectItem>
             <SelectItem value="other" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_other", "Other", "અન્ય")}</SelectItem>

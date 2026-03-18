@@ -321,8 +321,8 @@ export default function AdminDashboard() {
               <div class="info-value" style="font-weight: 800; color: #d97706; font-size: 1.1em;">${(() => {
     const timeValue = String(inquiry.event_time || '').toLowerCase().trim();
     if (timeValue === 'morning') return useGujarati ? 'સવાર' : 'Morning';
-    if (timeValue === 'evening') return useGujarati ? 'સાંજ' : 'Evening';
-    if (timeValue === 'night') return useGujarati ? 'રાત' : 'Night';
+    if (timeValue === 'afternoon') return useGujarati ? 'બપોરે' : 'Afternoon';
+    if (timeValue === 'night' || timeValue === 'evening') return useGujarati ? 'રાત' : 'Night';
     if (timeValue === 'full_day' || timeValue.includes('full') || timeValue.includes('આખો દિવસ')) return useGujarati ? 'આખો દિવસ મેનુ' : 'Full Day Menu';
     if (timeValue === 'other') return inquiry.event_time_custom || (useGujarati ? 'અન્ય' : 'Other');
     return inquiry.event_time;

@@ -171,8 +171,8 @@ export default function AdminInquiriesPage() {
     const isFullDay = timeValue === 'full_day' || timeValue.includes('full') || timeValue.includes('આખો દિવસ');
     let timeLabel = inquiry.event_time;
     if (timeValue === 'morning') timeLabel = useGujarati ? 'સવાર' : 'Morning';
-    else if (timeValue === 'evening') timeLabel = useGujarati ? 'સાંજ' : 'Evening';
-    else if (timeValue === 'night') timeLabel = useGujarati ? 'રાત' : 'Night';
+    else if (timeValue === 'afternoon') timeLabel = useGujarati ? 'બપોરે' : 'Afternoon';
+    else if (timeValue === 'night' || timeValue === 'evening') timeLabel = useGujarati ? 'રાત' : 'Night';
     else if (isFullDay) timeLabel = useGujarati ? 'આખો દિવસ મેનુ' : 'Full Day Menu';
     else if (timeValue === 'other') timeLabel = inquiry.event_time_custom || (useGujarati ? 'અન્ય' : 'Other');
 
