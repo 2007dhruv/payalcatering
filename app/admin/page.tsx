@@ -287,11 +287,6 @@ export default function AdminDashboard() {
               <div class="info-label">${useGujarati ? "ફોન" : "Phone"}</div>
               <div class="info-value">${inquiry.phone}</div>
             </div>` : ""}
-            ${inquiry.guest_count ? `
-            <div class="info-item">
-              <div class="info-label">${useGujarati ? "મહેમાનોની સંખ્યા" : "Number of Guests"}</div>
-              <div class="info-value">${inquiry.guest_count}</div>
-            </div>` : ""}
           </div>
         </div>
 
@@ -338,6 +333,34 @@ export default function AdminDashboard() {
               <div class="info-label">${useGujarati ? "ઇવેન્ટનું સરનામું" : "Event Address"}</div>
               <div class="info-value">${inquiry.event_address}</div>
             </div>` : ""}
+            ${(() => {
+    const bCount = Number(inquiry.breakfast_count || 0);
+    const lCount = Number(inquiry.lunch_count || 0);
+    const dCount = Number(inquiry.dinner_count || 0);
+    const gCount = Number(inquiry.guest_count || 0);
+    
+    let html = '';
+    let shownSlots = false;
+    
+    if (bCount > 0) {
+      html += `<div class="info-item"><div class="info-label">${useGujarati ? "સવારના મહેમાનો" : "Morning Guests"}</div><div class="info-value">${bCount}</div></div>`;
+      shownSlots = true;
+    }
+    if (lCount > 0) {
+      html += `<div class="info-item"><div class="info-label">${useGujarati ? "બપોરના મહેમાનો" : "Afternoon Guests"}</div><div class="info-value">${lCount}</div></div>`;
+      shownSlots = true;
+    }
+    if (dCount > 0) {
+      html += `<div class="info-item"><div class="info-label">${useGujarati ? "રાતના મહેમાનો" : "Night Guests"}</div><div class="info-value">${dCount}</div></div>`;
+      shownSlots = true;
+    }
+    
+    if (!shownSlots && gCount > 0) {
+      html += `<div class="info-item"><div class="info-label">${useGujarati ? "મહેમાનોની સંખ્યા" : "Total Guests"}</div><div class="info-value">${gCount}</div></div>`;
+    }
+    
+    return html;
+  })()}
           </div>
         </div>
 
@@ -357,10 +380,18 @@ export default function AdminDashboard() {
       const slotItems = items.filter((i: any) => (i.time_slot || 'general') === slot);
       if (slotItems.length === 0) return '';
 
-      const slotName = slot === 'breakfast' ? (useGujarati ? 'સવારનું મેનુ (Morning)' : 'Morning Menu') :
+      const guestCountForSlot = slot === 'breakfast' ? inquiry.breakfast_count : 
+                                slot === 'lunch' ? inquiry.lunch_count : 
+                                slot === 'dinner' ? inquiry.dinner_count : null;
+      
+      const countNum = Number(guestCountForSlot || 0);
+      const guestCountText = (countNum > 0) ? 
+        (useGujarati ? ` - ${countNum} મહેમાનો` : ` - ${countNum} Guests`) : '';
+
+      const slotName = (slot === 'breakfast' ? (useGujarati ? 'સવારનું મેનુ (Morning)' : 'Morning Menu') :
         slot === 'lunch' ? (useGujarati ? 'બપોરનું મેનુ (Afternoon)' : 'Afternoon Menu') :
         slot === 'dinner' ? (useGujarati ? 'રાતનું મેનુ (Evening/Night)' : 'Evening / Night Menu') : 
-        (useGujarati ? 'મેનુ' : 'Menu');
+        (useGujarati ? 'મેનુ' : 'Menu')) + guestCountText;
 
       return `
                 <div style="margin-bottom: 25px; page-break-before: always;">
@@ -639,7 +670,27 @@ export default function AdminDashboard() {
                       <TableCell className="text-gray-300">
                         {inquiry.event_date ? new Date(inquiry.event_date).toLocaleDateString() : "N/A"}
                       </TableCell>
-                      <TableCell className="text-gray-300">{inquiry.guest_count || "N/A"}</TableCell>
+                      <TableCell className="text-gray-300">
+                        {(() => {
+                          const timeVal = String(inquiry.event_time || '').toLowerCase().trim();
+                          const isFullDay = timeVal === 'full_day' || timeVal.includes('full') || timeVal.includes('આખો દિવસ');
+                          const b = Number(inquiry.breakfast_count || 0);
+                          const l = Number(inquiry.lunch_count || 0);
+                          const d = Number(inquiry.dinner_count || 0);
+                          
+                          if (isFullDay && (b > 0 || l > 0 || d > 0)) {
+                            return (
+                              <div className="flex flex-col text-xs space-y-0.5">
+                                <span className="font-medium text-[#d97706]">Full Day:</span>
+                                {b > 0 && <span className="flex justify-between"><span>Morning:</span> <span className="font-semibold">{b}</span></span>}
+                                {l > 0 && <span className="flex justify-between"><span>Afternoon:</span> <span className="font-semibold">{l}</span></span>}
+                                {d > 0 && <span className="flex justify-between"><span>Night:</span> <span className="font-semibold">{d}</span></span>}
+                              </div>
+                            );
+                          }
+                          return inquiry.guest_count || "N/A";
+                        })()}
+                      </TableCell>
                       <TableCell>
                         <Badge
                           className={

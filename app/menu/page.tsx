@@ -27,15 +27,19 @@ function EventForm({
   isSubmitting,
   disabled,
   setIsTermsOpen,
+  step,
+  initialData,
 }: {
   onSubmit: (formData: any, termsAccepted: boolean) => void
   onFormDataChange?: (formData: any) => void
   isSubmitting: boolean
   disabled: boolean
   setIsTermsOpen: (open: boolean) => void
+  step?: 1 | 2
+  initialData?: any
 }) {
   const { language, t } = useLanguage()
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState(initialData || {
     name: "",
     email: "",
     phone: "",
@@ -44,11 +48,21 @@ function EventForm({
     event_time: "",
     event_time_custom: "",
     guest_count: "",
+    breakfast_count: "",
+    lunch_count: "",
+    dinner_count: "",
   })
-  const [termsAccepted, setTermsAccepted] = useState(false)
+  const [termsAccepted, setTermsAccepted] = useState(true)
+
+  // Sync internal state with initialData if it changes (e.g. from parent)
+  useEffect(() => {
+    if (initialData) {
+      setFormData((prev: any) => ({ ...prev, ...initialData }))
+    }
+  }, [initialData])
 
   const handleInputChange = (field: string, value: string) => {
-    setFormData((prev) => {
+    setFormData((prev: any) => {
       const newFormData = { ...prev, [field]: value }
       return newFormData
     })
@@ -59,9 +73,6 @@ function EventForm({
   useEffect(() => {
     if (onFormDataChange) onFormDataChange(formData)
   }, [formData.event_time, onFormDataChange])
-
-  // Need to fix the closure issue in handleInputChange
-  // Using useEffect or a functional state update is better but I'll update the function locally
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -88,22 +99,13 @@ function EventForm({
         />
       </div>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="space-y-1">
         <Input
           type="tel"
           placeholder={t("form_phone", "Phone", "મોબાઈલ નંબર")}
           required
           value={formData.phone}
           onChange={(e) => handleInputChange("phone", e.target.value)}
-          className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary"
-        />
-        <Input
-          type="number"
-          placeholder={t("form_guests", "Guests", "મહેમાનોની સંખ્યા")}
-          required
-          min="1"
-          value={formData.guest_count}
-          onChange={(e) => handleInputChange("guest_count", e.target.value)}
           className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary"
         />
       </div>
@@ -125,35 +127,38 @@ function EventForm({
         </Select>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-        <div className="relative">
+      <div className="pt-2">
+        <Select
+          value={formData.event_time}
+          onValueChange={(val) => handleInputChange("event_time", val)}
+          required
+        >
+          <SelectTrigger className="w-full bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground focus:ring-0 focus:border-primary focus-visible:ring-0 focus-visible:border-primary">
+            <SelectValue placeholder={t("form_event_time", "Event Time", "પ્રસંગનો સમય")} />
+          </SelectTrigger>
+          <SelectContent className="bg-card border-border text-foreground">
+            <SelectItem value="morning" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_morning", "Morning", "સવાર")}</SelectItem>
+            <SelectItem value="evening" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_evening", "Evening", "સાંજ")}</SelectItem>
+            <SelectItem value="night" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_night", "Night", "રાત")}</SelectItem>
+            <SelectItem value="full_day" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_full_day", "Full Day Menu", "આખો દિવસ મેનુ")}</SelectItem>
+            <SelectItem value="other" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_other", "Other", "અન્ય")}</SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      {formData.event_time !== 'full_day' && (
+        <div className="pt-2">
           <Input
-            type="date"
+            type="number"
+            placeholder={t("form_guests", "Guests", "મહેમાનોની સંખ્યા")}
             required
-            value={formData.event_date}
-            onChange={(e) => handleInputChange("event_date", e.target.value)}
-            className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary [color-scheme:dark]"
+            min="1"
+            value={formData.guest_count}
+            onChange={(e) => handleInputChange("guest_count", e.target.value)}
+            className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary"
           />
         </div>
-        <div className="relative">
-          <Select
-            value={formData.event_time}
-            onValueChange={(val) => handleInputChange("event_time", val)}
-            required
-          >
-            <SelectTrigger className="w-full bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground focus:ring-0 focus:border-primary focus-visible:ring-0 focus-visible:border-primary">
-              <SelectValue placeholder={t("form_event_time", "Event Time", "પ્રસંગનો સમય")} />
-            </SelectTrigger>
-            <SelectContent className="bg-card border-border text-foreground">
-              <SelectItem value="morning" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_morning", "Morning", "સવાર")}</SelectItem>
-              <SelectItem value="evening" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_evening", "Evening", "સાંજ")}</SelectItem>
-              <SelectItem value="night" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_night", "Night", "રાત")}</SelectItem>
-              <SelectItem value="full_day" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_full_day", "Full Day Menu", "આખો દિવસ મેનુ")}</SelectItem>
-              <SelectItem value="other" className="focus:bg-primary/20 focus:text-primary cursor-pointer">{t("time_other", "Other", "અન્ય")}</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-      </div>
+      )}
 
       {formData.event_time === 'other' && (
         <div className="pt-2">
@@ -167,6 +172,45 @@ function EventForm({
           />
         </div>
       )}
+
+      {formData.event_time === 'full_day' && (
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+          <Input
+            type="number"
+            placeholder={t("form_breakfast_guests", "Morning Guests", "સવારના મહેમાનો")}
+            min="0"
+            value={(formData as any).breakfast_count || ""}
+            onChange={(e) => handleInputChange("breakfast_count", e.target.value)}
+            className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary"
+          />
+          <Input
+            type="number"
+            placeholder={t("form_lunch_guests", "Afternoon Guests", "બપોરના મહેમાનો")}
+            min="0"
+            value={(formData as any).lunch_count || ""}
+            onChange={(e) => handleInputChange("lunch_count", e.target.value)}
+            className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary"
+          />
+          <Input
+            type="number"
+            placeholder={t("form_dinner_guests", "Night Guests", "રાતના મહેમાનો")}
+            min="0"
+            value={(formData as any).dinner_count || ""}
+            onChange={(e) => handleInputChange("dinner_count", e.target.value)}
+            className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary"
+          />
+        </div>
+      )}
+
+      <div className="pt-2">
+        <Input
+          type="date"
+          required
+          value={formData.event_date}
+          onChange={(e) => handleInputChange("event_date", e.target.value)}
+          className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary [color-scheme:dark]"
+        />
+      </div>
 
       <div className="flex items-start space-x-3 pt-6">
         <Checkbox
@@ -185,7 +229,11 @@ function EventForm({
         disabled={disabled || !termsAccepted || isSubmitting}
         className="w-full mt-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold tracking-widest text-xs uppercase py-6 rounded-sm disabled:opacity-50 disabled:bg-primary/50 transition-all"
       >
-        {isSubmitting ? t("form_processing", "Processing...", "પ્રક્રિયા ચાલુ છે...") : t("form_submit", "Request Quote", "ક્વોટેશન મોકલો")}
+        {isSubmitting 
+          ? t("form_processing", "Processing...", "પ્રક્રિયા ચાલુ છે...") 
+          : step === 1 
+            ? t("form_proceed", "Proceed to Menu Selection", "મેનુ પસંદગી માટે આગળ વધો")
+            : t("form_submit", "Request Quote", "ક્વોટેશન મોકલો")}
       </Button>
     </form>
   )
@@ -230,7 +278,12 @@ export default function CreateMenuPage() {
 
   // Which categories are expanded? Open all by default initially.
   const [openCategories, setOpenCategories] = useState<Record<string, boolean>>({})
+  // Multi-step logic
+  const [currentStep, setCurrentStep] = useState<1 | 2>(2) // Default to step 2 (browsing)
+  const [eventFormData, setEventFormData] = useState<any>(null)
   const [formResetKey, setFormResetKey] = useState(0)
+  const [isFormModalOpen, setIsFormModalOpen] = useState(false)
+  const [pendingItemToAdd, setPendingItemToAdd] = useState<MenuItem | null>(null)
 
   // Active slot for Full Day mode
   const [activeSlot, setActiveSlot] = useState<"breakfast" | "lunch" | "dinner">("breakfast")
@@ -257,6 +310,7 @@ export default function CreateMenuPage() {
 
   const handleFormDataChange = useCallback((data: any) => {
     setEventTimeType(data.event_time)
+    setEventFormData(data)
     // If switching to full day, auto-assign existing general items to breakfast
     // so they show up in the grouped PDF view
     if (data.event_time === 'full_day') {
@@ -267,6 +321,17 @@ export default function CreateMenuPage() {
       ))
     }
   }, [])
+
+  const handleStep1Submit = (formData: any, termsAccepted: boolean) => {
+    setEventFormData(formData)
+    setIsFormModalOpen(false)
+    if (pendingItemToAdd) {
+      handleAddItem(pendingItemToAdd, formData)
+      setPendingItemToAdd(null)
+    }
+    // Scroll to top when moving to step 2 if we were somehow down
+    // window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   const fetchMenuData = async () => {
     setIsLoading(true)
@@ -302,12 +367,19 @@ export default function CreateMenuPage() {
     setOpenCategories(prev => ({ ...prev, [id]: !prev[id] }))
   }
 
-  const handleAddItem = (item: MenuItem) => {
+  const handleAddItem = (item: MenuItem, overrideFormData?: any) => {
+    const effectiveFormData = overrideFormData || eventFormData
+    if (!effectiveFormData) {
+      setPendingItemToAdd(item)
+      setIsFormModalOpen(true)
+      return
+    }
+
     setSelectedMenu((prev) => {
       // For Full Day, we can have the same item in different slots potentially? 
       // User says "they send three menu this not need" implying one unified inquiry with grouped items.
       // Let's check for unique combo of item.id + slot
-      const currentSlot = eventTimeType === 'full_day' ? activeSlot : 'general'
+      const currentSlot = effectiveFormData.event_time === 'full_day' ? activeSlot : 'general'
       const existingItem = prev.find((selected) => selected.id === item.id && selected.time_slot === currentSlot)
       if (existingItem) return prev
       return [...prev, { ...item, time_slot: currentSlot }]
@@ -321,7 +393,7 @@ export default function CreateMenuPage() {
     }))
   }
 
-  const handleFinalSubmit = async (submittedFormData: any, termsAccepted: boolean) => {
+  const handleFinalSubmit = async () => {
     setIsSubmitting(true)
 
     if (selectedMenu.length === 0) {
@@ -330,16 +402,12 @@ export default function CreateMenuPage() {
       return
     }
 
-    if (!termsAccepted) {
-      alert(t("terms_warning", "Please accept the terms and conditions.", "કૃપા કરીને શરતો સ્વીકારો."))
-      setIsSubmitting(false)
-      return
-    }
+    // We assume terms were accepted in Step 1
 
     try {
       const { error } = await submitInquiryAction({
-        ...submittedFormData,
-        email: submittedFormData.email || "not-provided@example.com",
+        ...eventFormData,
+        email: eventFormData.email || "not-provided@example.com",
         type: "custom_menu",
         selected_menu_items: selectedMenu.map((item) => ({
           id: item.id,
@@ -347,6 +415,9 @@ export default function CreateMenuPage() {
           name_gu: item.name_gu,
           time_slot: item.time_slot,
         })),
+        breakfast_count: eventFormData.breakfast_count ? Number.parseInt(eventFormData.breakfast_count) : 0,
+        lunch_count: eventFormData.lunch_count ? Number.parseInt(eventFormData.lunch_count) : 0,
+        dinner_count: eventFormData.dinner_count ? Number.parseInt(eventFormData.dinner_count) : 0,
       })
 
       if (error) throw new Error(error)
@@ -477,281 +548,312 @@ export default function CreateMenuPage() {
       <Header />
 
       <main className="flex-1 container mx-auto px-4 lg:px-6 py-12">
-
-        {/* Hero Area */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          className="text-center max-w-3xl mx-auto mb-12"
-        >
-          <Badge variant="outline" className="mb-6 font-medium tracking-[0.2em] border-primary text-primary bg-transparent uppercase">
-            {t("menu_hero_badge", "Curated Excellence", "શ્રેષ્ઠ ગુણવત્તા")}
-          </Badge>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-foreground mb-6">
-            {language === "gu" ? (
-              <>તમારું <span className="text-primary italic">ખાસ</span> મેનુ બનાવો</>
-            ) : (
-              <>Craft Your <span className="text-primary italic">Signature</span> Menu</>
-            )}
-          </h1>
-          <p className="text-muted-foreground text-sm md:text-base leading-relaxed hidden md:block max-w-2xl mx-auto">
-            {t("menu_hero_desc", "Select from our collection of premium dishes designed for sophisticated palates. Build a culinary journey that reflects the elegance of your occasion.", "તમારા પ્રસંગને અનુરૂપ અમારી શ્રેષ્ઠ વાનગીઓમાંથી પસંદગી કરો. એક એવું મેનુ તૈયાર કરો જે તમારા પ્રસંગની ભવ્યતાને દર્શાવે છે.")}
-          </p>
-
-          {/* Search */}
-          <div className="relative mt-10 max-w-2xl mx-auto">
-            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-primary h-4 w-4" />
-            <Input
-              type="text"
-              placeholder={t("menu_search_placeholder", "Search for exquisite dishes...", "તમારી મનપસંદ વાનગી શોધો...")}
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="pl-12 py-6 bg-card border-border text-foreground placeholder:text-muted-foreground focus-visible:ring-primary rounded-sm"
-            />
-          </div>
-        </motion.div>
-
-          {/* hero Area search stuff... omitted for brevity */}
-
-        {/* Slot Switcher for Full Day */}
-        {eventTimeType === 'full_day' && (
-          <div className="max-w-2xl mx-auto mb-8">
-            <SlotSwitcher activeSlot={activeSlot} onChange={setActiveSlot} />
-          </div>
-        )}
-
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 relative items-start">
-
-          {/* LEFT: Menu Items */}
-          <div className="flex-1 space-y-6">
-            {categories.map((category) => {
-              const categoryItems = groupedItems[category.id] || []
-              if (categoryItems.length === 0 && searchTerm) return null
-
-              return (
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-50px" }}
-                  transition={{ duration: 0.5 }}
-                  key={category.id}
-                  className="border-b border-border/50 pb-6 last:border-b-0"
-                >
-                  <button
-                    onClick={() => toggleCategory(category.id)}
-                    className="flex items-center justify-between w-full py-4 text-left group"
+          <>
+            {/* Hero Area */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7 }}
+              className="text-center max-w-3xl mx-auto mb-12"
+            >
+                {eventFormData && (
+                  <Button 
+                    variant="ghost" 
+                    size="sm" 
+                    onClick={() => setIsFormModalOpen(true)}
+                    className="text-muted-foreground hover:text-primary"
                   >
-                    <h2 className="text-xl sm:text-2xl font-serif text-muted-foreground group-hover:text-primary transition-colors">
-                      {language === "gu" ? category.name_gu : category.name_en}
-                    </h2>
-                    <ChevronDown className={`h-5 w-5 text-muted-foreground transition-transform duration-300 ${openCategories[category.id] ? "rotate-180" : ""}`} />
-                  </button>
+                    ✎ {t("edit_details", "Edit Event Details", "વિગતો સુધારો")}
+                  </Button>
+                )}
+                <Badge variant="outline" className="font-medium tracking-[0.2em] border-primary text-primary bg-transparent uppercase">
+                  Menu Selection
+                </Badge>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-foreground mb-6">
+                {language === "gu" ? (
+                  <>તમારું <span className="text-primary italic">ખાસ</span> મેનુ બનાવો</>
+                ) : (
+                  <>Craft Your <span className="text-primary italic">Signature</span> Menu</>
+                )}
+              </h1>
+              <p className="text-muted-foreground text-sm md:text-base leading-relaxed hidden md:block max-w-2xl mx-auto">
+                {t("menu_hero_desc", "Select from our collection of premium dishes designed for sophisticated palates. Build a culinary journey that reflects the elegance of your occasion.", "તમારા પ્રસંગને અનુરૂપ અમારી શ્રેષ્ઠ વાનગીઓમાંથી પસંદગી કરો. એક એવું મેનુ તૈયાર કરો જે તમારા પ્રસંગની ભવ્યતાને દર્શાવે છે.")}
+              </p>
 
-                  <AnimatePresence>
-                    {openCategories[category.id] && (
-                      <motion.div
-                        initial="hidden"
-                        animate="show"
-                        exit="hidden"
-                        variants={containerVariants}
-                        className="grid grid-cols-2 lg:grid-cols-2 gap-3 sm:gap-6 mt-4 overflow-hidden"
-                      >
-                        {categoryItems.map((item, idx) => (
-                          <motion.div key={item.id} variants={itemVariants}>
-                            <Card className="bg-card border-border overflow-hidden flex flex-col h-full outline-none">
-                              <div className="relative h-36 sm:h-48 w-full group overflow-hidden">
-                                <Image
-                                  priority={idx < 2}
-                                  src={
-                                    item.image_url ||
-                                    `/placeholder.svg?height=200&width=400&query=${encodeURIComponent(item.name_en) || "food"}`
-                                  }
-                                  alt={language === "gu" ? item.name_gu : item.name_en}
-                                  fill
-                                  className="object-cover group-hover:scale-110 transition-transform duration-700"
-                                />
-                                <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent opacity-90" />
+              {/* Search */}
+              <div className="relative mt-10 max-w-2xl mx-auto">
+                <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-primary h-4 w-4" />
+                <Input
+                  type="text"
+                  placeholder={t("menu_search_placeholder", "Search for exquisite dishes...", "તમારી મનપસંદ વાનગી શોધો...")}
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="pl-12 py-6 bg-card border-border text-foreground placeholder:text-muted-foreground focus-visible:ring-primary rounded-sm"
+                />
+              </div>
+            </motion.div>
 
-                                {item.is_vegetarian && (
-                                  <Badge className="absolute top-3 left-3 bg-background/80 border-green-500/50 text-green-500 backdrop-blur-md px-2 py-0.5 text-[10px] font-bold tracking-wider rounded-sm">
-                                    <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-1.5 inline-block"></span>
-                                    VEG
-                                  </Badge>
-                                )}
-                              </div>
-                              <CardContent className="p-3 sm:p-5 flex-1 flex flex-col justify-between z-10 -mt-6 sm:-mt-6">
-                                <div>
-                                  <h3 className="text-base sm:text-lg font-serif text-foreground mb-1 sm:mb-2 leading-tight drop-shadow-md">
-                                    {language === "gu" ? item.name_gu : item.name_en}
-                                  </h3>
-                                  <p className="text-xs sm:text-xs text-muted-foreground line-clamp-2 leading-relaxed mb-6 font-light">
-                                    {language === "gu" ? item.description_gu : item.description_en}
-                                    {!item.description_en && "Exquisite culinary preparation crafted with the finest ingredients."}
-                                  </p>
-                                </div>
-
-                                <div className="flex justify-between items-end mt-auto">
-                                  <span className="text-[10px] text-muted-foreground/50 tracking-widest uppercase font-mono">
-                                    ITEM-{item.id.toString().substring(0, 4)}
-                                  </span>
-
-                                  {selectedMenu.some((selected) => 
-                                    selected.id === item.id && 
-                                    (eventTimeType === 'full_day' ? selected.time_slot === activeSlot : true)
-                                  ) ? (
-                                    <Button
-                                      variant="outline"
-                                      size="sm"
-                                      onClick={() => handleRemoveItem(item.id, eventTimeType === 'full_day' ? activeSlot : undefined)}
-                                      className="border-primary text-primary bg-primary/10 hover:bg-primary/20 hover:text-primary font-semibold tracking-wider text-[9px] sm:text-[10px] px-2 sm:px-4 rounded-sm transition-all"
-                                    >
-                                      ADDED <CheckCircle className="ml-1 sm:ml-1.5 h-3 w-3" />
-                                    </Button>
-                                  ) : (
-                                    <Button
-                                      variant="outline"
-                                      size="sm"
-                                      onClick={() => handleAddItem(item)}
-                                      className="border-border text-muted-foreground bg-transparent hover:border-primary hover:text-primary hover:bg-primary/5 font-semibold tracking-wider text-[9px] sm:text-[10px] px-2 sm:px-4 rounded-sm transition-all"
-                                    >
-                                      SELECT <Plus className="ml-1 sm:ml-1.5 h-3 w-3" />
-                                    </Button>
-                                  )}
-                                </div>
-                              </CardContent>
-                            </Card>
-                          </motion.div>
-                        ))}
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </motion.div>
-              )
-            })}
-          </div>
-
-          {/* RIGHT: Sticky Form Panel / Mobile Modal */}
-          <motion.aside
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-            className={`
-              w-full lg:w-[400px] flex-shrink-0 space-y-6 lg:space-y-6
-              ${isMobileCartOpen ? "fixed inset-0 z-50 bg-background/95 backdrop-blur-md p-4 overflow-y-auto" : "hidden lg:block lg:sticky lg:top-32 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto custom-scrollbar"}
-            `}
-          >
-            {isMobileCartOpen && (
-              <div className="lg:hidden flex justify-end mb-2">
-                <Button variant="outline" size="icon" onClick={() => setIsMobileCartOpen(false)} className="rounded-full border-border bg-card">
-                  <X className="h-4 w-4 text-foreground" />
-                </Button>
+            {/* Slot Switcher for Full Day */}
+            {eventTimeType === 'full_day' && (
+              <div className="max-w-2xl mx-auto mb-8">
+                <SlotSwitcher activeSlot={activeSlot} onChange={setActiveSlot} />
               </div>
             )}
-            <Card className="bg-card border-border rounded-sm shadow-2xl shadow-black/50 lg:border-border border-primary/20">
-              <CardContent className="p-0">
 
-                {/* Selected Menu Header */}
-                <div className="p-6 border-b border-border flex justify-between items-center bg-card/50">
-                  <h3 className="font-serif text-foreground font-medium tracking-wide">{t("menu_selected", "Selected Menu", "પસંદ કરેલ મેનુ")}</h3>
-                  <Badge className="bg-primary/10 text-primary border border-primary/30 hover:bg-primary/20 text-[10px] tracking-widest py-0.5 rounded-sm">
-                    {selectedMenu.length} {t("menu_items_count", "ITEMS", "વાનગીઓ")}
-                  </Badge>
-                </div>
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 relative items-start">
 
-                {/* Items List */}
-                <div className="p-6">
-                  {selectedMenu.length === 0 ? (
-                    <div className="text-center py-8">
-                      <div className="w-12 h-12 rounded-full border border-primary/30 flex items-center justify-center mx-auto mb-4 bg-primary/5">
-                        <Utensils className="h-5 w-5 text-primary" />
-                      </div>
-                      <p className="text-foreground font-serif mb-1">{t("menu_empty_title", "Your Plate is Empty", "તમારી પ્લેટ ખાલી છે")}</p>
-                      <p className="text-xs text-muted-foreground font-light">{t("menu_empty_desc", "Begin your culinary journey by selecting dishes from the menu.", "મેનુમાંથી વાનગીઓ પસંદ કરીને તમારી ડીશ તૈયાર કરો.")}</p>
-                    </div>
-                  ) : (
-                    <div className="space-y-6">
-                      {/* Grouping items by slot for Full Day */}
-                      {[...new Set(selectedMenu.map(i => i.time_slot))].map(slot => (
-                        <div key={slot} className="space-y-3">
-                          {slot !== 'general' && (
-                            <h5 className="text-[10px] font-bold tracking-widest uppercase text-primary/70 border-b border-primary/20 pb-1">
-                              {slot === 'breakfast' ? t("slot_breakfast", "Breakfast", "નાસ્તો") :
-                                slot === 'lunch' ? t("slot_lunch", "Lunch", "બપોરનું ભોજન") :
-                                  slot === 'dinner' ? t("slot_dinner", "Dinner", "સાંજનું ભોજન") : slot}
-                            </h5>
-                          )}
-                          <AnimatePresence>
-                            {selectedMenu.filter(i => i.time_slot === slot).map((item) => (
-                              <motion.div
-                                key={`${item.id}-${item.time_slot}`}
-                                initial={{ opacity: 0, height: 0 }}
-                                animate={{ opacity: 1, height: 'auto' }}
-                                exit={{ opacity: 0, height: 0 }}
-                                className="flex justify-between items-start group"
-                              >
-                                <div>
-                                  <p className="text-sm text-muted-foreground group-hover:text-primary transition-colors">
-                                    {language === "gu" ? item.name_gu : item.name_en}
-                                  </p>
-                                </div>
-                                <button onClick={() => handleRemoveItem(item.id, item.time_slot)} className="text-muted-foreground hover:text-red-500 transition-colors ml-4 mt-0.5">
-                                  <X className="h-3 w-3" />
-                                </button>
+              {/* LEFT: Menu Items */}
+              <div className="flex-1 space-y-6">
+                {categories.map((category) => {
+                  const categoryItems = groupedItems[category.id] || []
+                  if (categoryItems.length === 0 && searchTerm) return null
+
+                  return (
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true, margin: "-50px" }}
+                      transition={{ duration: 0.5 }}
+                      key={category.id}
+                      className="border-b border-border/50 pb-6 last:border-b-0"
+                    >
+                      <button
+                        onClick={() => toggleCategory(category.id)}
+                        className="flex items-center justify-between w-full py-4 text-left group"
+                      >
+                        <h2 className="text-xl sm:text-2xl font-serif text-muted-foreground group-hover:text-primary transition-colors">
+                          {language === "gu" ? category.name_gu : category.name_en}
+                        </h2>
+                        <ChevronDown className={`h-5 w-5 text-muted-foreground transition-transform duration-300 ${openCategories[category.id] ? "rotate-180" : ""}`} />
+                      </button>
+
+                      <AnimatePresence>
+                        {openCategories[category.id] && (
+                          <motion.div
+                            initial="hidden"
+                            animate="show"
+                            exit="hidden"
+                            variants={containerVariants}
+                            className="grid grid-cols-2 lg:grid-cols-2 gap-3 sm:gap-6 mt-4 overflow-hidden"
+                          >
+                            {categoryItems.map((item, idx) => (
+                              <motion.div key={item.id} variants={itemVariants}>
+                                <Card className="bg-card border-border overflow-hidden flex flex-col h-full outline-none">
+                                  <div className="relative h-36 sm:h-48 w-full group overflow-hidden">
+                                    <Image
+                                      priority={idx < 2}
+                                      src={
+                                        item.image_url ||
+                                        `/placeholder.svg?height=200&width=400&query=${encodeURIComponent(item.name_en) || "food"}`
+                                      }
+                                      alt={language === "gu" ? item.name_gu : item.name_en}
+                                      fill
+                                      className="object-cover group-hover:scale-110 transition-transform duration-700"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent opacity-90" />
+
+                                    {item.is_vegetarian && (
+                                      <Badge className="absolute top-3 left-3 bg-background/80 border-green-500/50 text-green-500 backdrop-blur-md px-2 py-0.5 text-[10px] font-bold tracking-wider rounded-sm">
+                                        <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-1.5 inline-block"></span>
+                                        VEG
+                                      </Badge>
+                                    )}
+                                  </div>
+                                  <CardContent className="p-3 sm:p-5 flex-1 flex flex-col justify-between z-10 -mt-6 sm:-mt-6">
+                                    <div>
+                                      <h3 className="text-base sm:text-lg font-serif text-foreground mb-1 sm:mb-2 leading-tight drop-shadow-md">
+                                        {language === "gu" ? item.name_gu : item.name_en}
+                                      </h3>
+                                      <p className="text-xs sm:text-xs text-muted-foreground line-clamp-2 leading-relaxed mb-6 font-light">
+                                        {language === "gu" ? item.description_gu : item.description_en}
+                                        {!item.description_en && "Exquisite culinary preparation crafted with the finest ingredients."}
+                                      </p>
+                                    </div>
+
+                                    <div className="flex justify-between items-end mt-auto">
+                                      <span className="text-[10px] text-muted-foreground/50 tracking-widest uppercase font-mono">
+                                        ITEM-{item.id.toString().substring(0, 4)}
+                                      </span>
+
+                                      {selectedMenu.some((selected) => 
+                                        selected.id === item.id && 
+                                        (eventTimeType === 'full_day' ? selected.time_slot === activeSlot : true)
+                                      ) ? (
+                                        <Button
+                                          variant="outline"
+                                          size="sm"
+                                          onClick={() => handleRemoveItem(item.id, eventTimeType === 'full_day' ? activeSlot : undefined)}
+                                          className="border-primary text-primary bg-primary/10 hover:bg-primary/20 hover:text-primary font-semibold tracking-wider text-[9px] sm:text-[10px] px-2 sm:px-4 rounded-sm transition-all"
+                                        >
+                                          ADDED <CheckCircle className="ml-1 sm:ml-1.5 h-3 w-3" />
+                                        </Button>
+                                      ) : (
+                                        <Button
+                                          variant="outline"
+                                          size="sm"
+                                          onClick={() => handleAddItem(item)}
+                                          className="border-border text-muted-foreground bg-transparent hover:border-primary hover:text-primary hover:bg-primary/5 font-semibold tracking-wider text-[9px] sm:text-[10px] px-2 sm:px-4 rounded-sm transition-all"
+                                        >
+                                          SELECT <Plus className="ml-1 sm:ml-1.5 h-3 w-3" />
+                                        </Button>
+                                      )}
+                                    </div>
+                                  </CardContent>
+                                </Card>
                               </motion.div>
                             ))}
-                          </AnimatePresence>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </motion.div>
+                  )
+                })}
+              </div>
 
-
-
-                {/* Event Form */}
-                <div className="p-6">
-                  <div className="flex items-center mb-6">
-                    <span className="w-6 h-[1px] bg-primary mr-3"></span>
-                    <h4 className="font-serif tracking-wide text-primary">{t("menu_event_details", "Event Details", "પ્રસંગની વિગતો")}</h4>
-                  </div>
-
-                  <EventForm
-                    key={formResetKey}
-                    onFormDataChange={handleFormDataChange}
-                    onSubmit={handleFinalSubmit}
-                    isSubmitting={isSubmitting}
-                    disabled={selectedMenu.length === 0}
-                    setIsTermsOpen={setIsTermsOpen}
-                  />
-                </div>
-              </CardContent>
-            </Card>
-          </motion.aside>
-        </div>
-        {/* Mobile Floating Cart Button */}
-        <AnimatePresence>
-          {selectedMenu.length > 0 && !isMobileCartOpen && (
-            <motion.div
-              initial={{ y: 100 }}
-              animate={{ y: 0 }}
-              exit={{ y: 100 }}
-              className="lg:hidden fixed bottom-6 left-4 right-4 z-40"
-            >
-              <Button
-                onClick={() => setIsMobileCartOpen(true)}
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-serif tracking-wide py-7 outline-none rounded-sm shadow-[0_0_20px_rgba(0,0,0,0.5)] flex items-center justify-between px-6 border-t border-primary/50"
+              {/* RIGHT: Sticky Form Panel / Mobile Modal */}
+              <motion.aside
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7, delay: 0.2 }}
+                className={`
+                  w-full lg:w-[400px] flex-shrink-0 space-y-6 lg:space-y-6
+                  ${isMobileCartOpen ? "fixed inset-0 z-50 bg-background/95 backdrop-blur-md p-4 overflow-y-auto" : (eventFormData ? "hidden lg:block lg:sticky lg:top-32 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto custom-scrollbar" : "hidden")}
+                `}
               >
-                <div className="flex items-center space-x-3">
-                  <Utensils className="h-5 w-5 opacity-80" />
-                  <span className="text-lg">{t("menu_mobile_view", "View Culinary Selection", "પસંદ કરેલ વાનગીઓ જુઓ")}</span>
-                </div>
-                <Badge className="bg-background text-primary font-bold px-3 py-1 rounded-sm shadow-inner">{selectedMenu.length}</Badge>
-              </Button>
-            </motion.div>
-          )}
-        </AnimatePresence>
+                {isMobileCartOpen && (
+                  <div className="lg:hidden flex justify-end mb-2">
+                    <Button variant="outline" size="icon" onClick={() => setIsMobileCartOpen(false)} className="rounded-full border-border bg-card">
+                      <X className="h-4 w-4 text-foreground" />
+                    </Button>
+                  </div>
+                )}
+                <Card className="bg-card border-border rounded-sm shadow-2xl shadow-black/50 lg:border-border border-primary/20">
+                  <CardContent className="p-0">
+
+                    {/* Selected Menu Header */}
+                    <div className="p-6 border-b border-border flex justify-between items-center bg-card/50">
+                      <h3 className="font-serif text-foreground font-medium tracking-wide">{t("menu_selected", "Selected Menu", "પસંદ કરેલ મેનુ")}</h3>
+                      <Badge className="bg-primary/10 text-primary border border-primary/30 hover:bg-primary/20 text-[10px] tracking-widest py-0.5 rounded-sm">
+                        {selectedMenu.length} {t("menu_items_count", "ITEMS", "વાનગીઓ")}
+                      </Badge>
+                    </div>
+
+                    {/* Items List */}
+                    <div className="p-6">
+                      {selectedMenu.length === 0 ? (
+                        <div className="text-center py-8">
+                          <div className="w-12 h-12 rounded-full border border-primary/30 flex items-center justify-center mx-auto mb-4 bg-primary/5">
+                            <Utensils className="h-5 w-5 text-primary" />
+                          </div>
+                          <p className="text-foreground font-serif mb-1">{t("menu_empty_title", "Your Plate is Empty", "તમારી પ્લેટ ખાલી છે")}</p>
+                          <p className="text-xs text-muted-foreground font-light">{t("menu_empty_desc", "Begin your culinary journey by selecting dishes from the menu.", "મેનુમાંથી વાનગીઓ પસંદ કરીને તમારી ડીશ તૈયાર કરો.")}</p>
+                        </div>
+                      ) : (
+                        <div className="space-y-6">
+                          {/* Grouping items by slot for Full Day */}
+                          {[...new Set(selectedMenu.map(i => i.time_slot))].map(slot => (
+                            <div key={slot} className="space-y-3">
+                              {slot !== 'general' && (
+                                <h5 className="text-[10px] font-bold tracking-widest uppercase text-primary/70 border-b border-primary/20 pb-1">
+                                  {slot === 'breakfast' ? t("slot_breakfast", "Breakfast", "નાસ્તો") :
+                                    slot === 'lunch' ? t("slot_lunch", "Lunch", "બપોરનું ભોજન") :
+                                      slot === 'dinner' ? t("slot_dinner", "Dinner", "સાંજનું ભોજન") : slot}
+                                </h5>
+                              )}
+                              <AnimatePresence>
+                                {selectedMenu.filter(i => i.time_slot === slot).map((item) => (
+                                  <motion.div
+                                    key={`${item.id}-${item.time_slot}`}
+                                    initial={{ opacity: 0, height: 0 }}
+                                    animate={{ opacity: 1, height: 'auto' }}
+                                    exit={{ opacity: 0, height: 0 }}
+                                    className="flex justify-between items-start group"
+                                  >
+                                    <div>
+                                      <p className="text-sm text-muted-foreground group-hover:text-primary transition-colors">
+                                        {language === "gu" ? item.name_gu : item.name_en}
+                                      </p>
+                                    </div>
+                                    <button onClick={() => handleRemoveItem(item.id, item.time_slot)} className="text-muted-foreground hover:text-red-500 transition-colors ml-4 mt-0.5">
+                                      <X className="h-3 w-3" />
+                                    </button>
+                                  </motion.div>
+                                ))}
+                              </AnimatePresence>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Action Area */}
+                    <div className="p-6 border-t border-border bg-card/50">
+                      <Button
+                        onClick={handleFinalSubmit}
+                        disabled={selectedMenu.length === 0 || isSubmitting}
+                        className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold tracking-widest text-xs uppercase py-6 rounded-sm disabled:opacity-50 disabled:bg-primary/50 transition-all shadow-lg"
+                      >
+                        {isSubmitting ? t("form_submit_processing", "Submitting...", "મોકલી રહ્યા છે...") : t("form_submit_quote", "Request Quote", "ક્વોટેશન મોકલો")}
+                      </Button>
+                      <p className="text-[10px] text-muted-foreground text-center mt-4 italic">
+                        {t("menu_submit_note", "By clicking, you agree to our Terms of Service.", "ક્લિક કરીને, તમે અમારા નિયમો અને શરતો સાથે સંમત થાઓ છો.")}
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </motion.aside>
+            </div>
+          </>
       </main>
+
+      {/* Event Details Modal */}
+      <Dialog open={isFormModalOpen} onOpenChange={setIsFormModalOpen}>
+        <DialogContent className="max-w-2xl bg-card border-border text-foreground max-h-[90vh] overflow-y-auto custom-scrollbar">
+          <DialogHeader>
+            <DialogTitle className="font-serif text-3xl text-primary text-center pt-4">
+              {t("form_title", "Event Details", "પ્રસંગની વિગતો")}
+            </DialogTitle>
+            <p className="text-muted-foreground text-center text-sm pt-2">
+              {t("form_modal_desc", "Please provide a few details to start building your menu.", "તમારું મેનુ તૈયાર કરવા માટે કૃપા કરીને થોડી વિગતો આપો.")}
+            </p>
+          </DialogHeader>
+          <div className="py-6 px-2">
+            <EventForm
+              key={formResetKey}
+              onFormDataChange={handleFormDataChange}
+              onSubmit={handleStep1Submit}
+              isSubmitting={false}
+              disabled={false}
+              setIsTermsOpen={setIsTermsOpen}
+              step={1}
+              initialData={eventFormData}
+            />
+          </div>
+        </DialogContent>
+      </Dialog>
+
+      {/* Mobile Floating Cart Button */}
+      <AnimatePresence>
+        {selectedMenu.length > 0 && !isMobileCartOpen && (
+          <motion.div
+            initial={{ y: 100 }}
+            animate={{ y: 0 }}
+            exit={{ y: 100 }}
+            className="lg:hidden fixed bottom-6 left-4 right-4 z-40"
+          >
+            <Button
+              onClick={() => setIsMobileCartOpen(true)}
+              className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-serif tracking-wide py-7 outline-none rounded-sm shadow-[0_0_20px_rgba(0,0,0,0.5)] flex items-center justify-between px-6 border-t border-primary/50"
+            >
+              <div className="flex items-center space-x-3">
+                <Utensils className="h-5 w-5 opacity-80" />
+                <span className="text-lg">{t("menu_mobile_view", "View Culinary Selection", "પસંદ કરેલ વાનગીઓ જુઓ")}</span>
+              </div>
+              <Badge className="bg-background text-primary font-bold px-3 py-1 rounded-sm shadow-inner">{selectedMenu.length}</Badge>
+            </Button>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <Footer />
 

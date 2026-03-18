@@ -149,7 +149,6 @@ export default function AdminInquiriesPage() {
             <div class="info-item"><div class="info-label">${useGujarati ? "નામ" : "Name"}</div><div class="info-value">${inquiry.name}</div></div>
             <div class="info-item"><div class="info-label">${useGujarati ? "ઈમેલ" : "Email"}</div><div class="info-value">${inquiry.email}</div></div>
             ${inquiry.phone ? `<div class="info-item"><div class="info-label">${useGujarati ? "ફોન" : "Phone"}</div><div class="info-value">${inquiry.phone}</div></div>` : ""}
-            ${inquiry.guest_count ? `<div class="info-item"><div class="info-label">${useGujarati ? "મહેમાનોની સંખ્યા" : "Guests"}</div><div class="info-value">${inquiry.guest_count}</div></div>` : ""}
           </div>
         </div>
         <div class="section">
@@ -167,15 +166,49 @@ export default function AdminInquiriesPage() {
     return (eventTypeMap[inquiry.event_type as keyof typeof eventTypeMap] || inquiry.event_type)
   })()}</div></div>` : ""}
             ${inquiry.event_date ? `<div class="info-item"><div class="info-label">${useGujarati ? "તારીખ" : "Date"}</div><div class="info-value">${new Date(inquiry.event_date).toLocaleDateString()}</div></div>` : ""}
-            ${inquiry.event_time ? `<div class="info-item"><div class="info-label">${useGujarati ? "સમય" : "Time"}</div><div class="info-value" style="font-weight: 800; color: #d97706; font-size: 1.1em;">${(() => {
+            ${(() => {
     const timeValue = String(inquiry.event_time || '').toLowerCase().trim();
-    if (timeValue === 'morning') return useGujarati ? 'સવાર' : 'Morning';
-    if (timeValue === 'evening') return useGujarati ? 'સાંજ' : 'Evening';
-    if (timeValue === 'night') return useGujarati ? 'રાત' : 'Night';
-    if (timeValue === 'full_day' || timeValue.includes('full') || timeValue.includes('આખો દિવસ')) return useGujarati ? 'આખો દિવસ મેનુ' : 'Full Day Menu';
-    if (timeValue === 'other') return inquiry.event_time_custom || (useGujarati ? 'અન્ય' : 'Other');
-    return inquiry.event_time;
-  })()}</div></div>` : ""}
+    const isFullDay = timeValue === 'full_day' || timeValue.includes('full') || timeValue.includes('આખો દિવસ');
+    let timeLabel = inquiry.event_time;
+    if (timeValue === 'morning') timeLabel = useGujarati ? 'સવાર' : 'Morning';
+    else if (timeValue === 'evening') timeLabel = useGujarati ? 'સાંજ' : 'Evening';
+    else if (timeValue === 'night') timeLabel = useGujarati ? 'રાત' : 'Night';
+    else if (isFullDay) timeLabel = useGujarati ? 'આખો દિવસ મેનુ' : 'Full Day Menu';
+    else if (timeValue === 'other') timeLabel = inquiry.event_time_custom || (useGujarati ? 'અન્ય' : 'Other');
+
+    return `<div class="info-item"><div class="info-label">${useGujarati ? "સમય" : "Time"}</div><div class="info-value" style="font-weight: 800; color: #d97706; font-size: 1.1em;">${timeLabel}</div></div>`;
+  })()}
+            ${(() => {
+    const bCount = Number(inquiry.breakfast_count || 0);
+    const lCount = Number(inquiry.lunch_count || 0);
+    const dCount = Number(inquiry.dinner_count || 0);
+    const gCount = Number(inquiry.guest_count || 0);
+    
+    // Always show slot counts if they are > 0, as they are specific.
+    // This is safer than relying solely on the event_time string.
+    let html = '';
+    let shownSlots = false;
+    
+    if (bCount > 0) {
+      html += `<div class="info-item"><div class="info-label">${useGujarati ? "સવારના મહેમાનો" : "Morning Guests"}</div><div class="info-value">${bCount}</div></div>`;
+      shownSlots = true;
+    }
+    if (lCount > 0) {
+      html += `<div class="info-item"><div class="info-label">${useGujarati ? "બપોરના મહેમાનો" : "Afternoon Guests"}</div><div class="info-value">${lCount}</div></div>`;
+      shownSlots = true;
+    }
+    if (dCount > 0) {
+      html += `<div class="info-item"><div class="info-label">${useGujarati ? "રાતના મહેમાનો" : "Night Guests"}</div><div class="info-value">${dCount}</div></div>`;
+      shownSlots = true;
+    }
+    
+    // Fallback to total guests if no slot counts were shown and it's not obviously a full day event
+    if (!shownSlots && gCount > 0) {
+      html += `<div class="info-item"><div class="info-label">${useGujarati ? "મહેમાનોની સંખ્યા" : "Total Guests"}</div><div class="info-value">${gCount}</div></div>`;
+    }
+    
+    return html;
+  })()}
           </div>
         </div>
         ${inquiry.type === 'custom_menu' ? `
@@ -193,10 +226,18 @@ export default function AdminInquiriesPage() {
       const slotItems = items.filter((i: any) => (i.time_slot || 'general') === slot);
       if (slotItems.length === 0) return '';
 
-      const slotName = slot === 'breakfast' ? (useGujarati ? 'સવારનું મેનુ (Morning)' : 'Morning Menu') :
+      const guestCountForSlot = slot === 'breakfast' ? inquiry.breakfast_count : 
+                               slot === 'lunch' ? inquiry.lunch_count : 
+                               slot === 'dinner' ? inquiry.dinner_count : null;
+      
+      const countNum = Number(guestCountForSlot || 0);
+      const guestCountText = (countNum > 0) ? 
+        (useGujarati ? ` - ${countNum} મહેમાનો` : ` - ${countNum} Guests`) : '';
+
+      const slotName = (slot === 'breakfast' ? (useGujarati ? 'સવારનું મેનુ (Morning)' : 'Morning Menu') :
         slot === 'lunch' ? (useGujarati ? 'બપોરનું મેનુ (Afternoon)' : 'Afternoon Menu') :
         slot === 'dinner' ? (useGujarati ? 'રાતનું મેનુ (Evening/Night)' : 'Evening / Night Menu') : 
-        (useGujarati ? 'મેનુ' : 'Menu');
+        (useGujarati ? 'મેનુ' : 'Menu')) + guestCountText;
 
       return `
                 <div style="margin-bottom: 25px; page-break-before: always;">
