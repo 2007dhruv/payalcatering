@@ -634,7 +634,7 @@ export default function CreateMenuPage() {
                             animate="show"
                             exit="hidden"
                             variants={containerVariants}
-                            className="grid grid-cols-2 lg:grid-cols-2 gap-3 sm:gap-6 mt-4 overflow-hidden"
+                            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 mt-4 overflow-hidden"
                           >
                             {categoryItems.map((item, idx) => (
                               <motion.div key={item.id} variants={itemVariants}>
