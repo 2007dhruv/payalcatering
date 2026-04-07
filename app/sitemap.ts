@@ -3,31 +3,31 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
-            url: 'https://payalcatering.com',
+            url: 'https://www.payalcatering.in',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 1,
         },
         {
-            url: 'https://payalcatering.com/menu',
+            url: 'https://www.payalcatering.in/menu',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.9,
         },
         {
-            url: 'https://payalcatering.com/contact',
+            url: 'https://www.payalcatering.in/contact',
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.9,
         },
         {
-            url: 'https://payalcatering.com/about',
+            url: 'https://www.payalcatering.in/about',
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 0.8,
         },
         {
-            url: 'https://payalcatering.com/events',
+            url: 'https://www.payalcatering.in/events',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.7,

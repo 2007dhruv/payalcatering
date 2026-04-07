@@ -1,13 +1,14 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import Script from "next/script"
 import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://payalcatering.com'),
+  metadataBase: new URL('https://www.payalcatering.in'),
   title: {
     default: "Best Catering Services in Rajkot | Payal Catering",
     template: "%s | Payal Catering",
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     "corporate event catering",
     "Payal Catering",
   ],
-  authors: [{ name: "Payal Catering", url: "https://payalcatering.com" }],
+  authors: [{ name: "Payal Catering", url: "https://www.payalcatering.in" }],
   creator: "Payal Catering",
   publisher: "Payal Catering",
   category: "Catering & Food Services",
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://payalcatering.com",
+    url: "https://www.payalcatering.in",
     title: "Payal Catering Rajkot - Best Catering for Weddings & Functions in Saurashtra",
     description: "Rajkot's favourite caterer for weddings, corporate events & all functions. 15+ years of culinary excellence, authentic Gujarati thali & more. Call now!",
     siteName: "Payal Catering",
@@ -60,7 +61,7 @@ export const metadata: Metadata = {
     images: ["/images/bg-menu.jpg"],
   },
   alternates: {
-    canonical: "https://payalcatering.com",
+    canonical: "https://www.payalcatering.in",
   },
   robots: {
     index: true,
@@ -81,17 +82,17 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "FoodEstablishment",
-  "@id": "https://payalcatering.com",
+  "@id": "https://www.payalcatering.in",
   name: "Payal Catering",
   alternateName: ["Payal Caterers", "Payal Catering Rajkot"],
   description:
     "Payal Catering is Rajkot's leading catering company providing authentic Gujarati cuisine for weddings, corporate functions, engagements, birthday parties and all celebrations across Saurashtra. 15+ years experience.",
-  url: "https://payalcatering.com",
+  url: "https://www.payalcatering.in",
   telephone: ["+91-97147-99377", "+91-93136-77629"],
-  email: "info@payalcatering.com",
+  email: "info@payalcatering.in",
   foundingDate: "2011",
-  image: "https://payalcatering.com/images/bg-menu.jpg",
-  logo: "https://payalcatering.com/images/logo.png",
+  image: "https://www.payalcatering.in/images/bg-menu.jpg",
+  logo: "https://www.payalcatering.in/images/logo.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Purusharth Society, Haridhva Road, opp. Balaji Temple",
@@ -146,6 +147,19 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark bg-[#0f0f11] text-[#e4e4e7]">
       <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-13F6PQWF51"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-13F6PQWF51');
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
