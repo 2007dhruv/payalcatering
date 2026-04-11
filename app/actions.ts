@@ -125,6 +125,18 @@ export async function submitInquiryAction(formData: any) {
 
         const processedData = { ...formData };
         
+        // --- Validation ---
+        if (!processedData.name || processedData.name.length < 2) {
+            throw new Error('Name must be at least 2 characters');
+        }
+        if (!processedData.phone || !/^[0-9+\s-]{10,15}$/.test(processedData.phone)) {
+            throw new Error('Please enter a valid phone number (10-15 digits)');
+        }
+        if (processedData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(processedData.email)) {
+            throw new Error('Invalid email format');
+        }
+        // ------------------
+
         // Ensure numeric counts are actually numbers or null (not empty strings)
         ['guest_count', 'breakfast_count', 'lunch_count', 'dinner_count'].forEach(field => {
             if (processedData[field] === '' || processedData[field] === undefined || processedData[field] === null) {

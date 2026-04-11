@@ -51,7 +51,10 @@ function EventForm({
     breakfast_count: "",
     lunch_count: "",
     dinner_count: "",
+    message: "",
   })
+  const [errors, setErrors] = useState<Record<string, string>>({})
+
   const [termsAccepted, setTermsAccepted] = useState(true)
 
   // Sync internal state with initialData if it changes (e.g. from parent)
@@ -61,23 +64,51 @@ function EventForm({
     }
   }, [initialData])
 
-  const handleInputChange = (field: string, value: string) => {
-    setFormData((prev: any) => {
-      const newFormData = { ...prev, [field]: value }
-      return newFormData
-    })
+  const validateField = (field: string, value: string) => {
+    let error = ""
+    if (field === "name" && value.length < 2) {
+      error = t("error_name", "Name must be at least 2 characters", "નામ ઓછામાં ઓછું 2 અક્ષરનું હોવું જોઈએ")
+    } else if (field === "phone") {
+      const phoneRegex = /^[0-9+\s-]{10,15}$/
+      if (!value) {
+        error = t("error_phone_req", "Phone is required", "ફોન નંબર જરૂરી છે")
+      } else if (!phoneRegex.test(value)) {
+        error = t("error_phone_invalid", "Please enter a valid phone number", "કૃપા કરીને સાચો ફોન નંબર દાખલ કરો")
+      }
+    } else if (field === "email" && value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
+      error = t("error_email", "Invalid email format", "ઈમેલનું ફોર્મેટ ખોટું છે")
+    }
+    setErrors(prev => ({ ...prev, [field]: error }))
+    return !error
   }
 
-  // Use useEffect to notify parent of form data changes without side-effects during render
-  // Only notify parent when event_time changes or on mount to avoid lag on every keystroke
-  useEffect(() => {
-    if (onFormDataChange) onFormDataChange(formData)
-  }, [formData.event_time, onFormDataChange])
+  const handleInputChange = (field: string, value: string) => {
+    setFormData((prev: any) => ({ ...prev, [field]: value }))
+    // Clear error as user types
+    if (errors[field]) {
+      setErrors(prev => ({ ...prev, [field]: "" }))
+    }
+  }
+
+  const handleBlur = (field: string) => {
+    validateField(field, formData[field])
+  }
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+    
+    // Validate all fields before submission
+    const isNameValid = validateField("name", formData.name)
+    const isPhoneValid = validateField("phone", formData.phone)
+    const isEmailValid = validateField("email", formData.email)
+
+    if (!isNameValid || !isPhoneValid || !isEmailValid) {
+      return
+    }
+
     onSubmit(formData, termsAccepted)
   }
+
 
   const eventTypes = [
     { value: "wedding", label: t("event_wedding", "Wedding", "લગ્ન") },
@@ -95,9 +126,11 @@ function EventForm({
           required
           value={formData.name}
           onChange={(e) => handleInputChange("name", e.target.value)}
-          className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary"
+          className={`bg-transparent border-0 border-b ${errors.name ? 'border-destructive' : 'border-border/50'} rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary`}
         />
+        {errors.name && <p className="text-[10px] text-destructive mt-1">{errors.name}</p>}
       </div>
+
 
       <div className="space-y-1">
         <Input
@@ -106,9 +139,11 @@ function EventForm({
           required
           value={formData.phone}
           onChange={(e) => handleInputChange("phone", e.target.value)}
-          className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary"
+          className={`bg-transparent border-0 border-b ${errors.phone ? 'border-destructive' : 'border-border/50'} rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary`}
         />
+        {errors.phone && <p className="text-[10px] text-destructive mt-1">{errors.phone}</p>}
       </div>
+
 
       <div className="pt-2">
         <Select
@@ -211,6 +246,17 @@ function EventForm({
           className="bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary [color-scheme:dark]"
         />
       </div>
+
+      <div className="pt-2">
+        <textarea
+          placeholder={t("form_message", "Special Notes / Instructions", "ખાસ નોંધ / સૂચના")}
+          value={formData.message}
+          onChange={(e) => handleInputChange("message", e.target.value)}
+          rows={3}
+          className="w-full bg-transparent border-0 border-b border-border/50 rounded-none px-0 py-2 h-auto text-sm text-foreground placeholder:text-muted-foreground/70 focus-visible:ring-0 focus-visible:border-primary resize-none min-h-[80px]"
+        />
+      </div>
+
 
       <div className="flex items-start space-x-3 pt-6">
         <Checkbox
