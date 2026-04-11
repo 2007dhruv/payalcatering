@@ -62,6 +62,10 @@ CREATE TABLE IF NOT EXISTS contact_inquiries (
   event_address TEXT,
   event_time VARCHAR(100),
   event_time_custom VARCHAR(255),
+  breakfast_count INT DEFAULT 0,
+  lunch_count INT DEFAULT 0,
+  dinner_count INT DEFAULT 0,
+  language VARCHAR(10) DEFAULT 'en',
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );

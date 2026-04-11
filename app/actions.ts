@@ -110,23 +110,43 @@ export async function submitInquiryAction(formData: any) {
         const created_at = new Date().toISOString().slice(0, 19).replace('T', ' ');
         const updated_at = created_at;
 
-        let type = formData.type || 'general';
+        // Allowed columns in the contact_inquiries table
+        const allowedColumns = [
+            'id', 'name', 'email', 'phone', 'event_type', 'event_date', 
+            'guest_count', 'message', 'status', 'type', 'selected_menu_items', 
+            'event_address', 'event_time', 'event_time_custom', 'created_at', 
+            'updated_at', 'breakfast_count', 'lunch_count', 'dinner_count', 'language'
+        ];
 
+        let type = formData.type || 'general';
         const columns = ['id', 'created_at', 'updated_at', 'type'];
-        const values = [id, created_at, updated_at, type];
+        const values: any[] = [id, created_at, updated_at, type];
         const placeholders = ['?', '?', '?', '?'];
 
-        // Convert guest count if it's there
-        if (formData.guest_count) {
-            formData.guest_count = Number.parseInt(formData.guest_count);
-        }
+        const processedData = { ...formData };
+        
+        // Ensure numeric counts are actually numbers or null (not empty strings)
+        ['guest_count', 'breakfast_count', 'lunch_count', 'dinner_count'].forEach(field => {
+            if (processedData[field] === '' || processedData[field] === undefined || processedData[field] === null) {
+                processedData[field] = 0;
+            } else {
+                processedData[field] = Number.parseInt(processedData[field]);
+            }
+        });
 
-        const fieldsToExclude = ['type']; // Exclude explicitly handled fields
-        for (const [key, value] of Object.entries(formData)) {
+        const fieldsToExclude = ['id', 'created_at', 'updated_at', 'type'];
+        for (const [key, value] of Object.entries(processedData)) {
             if (fieldsToExclude.includes(key)) continue;
+            if (!allowedColumns.includes(key)) continue; // Filter out unknown columns
 
-            let finalValue = value;
-            if (key === 'selected_menu_items') {
+            let finalValue: any = value;
+            
+            // Convert empty strings to null for optional database columns
+            if (finalValue === "") {
+                finalValue = null;
+            }
+
+            if (key === 'selected_menu_items' && value) {
                 finalValue = JSON.stringify(value);
             }
 
@@ -139,10 +159,11 @@ export async function submitInquiryAction(formData: any) {
         await db.execute(query, values);
         return { error: null };
     } catch (error: any) {
-        console.error(error);
+        console.error("Database Error:", error);
         return { error: error.message };
     }
 }
+
 
 export async function getEventsAction() {
     const [rows] = await db.query("SELECT * FROM events ORDER BY event_date DESC") as any;

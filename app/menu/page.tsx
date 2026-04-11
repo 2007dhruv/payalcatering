@@ -409,6 +409,10 @@ export default function CreateMenuPage() {
         ...eventFormData,
         email: eventFormData.email || "not-provided@example.com",
         type: "custom_menu",
+        language: language,
+        // Safety: Ensure guest_count is never an empty string
+        guest_count: eventFormData.guest_count ? Number.parseInt(eventFormData.guest_count) : 0,
+
         selected_menu_items: selectedMenu.map((item) => ({
           id: item.id,
           name_en: item.name_en,
@@ -419,6 +423,7 @@ export default function CreateMenuPage() {
         lunch_count: eventFormData.lunch_count ? Number.parseInt(eventFormData.lunch_count) : 0,
         dinner_count: eventFormData.dinner_count ? Number.parseInt(eventFormData.dinner_count) : 0,
       })
+
 
       if (error) throw new Error(error)
 
